@@ -3,8 +3,8 @@
     {
       "src": [
         {
-          "files":"IOSNativePro/**.cs",
-          "src":"../../Plugins/Assets/Plugins/StansAssets/NativePlugins/"
+          "files":"NativePlugins/IOSNativePro/**.cs",
+          "src":"../../Plugins/Assets/Plugins/StansAssets/"
         }
       ],
       "dest": "ios-native-api"
@@ -12,11 +12,20 @@
     {
       "src": [
         {
-          "files":"AndroidNativePro/**.cs",
-          "src":"../../Plugins/Assets/Plugins/StansAssets/NativePlugins/"
+          "files":"NativePlugins/AndroidNativePro/**.cs",
+          "src":"../../Plugins/Assets/Plugins/StansAssets/"
         }
       ],
       "dest": "android-native-api"
+    },
+     {
+      "src": [
+        {
+          "files":"CrossPlatform/**.cs",
+          "src":"../../Plugins/Assets/Plugins/StansAssets/"
+        }
+      ],
+      "dest": "ultimate-mobile-api"
     }
   ],
   "build": {
