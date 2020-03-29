@@ -1,0 +1,70 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files":"IOSNativePro/**.cs",
+          "src":"../../Plugins/Assets/Plugins/StansAssets/NativePlugins/"
+        }
+      ],
+      "dest": "ios-native-api"
+    },
+    {
+      "src": [
+        {
+          "files":"AndroidNativePro/**.cs",
+          "src":"../../Plugins/Assets/Plugins/StansAssets/NativePlugins/"
+        }
+      ],
+      "dest": "android-native-api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "ios-native-api/**.yml",
+          "android-native-api/**.yml"
+        ]
+      },
+      {
+        "files": [
+          "articles/**.md",
+          "articles/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ],
+        "exclude": [
+          "**/bin/**",
+          "**/obj/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ],
+        "exclude": [
+          "**/bin/**",
+          "**/obj/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "**/bin/**",
+          "**/obj/**"
+        ]
+      }
+    ],
+    "dest": "../../com.stansassets.ultimate-mobile__gh-pages",
+    "template": [
+      "default"
+    ]
+  }
+}
