@@ -1,0 +1,413 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface UM_iInAppClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface UM_iInAppClient
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient">
+  
+  
+  <h1 id="SA_CrossPlatform_InApp_UM_iInAppClient" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient" class="text-break">Interface UM_iInAppClient
+  </h1>
+  <div class="markdown level0 summary"><p>Communicates with the Billing service
+and presents a user interface so that the user can authorize payment. </p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.CrossPlatform.InApp.html">SA.CrossPlatform.InApp</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_CrossPlatform_InApp_UM_iInAppClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface UM_iInAppClient</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SA_CrossPlatform_InApp_UM_iInAppClient_IsConnected_" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.IsConnected*"></a>
+  <h4 id="SA_CrossPlatform_InApp_UM_iInAppClient_IsConnected" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.IsConnected">IsConnected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsConnected { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_CrossPlatform_InApp_UM_iInAppClient_Products_" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.Products*"></a>
+  <h4 id="SA_CrossPlatform_InApp_UM_iInAppClient_Products" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.Products">Products</h4>
+  <div class="markdown level1 summary"><p>An available product list for yor app. When you not connected to the payment service, 
+see the <a class="xref" href="SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_IsConnected">IsConnected</a> property, product list will contain the products info you set before
+the connection request (using the plugin Editor UI).</p>
+<p>Once you connected to the service, products info will be updated according to the data received from 
+a payment service.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;UM_iProduct&gt; Products { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="SA.CrossPlatform.InApp.UM_iProduct.html">UM_iProduct</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_CrossPlatform_InApp_UM_iInAppClient_AddPayment_" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.AddPayment*"></a>
+  <h4 id="SA_CrossPlatform_InApp_UM_iInAppClient_AddPayment_System_String_" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.AddPayment(System.String)">AddPayment(String)</h4>
+  <div class="markdown level1 summary"><p>Adds a payment request to the queue.</p>
+<p>An application should always have at least one observer of the payment queue before adding payment requests.
+The payment request must have a product identifier registered with the platform payment service.</p>
+<p>When a payment request is added to the queue, 
+the payment queue processes that request with the Apple App Store 
+and arranges for payment from the user. When that transaction is complete or if a failure occurs, 
+the payment queue sends the <a class="xref" href="SA.CrossPlatform.InApp.UM_iTransactionObserver.html">UM_iTransactionObserver</a> object that encapsulates the request 
+to all transaction observers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddPayment(string productId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">productId</span></td>
+        <td><p>Product identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_CrossPlatform_InApp_UM_iInAppClient_Connect_" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.Connect*"></a>
+  <h4 id="SA_CrossPlatform_InApp_UM_iInAppClient_Connect_Action_SA_iResult__" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.Connect(Action{SA_iResult})">Connect(Action&lt;SA_iResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes the billing service with the set of previously defined products.
+Once the connection is successfully established, 
+<a class="xref" href="SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_Products">Products</a> list will be update with the information received from a payment service.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Connect(Action&lt;SA_iResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">SA_iResult</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Operation callback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_CrossPlatform_InApp_UM_iInAppClient_Connect_" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.Connect*"></a>
+  <h4 id="SA_CrossPlatform_InApp_UM_iInAppClient_Connect_System_Collections_Generic_IEnumerable_SA_CrossPlatform_InApp_UM_ProductTemplate__Action_SA_iResult__" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.Connect(System.Collections.Generic.IEnumerable{SA.CrossPlatform.InApp.UM_ProductTemplate},Action{SA_iResult})">Connect(IEnumerable&lt;UM_ProductTemplate&gt;, Action&lt;SA_iResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes the billing service with the set of previously defined products.
+Once the connection is successfully established, 
+<a class="xref" href="SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_Products">Products</a> list will be update with the information received from a payment service.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Connect(IEnumerable&lt;UM_ProductTemplate&gt; products, Action&lt;SA_iResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="SA.CrossPlatform.InApp.UM_ProductTemplate.html">UM_ProductTemplate</a>&gt;</td>
+        <td><span class="parametername">products</span></td>
+        <td><p>Product templates to initialize the service with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">SA_iResult</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_CrossPlatform_InApp_UM_iInAppClient_FinishTransaction_" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.FinishTransaction*"></a>
+  <h4 id="SA_CrossPlatform_InApp_UM_iInAppClient_FinishTransaction_SA_CrossPlatform_InApp_UM_iTransaction_" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.FinishTransaction(SA.CrossPlatform.InApp.UM_iTransaction)">FinishTransaction(UM_iTransaction)</h4>
+  <div class="markdown level1 summary"><p>Completes a pending transaction.</p>
+<p>Your application should call this method from a transaction observer 
+that received a notification from the payment queue. 
+Calling <a class="xref" href="SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_FinishTransaction_SA_CrossPlatform_InApp_UM_iTransaction_">FinishTransaction(UM_iTransaction)</a> on a transaction removes it from the queue. 
+Your application should call <a class="xref" href="SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_FinishTransaction_SA_CrossPlatform_InApp_UM_iTransaction_">FinishTransaction(UM_iTransaction)</a> only after 
+it has successfully processed the transaction and unlocked the functionality purchased by the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void FinishTransaction(UM_iTransaction transaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.CrossPlatform.InApp.UM_iTransaction.html">UM_iTransaction</a></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>transaction to finish</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_CrossPlatform_InApp_UM_iInAppClient_GetProductById_" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.GetProductById*"></a>
+  <h4 id="SA_CrossPlatform_InApp_UM_iInAppClient_GetProductById_System_String_" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.GetProductById(System.String)">GetProductById(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the product by identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">UM_iProduct GetProductById(string productIdentifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">productIdentifier</span></td>
+        <td><p>Product identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.CrossPlatform.InApp.UM_iProduct.html">UM_iProduct</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_CrossPlatform_InApp_UM_iInAppClient_RestoreCompletedTransactions_" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.RestoreCompletedTransactions*"></a>
+  <h4 id="SA_CrossPlatform_InApp_UM_iInAppClient_RestoreCompletedTransactions" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.RestoreCompletedTransactions">RestoreCompletedTransactions()</h4>
+  <div class="markdown level1 summary"><p>Asks the payment queue to restore previously completed purchases.</p>
+<p>our application calls this method to restore transactions that were previously finished 
+so that you can process them again. 
+For example, your application would use this to allow a user to unlock previously purchased content 
+onto a new device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RestoreCompletedTransactions()</code></pre>
+  </div>
+  
+  
+  <a id="SA_CrossPlatform_InApp_UM_iInAppClient_SetTransactionObserver_" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.SetTransactionObserver*"></a>
+  <h4 id="SA_CrossPlatform_InApp_UM_iInAppClient_SetTransactionObserver_SA_CrossPlatform_InApp_UM_iTransactionObserver_" data-uid="SA.CrossPlatform.InApp.UM_iInAppClient.SetTransactionObserver(SA.CrossPlatform.InApp.UM_iTransactionObserver)">SetTransactionObserver(UM_iTransactionObserver)</h4>
+  <div class="markdown level1 summary"><p>Sets an observer to the payment queue.</p>
+<p>Your application should add an observer to the payment queue during application initialization. 
+If there are no observers attached to the queue, the payment queue does not synchronize its list 
+of pending transactions with the payment service, 
+because there is no observer to respond to updated transactions.</p>
+<p>If an application quits when transactions are still being processed, 
+those transactions are not lost. The next time the application launches, 
+the payment queue will resume processing the transactions. 
+Your application should always expect to be notified of completed transactions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetTransactionObserver(UM_iTransactionObserver observer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.CrossPlatform.InApp.UM_iTransactionObserver.html">UM_iTransactionObserver</a></td>
+        <td><span class="parametername">observer</span></td>
+        <td><p>The observer to add to the queue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

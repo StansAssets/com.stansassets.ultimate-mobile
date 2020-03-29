@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface UM_iNotificationsClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface UM_iNotificationsClient
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient">
+  
+  
+  <h1 id="SA_CrossPlatform_Notifications_UM_iNotificationsClient" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient" class="text-break">Interface UM_iNotificationsClient
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.CrossPlatform.Notifications.html">SA.CrossPlatform.Notifications</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface UM_iNotificationsClient</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_LastOpenedNotification_" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.LastOpenedNotification*"></a>
+  <h4 id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_LastOpenedNotification" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.LastOpenedNotification">LastOpenedNotification</h4>
+  <div class="markdown level1 summary"><p>Contains last received <a class="xref" href="SA.CrossPlatform.Notifications.UM_NotificationRequest.html">UM_NotificationRequest</a> object by delegate.</p>
+<p>You must subscribe to this class events as soon as possible. 
+However, delegate may already receive action while app was launching. For example if user has launched the app
+by clicking on notifications. You may check <a class="xref" href="SA.CrossPlatform.Notifications.UM_iNotificationsClient.html#SA_CrossPlatform_Notifications_UM_iNotificationsClient_LastOpenedNotification">LastOpenedNotification</a> to find out of app was launched
+using the notification. If Property is null after your app is launched it means that application was launched
+without interaction with the notification object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">UM_NotificationRequest LastOpenedNotification { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.CrossPlatform.Notifications.UM_NotificationRequest.html">UM_NotificationRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_OnNotificationClick_" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.OnNotificationClick*"></a>
+  <h4 id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_OnNotificationClick" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.OnNotificationClick">OnNotificationClick</h4>
+  <div class="markdown level1 summary"><p>Called when user is clicked on notification while your application was in background.
+The notification will be delivered as soon as app enters foreground.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SA_iEvent&lt;UM_NotificationRequest&gt; OnNotificationClick { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span>&lt;<a class="xref" href="SA.CrossPlatform.Notifications.UM_NotificationRequest.html">UM_NotificationRequest</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_OnNotificationReceived_" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.OnNotificationReceived*"></a>
+  <h4 id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_OnNotificationReceived" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.OnNotificationReceived">OnNotificationReceived</h4>
+  <div class="markdown level1 summary"><p>Called when a notification is delivered to a foreground app.</p>
+<p>If your app is in the foreground when a notification arrives, 
+the notification center calls this method to deliver the notification directly to your app. 
+If you implement this method, you can take whatever actions are necessary to process the notification 
+and update your app. 
+User will not be alerted by a system;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SA_iEvent&lt;UM_NotificationRequest&gt; OnNotificationReceived { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span>&lt;<a class="xref" href="SA.CrossPlatform.Notifications.UM_NotificationRequest.html">UM_NotificationRequest</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_AddNotificationRequest_" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.AddNotificationRequest*"></a>
+  <h4 id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_AddNotificationRequest_SA_CrossPlatform_Notifications_UM_NotificationRequest_Action_SA_Result__" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.AddNotificationRequest(SA.CrossPlatform.Notifications.UM_NotificationRequest,Action{SA_Result})">AddNotificationRequest(UM_NotificationRequest, Action&lt;SA_Result&gt;)</h4>
+  <div class="markdown level1 summary"><p>Schedules a local notification for delivery.</p>
+<p>This method schedules local notifications only; 
+You cannot use it to schedule the delivery of push notifications. 
+The notification is delivered when the trigger condition in the request parameter is met. 
+If the request does not contain a <a class="xref" href="SA.CrossPlatform.Notifications.UM_iNotificationTrigger.html">UM_iNotificationTrigger</a> object, the notification is delivered right away.</p>
+<p>You may call this method from any thread of your app.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddNotificationRequest(UM_NotificationRequest request, Action&lt;SA_Result&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.CrossPlatform.Notifications.UM_NotificationRequest.html">UM_NotificationRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>The notification request to schedule.This parameter must not be <code>null</code></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The block to execute with the results.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_RemoveAllDeliveredNotifications_" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.RemoveAllDeliveredNotifications*"></a>
+  <h4 id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_RemoveAllDeliveredNotifications" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.RemoveAllDeliveredNotifications">RemoveAllDeliveredNotifications()</h4>
+  <div class="markdown level1 summary"><p>Removes all of the app’s notifications from Notification Center.</p>
+<p>Use this method to remove all of your app’s notifications from Notification Center. 
+The method executes asynchronously, returning immediately 
+and removing the identifiers on a background thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveAllDeliveredNotifications()</code></pre>
+  </div>
+  
+  
+  <a id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_RemoveAllPendingNotifications_" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.RemoveAllPendingNotifications*"></a>
+  <h4 id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_RemoveAllPendingNotifications" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.RemoveAllPendingNotifications">RemoveAllPendingNotifications()</h4>
+  <div class="markdown level1 summary"><p>Unscheduled all pending notification requests.
+This method executes asynchronously, removing all pending notification requests on a secondary thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveAllPendingNotifications()</code></pre>
+  </div>
+  
+  
+  <a id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_RemoveDeliveredNotification_" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.RemoveDeliveredNotification*"></a>
+  <h4 id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_RemoveDeliveredNotification_System_Int32_" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.RemoveDeliveredNotification(System.Int32)">RemoveDeliveredNotification(Int32)</h4>
+  <div class="markdown level1 summary"><p>Removes the specified notifications from Notification Center.</p>
+<p>Use this method to selectively remove notifications that you no longer want displayed in Notification Center. 
+The method executes asynchronously, returning immediately and removing the identifiers on a background thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveDeliveredNotification(int identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier associated with a notification request object. 
+This method ignores the <code>identifiers</code> of request objects whose notifications 
+are not currently displayed in Notification Center.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_RemovePendingNotification_" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.RemovePendingNotification*"></a>
+  <h4 id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_RemovePendingNotification_System_Int32_" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.RemovePendingNotification(System.Int32)">RemovePendingNotification(Int32)</h4>
+  <div class="markdown level1 summary"><p>Unscheduled the specified notification requests.
+This method executes asynchronously, removing the pending notification requests on a secondary thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemovePendingNotification(int identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>Thee Identifier of notification requests you want to remove.
+If the identifier belongs to a non repeating request whose notification has already been delivered, 
+this method ignores the identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_RequestAuthorization_" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.RequestAuthorization*"></a>
+  <h4 id="SA_CrossPlatform_Notifications_UM_iNotificationsClient_RequestAuthorization_Action_SA_Result__" data-uid="SA.CrossPlatform.Notifications.UM_iNotificationsClient.RequestAuthorization(Action{SA_Result})">RequestAuthorization(Action&lt;SA_Result&gt;)</h4>
+  <div class="markdown level1 summary"><p>Unscheduled all pending notification requests.
+This method executes asynchronously, removing all pending notification requests on a secondary thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RequestAuthorization(Action&lt;SA_Result&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
