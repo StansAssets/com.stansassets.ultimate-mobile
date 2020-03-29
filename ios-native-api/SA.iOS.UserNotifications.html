@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace SA.iOS.UserNotifications
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace SA.iOS.UserNotifications
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.iOS.UserNotifications">
+  
+  <h1 id="SA_iOS_UserNotifications" data-uid="SA.iOS.UserNotifications" class="text-break">Namespace SA.iOS.UserNotifications
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNAuthorizationOptions.html">ISN_UNAuthorizationOptions</a></h4>
+      <section><p>Constants for requesting authorization to interact with the user.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNCalendarNotificationTrigger.html">ISN_UNCalendarNotificationTrigger</a></h4>
+      <section></section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNLocationNotificationTrigger.html">ISN_UNLocationNotificationTrigger</a></h4>
+      <section><p>The geographic location that the user must reach to enable the delivery of a local notification.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotification.html">ISN_UNNotification</a></h4>
+      <section><p>The data for a delivered notification.</p>
+<p>A <a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotification.html">ISN_UNNotification</a> object represents a local or remote notification 
+that has been delivered to your app. 
+A notification object consists of the initial notification request 
+and the date on which the notification was delivered. 
+The notification request includes the content of the notification 
+and the trigger condition that caused it to be delivered.</p>
+<p>You do not create instances of this class directly. 
+Instead, the <a class="xref" href="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.html">ISN_UNUserNotificationCenter</a> object maintains the list of notification objects 
+whose contents have been delivered to the user. 
+Use the <a class="xref" href="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.html#SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_GetDeliveredNotifications_Action_List_SA_iOS_UserNotifications_ISN_UNNotification___">GetDeliveredNotifications(Action&lt;List&lt;ISN_UNNotification&gt;&gt;)</a> method to retrieve 
+those notification objects.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationContent.html">ISN_UNNotificationContent</a></h4>
+      <section><p>The content of a local or remote notification.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationRequest.html">ISN_UNNotificationRequest</a></h4>
+      <section><p>An object you use to specify a notification’s content and the condition that triggers its delivery.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationResponse.html">ISN_UNNotificationResponse</a></h4>
+      <section><p>The user’s response to an actionable notification.</p>
+<p>When the user interacts with a delivered notification, 
+the system delivers a <a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationResponse.html">ISN_UNNotificationResponse</a> object to your app 
+so that you can process the response. 
+Users can interact with delivered notifications in many ways. 
+If the notification’s category had associated action buttons, they can select one of those buttons. 
+Users can also dismiss the notification without selecting one of your actions and they can open your app. 
+A response object tells you which option that the user selected.</p>
+<p>You do not create instances of this class yourself. 
+Instead, the notification center object creates instances and delivers them 
+to the <a class="xref" href="SA.iOS.UserNotifications.ISN_UNUserNotificationCenterDelegate.html">ISN_UNUserNotificationCenterDelegate</a>. 
+You use that method to extract any needed information from the response objects and take appropriate actions. 
+For more information about, see the <a class="xref" href="SA.iOS.UserNotifications.ISN_UNUserNotificationCenterDelegate.html">ISN_UNUserNotificationCenterDelegate</a>.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationSettings.html">ISN_UNNotificationSettings</a></h4>
+      <section><p>The object for managing notification-related settings and the authorization status of your app</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationSound.html">ISN_UNNotificationSound</a></h4>
+      <section><p>A sound to be played when a notification is delivered.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationTrigger.html">ISN_UNNotificationTrigger</a></h4>
+      <section><p>The common behavior for subclasses that trigger the delivery of a notification.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNPushNotificationTrigger.html">ISN_UNPushNotificationTrigger</a></h4>
+      <section><p>An object that indicates that a notification was sent from the Apple Push Notification Service.</p>
+<p>A <a class="xref" href="SA.iOS.UserNotifications.ISN_UNPushNotificationTrigger.html">ISN_UNPushNotificationTrigger</a> object 
+is assigned to notifications sent by the Apple Push Notification service. 
+You do not create instances of this class directly; the system creates them for you. 
+You encounter instances of this class when managing your app’s delivered notifications. 
+A notification request associated with a remote notification has an instance of this class in its Trigger property.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNTimeIntervalNotificationTrigger.html">ISN_UNTimeIntervalNotificationTrigger</a></h4>
+      <section><p>The time that must expire before the delivery of a local notification.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.html">ISN_UNUserNotificationCenter</a></h4>
+      <section><p>The central object for managing notification-related activities for your app or app extension.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNUserNotificationCenterDelegate.html">ISN_UNUserNotificationCenterDelegate</a></h4>
+      <section><p>The interface for handling notification-related interactions in your app or app extension.</p>
+<p>The <a class="xref" href="SA.iOS.UserNotifications.ISN_UNUserNotificationCenterDelegate.html">ISN_UNUserNotificationCenterDelegate</a> defines events for responding to actionable notifications 
+and receiving notifications while your app is in the foreground. 
+The user notification center calls methods of this delegate at appropriate times to deliver information.</p>
+<p>You must subscribe to this object events as soon as possible. 
+However, delegate may already receive action while app was luanching. For example if user has launched the app
+by clicking on notifications. You may check <a class="xref" href="SA.iOS.UserNotifications.ISN_UNUserNotificationCenterDelegate.html#SA_iOS_UserNotifications_ISN_UNUserNotificationCenterDelegate_LastReceivedResponse">LastReceivedResponse</a> to find out of app was launched
+using the notification. If Property is null after your app is launched it means that application was laucnhed
+wihout interaction with the notification object.</p>
+</section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNAlertStyle.html">ISN_UNAlertStyle</a></h4>
+      <section><p>Constants indicating the types of alerts that can be displayed to the user.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNAuthorizationStatus.html">ISN_UNAuthorizationStatus</a></h4>
+      <section><p>Constants indicating whether the app is allowed to schedule notifications.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationStatus.html">ISN_UNNotificationStatus</a></h4>
+      <section><p>Constants indicating the current status of a notification setting.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationTriggerType.html">ISN_UNNotificationTriggerType</a></h4>
+      <section></section>
+      <h4><a class="xref" href="SA.iOS.UserNotifications.ISN_UNShowPreviewsSetting.html">ISN_UNShowPreviewsSetting</a></h4>
+      <section><p>Constants indicating the types of alerts that can be displayed to the user.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

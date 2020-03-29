@@ -1,0 +1,332 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AN_PermissionsManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AN_PermissionsManager
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.Android.App.AN_PermissionsManager">
+  
+  
+  <h1 id="SA_Android_App_AN_PermissionsManager" data-uid="SA.Android.App.AN_PermissionsManager" class="text-break">Class AN_PermissionsManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AN_PermissionsManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.Android.App.html">SA.Android.App</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_Android_App_AN_PermissionsManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class AN_PermissionsManager</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_Android_App_AN_PermissionsManager_CheckSelfPermission_" data-uid="SA.Android.App.AN_PermissionsManager.CheckSelfPermission*"></a>
+  <h4 id="SA_Android_App_AN_PermissionsManager_CheckSelfPermission_AMM_ManifestPermission_" data-uid="SA.Android.App.AN_PermissionsManager.CheckSelfPermission(AMM_ManifestPermission)">CheckSelfPermission(AMM_ManifestPermission)</h4>
+  <div class="markdown level1 summary"><p>Determine whether you have been granted a particular permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AN_PackageManager.PermissionState CheckSelfPermission(AMM_ManifestPermission permission)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AMM_ManifestPermission</span></td>
+        <td><span class="parametername">permission</span></td>
+        <td><p>The name of the permission being checked.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AN_PackageManager.PermissionState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_PermissionsManager_RequestPermission_" data-uid="SA.Android.App.AN_PermissionsManager.RequestPermission*"></a>
+  <h4 id="SA_Android_App_AN_PermissionsManager_RequestPermission_AMM_ManifestPermission_Action_SA_Android_App_AN_PermissionsRequestResult__" data-uid="SA.Android.App.AN_PermissionsManager.RequestPermission(AMM_ManifestPermission,Action{SA.Android.App.AN_PermissionsRequestResult})">RequestPermission(AMM_ManifestPermission, Action&lt;AN_PermissionsRequestResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Requests permissions to be granted to this application. 
+These permissions must be requested in your manifest, they should not be granted to your app, 
+and they should have protection level #PROTECTION_DANGEROUS dangerous, regardless whether they are declared by the platform or a third-party app.</p>
+<p>Requests permissions to be granted to this application. 
+These permissions must be requested in your manifest, they should not be granted to your app, 
+and they should have protection level #PROTECTION_DANGEROUS dangerous, 
+regardless whether they are declared by the platform or a third-party app.</p>
+<p>If your app does not have the requested permissions the user will be presented with UI for accepting them. 
+After the user has accepted or rejected the requested permissions you will receive a callback reporting whether the permissions were granted or not. </p>
+<p>Note that requesting a permission does not guarantee it will be granted and your app should be able to run without having this permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RequestPermission(AMM_ManifestPermission permission, Action&lt;AN_PermissionsRequestResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AMM_ManifestPermission</span></td>
+        <td><span class="parametername">permission</span></td>
+        <td><p>The requested permission. Must me non-null and not empty.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.Android.App.AN_PermissionsRequestResult.html">AN_PermissionsRequestResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Results of permission requests will be delivered vai this callback </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_PermissionsManager_RequestPermissions_" data-uid="SA.Android.App.AN_PermissionsManager.RequestPermissions*"></a>
+  <h4 id="SA_Android_App_AN_PermissionsManager_RequestPermissions_AMM_ManifestPermission___Action_SA_Android_App_AN_PermissionsRequestResult__" data-uid="SA.Android.App.AN_PermissionsManager.RequestPermissions(AMM_ManifestPermission[],Action{SA.Android.App.AN_PermissionsRequestResult})">RequestPermissions(AMM_ManifestPermission[], Action&lt;AN_PermissionsRequestResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Requests permissions to be granted to this application. 
+These permissions must be requested in your manifest, they should not be granted to your app, 
+and they should have protection level #PROTECTION_DANGEROUS dangerous, regardless whether they are declared by the platform or a third-party app.</p>
+<p>Requests permissions to be granted to this application. 
+These permissions must be requested in your manifest, they should not be granted to your app, 
+and they should have protection level #PROTECTION_DANGEROUS dangerous, 
+regardless whether they are declared by the platform or a third-party app.</p>
+<p>If your app does not have the requested permissions the user will be presented with UI for accepting them. 
+After the user has accepted or rejected the requested permissions you will receive a callback reporting whether the permissions were granted or not. </p>
+<p>Note that requesting a permission does not guarantee it will be granted and your app should be able to run without having this permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RequestPermissions(AMM_ManifestPermission[] permissions, Action&lt;AN_PermissionsRequestResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AMM_ManifestPermission</span>[]</td>
+        <td><span class="parametername">permissions</span></td>
+        <td><p>The requested permissions. Must me non-null and not empty.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.Android.App.AN_PermissionsRequestResult.html">AN_PermissionsRequestResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Results of permission requests will be delivered vai this callback </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_PermissionsManager_ShouldShowRequestPermissionRationale_" data-uid="SA.Android.App.AN_PermissionsManager.ShouldShowRequestPermissionRationale*"></a>
+  <h4 id="SA_Android_App_AN_PermissionsManager_ShouldShowRequestPermissionRationale_AMM_ManifestPermission_" data-uid="SA.Android.App.AN_PermissionsManager.ShouldShowRequestPermissionRationale(AMM_ManifestPermission)">ShouldShowRequestPermissionRationale(AMM_ManifestPermission)</h4>
+  <div class="markdown level1 summary"><p>Gets whether you should show UI with rationale for requesting a permission. 
+You should do this only if you do not have the permission and the context 
+in which the permission is requested does not clearly communicate to the user what would be the benefit from granting this permission.</p>
+<p>For example, if you write a camera app, 
+requesting the camera permission would be expected by the user and no rationale for why it is requested is needed. 
+If however, the app needs location for tagging photos then a non-tech savvy user may wonder how location is related to taking photos. 
+In this case you may choose to show UI with rationale of requesting this permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ShouldShowRequestPermissionRationale(AMM_ManifestPermission permission)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AMM_ManifestPermission</span></td>
+        <td><span class="parametername">permission</span></td>
+        <td><p>A permission your app wants to request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

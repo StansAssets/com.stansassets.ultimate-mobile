@@ -1,0 +1,567 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ISN_UIApplicationDelegate
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ISN_UIApplicationDelegate
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate">
+  
+  
+  <h1 id="SA_iOS_UIKit_ISN_UIApplicationDelegate" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate" class="text-break">Class ISN_UIApplicationDelegate
+  </h1>
+  <div class="markdown level0 summary"><p>A set of methods that are called in response to important events in the lifetime of your app.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ISN_UIApplicationDelegate</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.UIKit.html">SA.iOS.UIKit</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_iOS_UIKit_ISN_UIApplicationDelegate_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ISN_UIApplicationDelegate</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIApplicationDelegate__ctor_" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.#ctor*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIApplicationDelegate__ctor" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.#ctor">ISN_UIApplicationDelegate()</h4>
+  <div class="markdown level1 summary"><p>Initialization of ISN_UIApplicationDelegate and call native ISN_UIApplicationDelegate subscribe
+method with callback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISN_UIApplicationDelegate()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIApplicationDelegate_ApplicationDidBecomeActive_" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.ApplicationDidBecomeActive*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIApplicationDelegate_ApplicationDidBecomeActive" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.ApplicationDidBecomeActive">ApplicationDidBecomeActive</h4>
+  <div class="markdown level1 summary"><p>Tells the delegate that the app has become active.</p>
+<p>This method is called to let your app know that it moved from the inactive to active state. 
+This can occur because your app was launched by the user or the system. 
+Apps can also return to the active state if the user chooses to ignore an interruption 
+(such as an incoming phone call or SMS message) that sent the app temporarily to the inactive state.</p>
+<p>You should use this method to restart any tasks that were paused (or not yet started) while the app was inactive. 
+For example, you could use it to restart timers or throttle up OpenGL ES frame rates. 
+If your app was previously in the background, you could also use it to refresh your app’s user interface.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SA_iEvent ApplicationDidBecomeActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIApplicationDelegate_ApplicationDidEnterBackground_" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.ApplicationDidEnterBackground*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIApplicationDelegate_ApplicationDidEnterBackground" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.ApplicationDidEnterBackground">ApplicationDidEnterBackground</h4>
+  <div class="markdown level1 summary"><p>Tells the delegate that the app is now in the background.
+Use this method to release shared resources, invalidate timers, 
+and store enough app state information to restore your app to its current state in case it is terminated later. 
+You should also disable updates to your app’s user interface and avoid using some types of shared system resources 
+(such as the user’s contacts database). It is also imperative that you avoid using OpenGL ES in the background.</p>
+<p>Your implementation of this method has approximately five seconds to perform any tasks and return.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SA_iEvent ApplicationDidEnterBackground { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIApplicationDelegate_ApplicationDidReceiveMemoryWarning_" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.ApplicationDidReceiveMemoryWarning*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIApplicationDelegate_ApplicationDidReceiveMemoryWarning" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.ApplicationDidReceiveMemoryWarning">ApplicationDidReceiveMemoryWarning</h4>
+  <div class="markdown level1 summary"><p>Tells the delegate when the app receives a memory warning from the system.</p>
+<p>Your implementation of this method should free up as much memory as possible 
+by purging cached data objects that can be recreated (or reloaded from disk) later.</p>
+<p>It is strongly recommended that you implement this method. 
+If your app does not release enough memory during low-memory conditions, the system may terminate it outright. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SA_iEvent ApplicationDidReceiveMemoryWarning { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIApplicationDelegate_ApplicationWillEnterForeground_" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.ApplicationWillEnterForeground*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIApplicationDelegate_ApplicationWillEnterForeground" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.ApplicationWillEnterForeground">ApplicationWillEnterForeground</h4>
+  <div class="markdown level1 summary"><p>Tells the delegate that the app is about to enter the foreground.</p>
+<p>In iOS 4.0 and later, this method is called as part of the transition from the background to the active state. 
+You can use this method to undo many of the changes you made to your app upon entering the background. 
+The call to this method is invariably followed by a call to the <a class="xref" href="SA.iOS.UIKit.ISN_UIApplicationDelegate.html#SA_iOS_UIKit_ISN_UIApplicationDelegate_ApplicationDidBecomeActive">ApplicationDidBecomeActive</a> method, 
+which then moves the app from the inactive to the active state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SA_iEvent ApplicationWillEnterForeground { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIApplicationDelegate_ApplicationWillResignActive_" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.ApplicationWillResignActive*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIApplicationDelegate_ApplicationWillResignActive" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.ApplicationWillResignActive">ApplicationWillResignActive</h4>
+  <div class="markdown level1 summary"><p>Tells the delegate that the app is about to become inactive.</p>
+<p>This method is called to let your app know that it is about to move from the active to inactive state. 
+This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) 
+or when the user quits the app and it begins the transition to the background state. 
+An app in the inactive state continues to run but does not dispatch incoming events to responders.</p>
+<p>You should use this method to pause ongoing tasks, disable timers, 
+and throttle down OpenGL ES frame rates.Games should use this method to pause the game.
+An app in the inactive state should do minimal work while it waits to transition to either the active or background state.</p>
+<p>If your app has unsaved user data, you can save it here to ensure that it is not lost. 
+However, it is recommended that you save user data at appropriate points throughout the execution of your app, 
+usually in response to specific actions. 
+For example, save data when the user dismisses a data entry screen. 
+Do not rely on specific app state transitions to save all of your app’s critical data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SA_iEvent ApplicationWillResignActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIApplicationDelegate_ApplicationWillTerminate_" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.ApplicationWillTerminate*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIApplicationDelegate_ApplicationWillTerminate" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.ApplicationWillTerminate">ApplicationWillTerminate</h4>
+  <div class="markdown level1 summary"><p>Tells the delegate when the app is about to terminate.</p>
+<p>This method lets your app know that it is about to be terminated and purged from memory entirely. 
+You should use this method to perform any final clean-up tasks for your app, such as freeing shared resources, 
+saving user data, and invalidating timers. 
+Your implementation of this method has approximately five seconds to perform any tasks and return. 
+If the method does not return before time expires, the system may kill the process altogether.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SA_iEvent ApplicationWillTerminate { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIApplicationDelegate_ContinueUserActivity_" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.ContinueUserActivity*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIApplicationDelegate_ContinueUserActivity" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.ContinueUserActivity">ContinueUserActivity</h4>
+  <div class="markdown level1 summary"><p>Tells the delegate that the data for continuing an activity is available.</p>
+<p>The app calls this method when it receives data associated with a user activity. 
+For example, when the user uses Handoff to transfer an activity from a different device.
+Use this method to update your iOS app so that the user can continue the activity from where they left off. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SA_iEvent&lt;string&gt; ContinueUserActivity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIApplicationDelegate_DidRegisterForRemoteNotifications_" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.DidRegisterForRemoteNotifications*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIApplicationDelegate_DidRegisterForRemoteNotifications" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.DidRegisterForRemoteNotifications">DidRegisterForRemoteNotifications</h4>
+  <div class="markdown level1 summary"><p>Tells the delegate result of app attempt to registered with Apple Push Notification service (APNs).</p>
+<p>After you call the <a class="xref" href="SA.iOS.UIKit.ISN_UIApplication.html#SA_iOS_UIKit_ISN_UIApplication_RegisterForRemoteNotifications">RegisterForRemoteNotifications()</a> method, 
+the app calls this method when device registration completes. 
+In your implementation of this method, connect with your push notification server and give the token to it. 
+APNs pushes notifications only to the device represented by the token.
+Or act accordingly to a given error description.</p>
+<p>The app might call this method in other rare circumstances, 
+such as when the user launches an app after having restored a device from data 
+that is not the device’s backup data. 
+In this exceptional case, the app won’t know the new device’s token until the user launches it.</p>
+<p>For more information about how to implement remote notifications in your app, 
+see <a href="https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/index.html#//apple_ref/doc/uid/TP40008194">Local and Remote Notification Programming Guide.</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SA_iEvent&lt;ISN_UIRegisterRemoteNotificationsResult&gt; DidRegisterForRemoteNotifications { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span>&lt;<a class="xref" href="SA.iOS.UIKit.ISN_UIRegisterRemoteNotificationsResult.html">ISN_UIRegisterRemoteNotificationsResult</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIApplicationDelegate_OpenURL_" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.OpenURL*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIApplicationDelegate_OpenURL" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.OpenURL">OpenURL</h4>
+  <div class="markdown level1 summary"><p>Asks the delegate to open a resource specified by a URL</p>
+<p>If a URL arrives while your app is suspended or running in the background, 
+the system moves your app to the foreground prior to calling this method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SA_iEvent&lt;string&gt; OpenURL { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIApplicationDelegate_PerformActionForShortcutItem_" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.PerformActionForShortcutItem*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIApplicationDelegate_PerformActionForShortcutItem" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.PerformActionForShortcutItem">PerformActionForShortcutItem</h4>
+  <div class="markdown level1 summary"><p>Called when the user selects a Home screen quick action for your app, 
+except when you’ve intercepted the interaction in a launch method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SA_iEvent&lt;ISN_UIApplicationShortcutItem&gt; PerformActionForShortcutItem { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span>&lt;<a class="xref" href="SA.iOS.UIKit.ISN_UIApplicationShortcutItem.html">ISN_UIApplicationShortcutItem</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIApplicationDelegate_GetAppOpenShortcutItem_" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.GetAppOpenShortcutItem*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIApplicationDelegate_GetAppOpenShortcutItem" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.GetAppOpenShortcutItem">GetAppOpenShortcutItem()</h4>
+  <div class="markdown level1 summary"><p>In case application was launched using Home screen quick action,
+This method will return instance of <a class="xref" href="SA.iOS.UIKit.ISN_UIApplicationShortcutItem.html">ISN_UIApplicationShortcutItem</a>,
+with the correspondent item type.
+<code>null</code> if app wasn&apos;t launched using Home screen quick action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISN_UIApplicationShortcutItem GetAppOpenShortcutItem()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.UIKit.ISN_UIApplicationShortcutItem.html">ISN_UIApplicationShortcutItem</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIApplicationDelegate_GetLaunchUniversalLink_" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.GetLaunchUniversalLink*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIApplicationDelegate_GetLaunchUniversalLink" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.GetLaunchUniversalLink">GetLaunchUniversalLink()</h4>
+  <div class="markdown level1 summary"><p>If application was launched usning deeplinking, 
+method will return URL that was used to launch the app. 
+An Empty string will be returns otherwise. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetLaunchUniversalLink()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIApplicationDelegate_GetLaunchURL_" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.GetLaunchURL*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIApplicationDelegate_GetLaunchURL" data-uid="SA.iOS.UIKit.ISN_UIApplicationDelegate.GetLaunchURL">GetLaunchURL()</h4>
+  <div class="markdown level1 summary"><p>If your app has received request to open specific URL, 
+the URL will be saved and always accessible by this method. 
+Methods will return an empty string if no open URL was received</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetLaunchURL()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The launch URL.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

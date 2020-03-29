@@ -1,0 +1,462 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ISN_UNUserNotificationCenter
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ISN_UNUserNotificationCenter
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter">
+  
+  
+  <h1 id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter" class="text-break">Class ISN_UNUserNotificationCenter
+  </h1>
+  <div class="markdown level0 summary"><p>The central object for managing notification-related activities for your app or app extension.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ISN_UNUserNotificationCenter</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.UserNotifications.html">SA.iOS.UserNotifications</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ISN_UNUserNotificationCenter</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_AddNotificationRequest_" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.AddNotificationRequest*"></a>
+  <h4 id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_AddNotificationRequest_SA_iOS_UserNotifications_ISN_UNNotificationRequest_Action_SA_Result__" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.AddNotificationRequest(SA.iOS.UserNotifications.ISN_UNNotificationRequest,Action{SA_Result})">AddNotificationRequest(ISN_UNNotificationRequest, Action&lt;SA_Result&gt;)</h4>
+  <div class="markdown level1 summary"><p>Schedules a local notification for delivery.</p>
+<p>This method schedules local notifications only; 
+You cannot use it to schedule the delivery of push notifications. 
+The notification is delivered when the trigger condition in the request parameter is met. 
+If the request does not contain a <a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationTrigger.html">ISN_UNNotificationTrigger</a> object, the notification is delivered right away.</p>
+<p>You may call this method from any thread of your app.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddNotificationRequest(ISN_UNNotificationRequest request, Action&lt;SA_Result&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationRequest.html">ISN_UNNotificationRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>The notification request to schedule.This parameter must not be <code>null</code></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The block to execute with the results.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_GetDeliveredNotifications_" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.GetDeliveredNotifications*"></a>
+  <h4 id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_GetDeliveredNotifications_Action_List_SA_iOS_UserNotifications_ISN_UNNotification___" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.GetDeliveredNotifications(Action{List{SA.iOS.UserNotifications.ISN_UNNotification}})">GetDeliveredNotifications(Action&lt;List&lt;ISN_UNNotification&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Provides you with a list of the app’s notifications that are still displayed in Notification Center.</p>
+<p>This method executes asynchronously, returning immediately 
+and executing the provided block on a background thread when the results become available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetDeliveredNotifications(Action&lt;List&lt;ISN_UNNotification&gt;&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">List</span>&lt;<a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotification.html">ISN_UNNotification</a>&gt;&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The block to execute with the results.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_GetNotificationSettings_" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.GetNotificationSettings*"></a>
+  <h4 id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_GetNotificationSettings_Action_SA_iOS_UserNotifications_ISN_UNNotificationSettings__" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.GetNotificationSettings(Action{SA.iOS.UserNotifications.ISN_UNNotificationSettings})">GetNotificationSettings(Action&lt;ISN_UNNotificationSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Requests the notification settings for this app.</p>
+<p>Use this method to determine the specific notification-related features that your app is allowed to use. 
+When the user authorizes your app to post notifications, the system authorizes your app with a set of default notification-related settings. 
+The user may further customize those settings to enable or disable specific capabilities. 
+For example, the user might disable the playing of sounds in conjunction with your notifications. 
+You can use the settings in the provided object to adjust the content of any scheduled notifications.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetNotificationSettings(Action&lt;ISN_UNNotificationSettings&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationSettings.html">ISN_UNNotificationSettings</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The block to execute asynchronously with the results.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_GetPendingNotificationRequests_" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.GetPendingNotificationRequests*"></a>
+  <h4 id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_GetPendingNotificationRequests_Action_List_SA_iOS_UserNotifications_ISN_UNNotificationRequest___" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.GetPendingNotificationRequests(Action{List{SA.iOS.UserNotifications.ISN_UNNotificationRequest}})">GetPendingNotificationRequests(Action&lt;List&lt;ISN_UNNotificationRequest&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns a list of all notification requests that are scheduled and waiting to be delivered.</p>
+<p>This method executes asynchronously, returning immediately 
+and executing the provided block on a secondary thread when the results are available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetPendingNotificationRequests(Action&lt;List&lt;ISN_UNNotificationRequest&gt;&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">List</span>&lt;<a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationRequest.html">ISN_UNNotificationRequest</a>&gt;&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>A block for processing notification requests.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RemoveAllDeliveredNotifications_" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.RemoveAllDeliveredNotifications*"></a>
+  <h4 id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RemoveAllDeliveredNotifications" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.RemoveAllDeliveredNotifications">RemoveAllDeliveredNotifications()</h4>
+  <div class="markdown level1 summary"><p>Removes all of the app’s notifications from Notification Center.</p>
+<p>Use this method to remove all of your app’s notifications from Notification Center. 
+The method executes asynchronously, returning immediately 
+and removing the identifiers on a background thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveAllDeliveredNotifications()</code></pre>
+  </div>
+  
+  
+  <a id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RemoveAllPendingNotificationRequests_" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.RemoveAllPendingNotificationRequests*"></a>
+  <h4 id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RemoveAllPendingNotificationRequests" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.RemoveAllPendingNotificationRequests">RemoveAllPendingNotificationRequests()</h4>
+  <div class="markdown level1 summary"><p>Unschedules all pending notification requests.
+This method executes asynchronously, removing all pending notification requests on a secondary thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveAllPendingNotificationRequests()</code></pre>
+  </div>
+  
+  
+  <a id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RemoveDeliveredNotifications_" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.RemoveDeliveredNotifications*"></a>
+  <h4 id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RemoveDeliveredNotifications_System_String___" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.RemoveDeliveredNotifications(System.String[])">RemoveDeliveredNotifications(String[])</h4>
+  <div class="markdown level1 summary"><p>Removes the specified notifications from Notification Center.</p>
+<p>Use this method to selectively remove notifications that you no longer want displayed in Notification Center. 
+The method executes asynchronously, returning immediately and removing the identifiers on a background thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveDeliveredNotifications(params string[] identifiers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">identifiers</span></td>
+        <td><p>An array of <span class="xref">System.String</span> objects, each of which corresponds to the identifier 
+associated with a notification request object. 
+This method ignores the <code>identifiers</code> of request objects whose notifications 
+are not currently displayed in Notification Center.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RemovePendingNotificationRequests_" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.RemovePendingNotificationRequests*"></a>
+  <h4 id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RemovePendingNotificationRequests_SA_iOS_UserNotifications_ISN_UNNotificationRequest___" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.RemovePendingNotificationRequests(SA.iOS.UserNotifications.ISN_UNNotificationRequest[])">RemovePendingNotificationRequests(ISN_UNNotificationRequest[])</h4>
+  <div class="markdown level1 summary"><p>Unschedules the specified notification requests.
+This method executes asynchronously, removing the pending notification requests on a secondary thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemovePendingNotificationRequests(params ISN_UNNotificationRequest[] requests)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationRequest.html">ISN_UNNotificationRequest</a>[]</td>
+        <td><span class="parametername">requests</span></td>
+        <td><p>An array of <a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationRequest.html">ISN_UNNotificationRequest</a> objects, 
+each of which contains the identifier of an active notification request object. 
+If the identifier belongs to a non repeating request whose notification has already been delivered, 
+this method ignores the identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RemovePendingNotificationRequests_" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.RemovePendingNotificationRequests*"></a>
+  <h4 id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RemovePendingNotificationRequests_System_String___" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.RemovePendingNotificationRequests(System.String[])">RemovePendingNotificationRequests(String[])</h4>
+  <div class="markdown level1 summary"><p>Unschedules the specified notification requests.
+This method executes asynchronously, removing the pending notification requests on a secondary thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemovePendingNotificationRequests(params string[] identifiers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">identifiers</span></td>
+        <td><p>An array of <span class="xref">System.String</span> objects, 
+each of which contains the identifier of an active notification request object. 
+If the identifier belongs to a non repeating request whose notification has already been delivered, 
+this method ignores the identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RequestAuthorization_" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.RequestAuthorization*"></a>
+  <h4 id="SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RequestAuthorization_System_Int32_Action_SA_Result__" data-uid="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.RequestAuthorization(System.Int32,Action{SA_Result})">RequestAuthorization(Int32, Action&lt;SA_Result&gt;)</h4>
+  <div class="markdown level1 summary"><p>Requests authorization to interact with the user when local and remote notifications arrive.</p>
+<p>If the local or remote notifications of your app or app extension interact with the user in any way, 
+you must call this method to request authorization for those interactions. 
+The first time your app ever calls the method, the system prompts the user to authorize the requested options. 
+The user may respond by granting or denying authorization, 
+and the system stores the user’s response so that subsequent calls to this method do not prompt the user again. 
+The user may change the allowed interactions at any time. Use the <a class="xref" href="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.html#SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_GetNotificationSettings_Action_SA_iOS_UserNotifications_ISN_UNNotificationSettings__">GetNotificationSettings(Action&lt;ISN_UNNotificationSettings&gt;)</a> method 
+to determine what your app is allowed to do.</p>
+<p>After determining the authorization status, the user notification center object executes the block you provide in the <see cref="!:callback"></see> parameter. 
+Use that block to make any adjustments in your app. 
+For example, if authorization was denied, you might notify a remote notification server not to send notifications to the user’s device.</p>
+<p>Always call this method before scheduling any local notifications and before registering with the Apple Push Notification Service. 
+Typically, you call this method at launch time when configuring your app&apos;s notification support. 
+However, you may call it at another time in your app&apos;s life cycle, providing that you call it before performing any other notification-related tasks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RequestAuthorization(int options, Action&lt;SA_Result&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The authorization options your app is requesting. You may combine the available constants to request authorization for multiple items. 
+Request only the authorization options that you plan to use. For a list of possible values, see <a class="xref" href="SA.iOS.UserNotifications.ISN_UNAuthorizationOptions.html">ISN_UNAuthorizationOptions</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The block to execute asynchronously with the results.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

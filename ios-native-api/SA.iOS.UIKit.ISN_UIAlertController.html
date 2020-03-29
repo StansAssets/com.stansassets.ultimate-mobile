@@ -1,0 +1,423 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ISN_UIAlertController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ISN_UIAlertController
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.iOS.UIKit.ISN_UIAlertController">
+  
+  
+  <h1 id="SA_iOS_UIKit_ISN_UIAlertController" data-uid="SA.iOS.UIKit.ISN_UIAlertController" class="text-break">Class ISN_UIAlertController
+  </h1>
+  <div class="markdown level0 summary"><p>An object that displays an alert message to the user.
+Use this class to configure alerts and action sheets with the message that you want to display and the actions from which to choose. 
+After configuring the alert controller with the actions and style you want, present it using the <a class="xref" href="SA.iOS.UIKit.ISN_UIAlertController.html#SA_iOS_UIKit_ISN_UIAlertController_Present">Present()</a> method. 
+UIKit displays alerts and action sheets modally over your app&apos;s content.</p>
+<p>In addition to displaying a message to a user, you can associate actions with your alert controller to give the user a way to respond. 
+For each action you add using the <a class="xref" href="SA.iOS.UIKit.ISN_UIAlertController.html#SA_iOS_UIKit_ISN_UIAlertController_AddAction_SA_iOS_UIKit_ISN_UIAlertAction_">AddAction(ISN_UIAlertAction)</a> method, 
+the alert controller configures a button with the action details. 
+When the user taps that action, the alert controller executes the block you provided when creating the action object. </p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ISN_UIAlertController</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.UIKit.html">SA.iOS.UIKit</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_iOS_UIKit_ISN_UIAlertController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ISN_UIAlertController</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIAlertController__ctor_" data-uid="SA.iOS.UIKit.ISN_UIAlertController.#ctor*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIAlertController__ctor_System_String_System_String_SA_iOS_UIKit_ISN_UIAlertControllerStyle_" data-uid="SA.iOS.UIKit.ISN_UIAlertController.#ctor(System.String,System.String,SA.iOS.UIKit.ISN_UIAlertControllerStyle)">ISN_UIAlertController(String, String, ISN_UIAlertControllerStyle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISN_UIAlertController(string title, string message, ISN_UIAlertControllerStyle preferredStyle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SA.iOS.UIKit.ISN_UIAlertControllerStyle.html">ISN_UIAlertControllerStyle</a></td>
+        <td><span class="parametername">preferredStyle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIAlertController_Actions_" data-uid="SA.iOS.UIKit.ISN_UIAlertController.Actions*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIAlertController_Actions" data-uid="SA.iOS.UIKit.ISN_UIAlertController.Actions">Actions</h4>
+  <div class="markdown level1 summary"><p>The actions that the user can take in response to the alert or action sheet.</p>
+<p>The actions are in the order in which you added them to the alert controller. 
+This order also corresponds to the order in which they are displayed in the alert or action sheet. 
+The second action in the array is displayed below the first, the third is displayed below the second, and so on.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;ISN_UIAlertAction&gt; Actions { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="SA.iOS.UIKit.ISN_UIAlertAction.html">ISN_UIAlertAction</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIAlertController_Id_" data-uid="SA.iOS.UIKit.ISN_UIAlertController.Id*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIAlertController_Id" data-uid="SA.iOS.UIKit.ISN_UIAlertController.Id">Id</h4>
+  <div class="markdown level1 summary"><p>Gets the unique alert identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Id { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIAlertController_Message_" data-uid="SA.iOS.UIKit.ISN_UIAlertController.Message*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIAlertController_Message" data-uid="SA.iOS.UIKit.ISN_UIAlertController.Message">Message</h4>
+  <div class="markdown level1 summary"><p>Descriptive text that provides more details about the reason for the alert.</p>
+<p>The message string is displayed below the title string and is less prominent. 
+Use this string to provide additional context about the reason for the alert or about the actions that the user might take.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Message { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIAlertController_PreferredAction_" data-uid="SA.iOS.UIKit.ISN_UIAlertController.PreferredAction*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIAlertController_PreferredAction" data-uid="SA.iOS.UIKit.ISN_UIAlertController.PreferredAction">PreferredAction</h4>
+  <div class="markdown level1 summary"><p>The preferred action for the user to take from an alert.</p>
+<p>The preferred action is relevant for the <a class="xref" href="SA.iOS.UIKit.ISN_UIAlertControllerStyle.html#SA_iOS_UIKit_ISN_UIAlertControllerStyle_Alert">Alert</a> style only; 
+it is not used by action sheets. 
+When you specify a preferred action, the alert controller highlights the text of that action to give it emphasis. 
+(If the alert also contains a cancel button, the preferred action receives the highlighting instead of the cancel button.) 
+If the iOS device is connected to a physical keyboard, pressing the Return key triggers the preferred action.</p>
+<p>The action object you assign to this property must have already been added to the alert controller’s list of actions.
+Assigning an object to this property before adding it with the <a class="xref" href="SA.iOS.UIKit.ISN_UIAlertController.html#SA_iOS_UIKit_ISN_UIAlertController_AddAction_SA_iOS_UIKit_ISN_UIAlertAction_">AddAction(ISN_UIAlertAction)</a> method is a programmer error.
+The default value of this property is nil.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISN_UIAlertAction PreferredAction { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.UIKit.ISN_UIAlertAction.html">ISN_UIAlertAction</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIAlertController_PreferredStyle_" data-uid="SA.iOS.UIKit.ISN_UIAlertController.PreferredStyle*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIAlertController_PreferredStyle" data-uid="SA.iOS.UIKit.ISN_UIAlertController.PreferredStyle">PreferredStyle</h4>
+  <div class="markdown level1 summary"><p>The style of the alert controller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISN_UIAlertControllerStyle PreferredStyle { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.UIKit.ISN_UIAlertControllerStyle.html">ISN_UIAlertControllerStyle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIAlertController_Title_" data-uid="SA.iOS.UIKit.ISN_UIAlertController.Title*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIAlertController_Title" data-uid="SA.iOS.UIKit.ISN_UIAlertController.Title">Title</h4>
+  <div class="markdown level1 summary"><p>The title of the alert.</p>
+<p>The title string is displayed prominently in the alert or action sheet. 
+You should use this string to get the user’s attention and communicate the reason for displaying the alert.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Title { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIAlertController_AddAction_" data-uid="SA.iOS.UIKit.ISN_UIAlertController.AddAction*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIAlertController_AddAction_SA_iOS_UIKit_ISN_UIAlertAction_" data-uid="SA.iOS.UIKit.ISN_UIAlertController.AddAction(SA.iOS.UIKit.ISN_UIAlertAction)">AddAction(ISN_UIAlertAction)</h4>
+  <div class="markdown level1 summary"><p>Attaches an action object to the alert or action sheet.
+If your alert has multiple actions, the order in which you add those actions determines their order in the resulting alert or action sheet.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddAction(ISN_UIAlertAction action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.UIKit.ISN_UIAlertAction.html">ISN_UIAlertAction</a></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action object to display as part of the alert. Actions are displayed as buttons in the alert. 
+The action object provides the button text and the action to be performed when that button is tapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIAlertController_Dismiss_" data-uid="SA.iOS.UIKit.ISN_UIAlertController.Dismiss*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIAlertController_Dismiss" data-uid="SA.iOS.UIKit.ISN_UIAlertController.Dismiss">Dismiss()</h4>
+  <div class="markdown level1 summary"><p>Dismiss view controller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dismiss()</code></pre>
+  </div>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UIAlertController_Present_" data-uid="SA.iOS.UIKit.ISN_UIAlertController.Present*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIAlertController_Present" data-uid="SA.iOS.UIKit.ISN_UIAlertController.Present">Present()</h4>
+  <div class="markdown level1 summary"><p>Presents a view controller as modal window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Present()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

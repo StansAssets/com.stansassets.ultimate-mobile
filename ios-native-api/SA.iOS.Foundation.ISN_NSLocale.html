@@ -1,0 +1,386 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ISN_NSLocale
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ISN_NSLocale
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.iOS.Foundation.ISN_NSLocale">
+  
+  
+  <h1 id="SA_iOS_Foundation_ISN_NSLocale" data-uid="SA.iOS.Foundation.ISN_NSLocale" class="text-break">Class ISN_NSLocale
+  </h1>
+  <div class="markdown level0 summary"><p>Information about linguistic, cultural, and technological conventions
+for use in formatting data for presentation.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ISN_NSLocale</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.Foundation.html">SA.iOS.Foundation</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_iOS_Foundation_ISN_NSLocale_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ISN_NSLocale</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SA_iOS_Foundation_ISN_NSLocale_AutoUpdatingCurrentLocale_" data-uid="SA.iOS.Foundation.ISN_NSLocale.AutoUpdatingCurrentLocale*"></a>
+  <h4 id="SA_iOS_Foundation_ISN_NSLocale_AutoUpdatingCurrentLocale" data-uid="SA.iOS.Foundation.ISN_NSLocale.AutoUpdatingCurrentLocale">AutoUpdatingCurrentLocale</h4>
+  <div class="markdown level1 summary"><p>A locale representing the user&apos;s region settings at the time the property is read.</p>
+<p>The locale is formed from the settings for the current user’s chosen system locale
+overlaid with any custom settings the user has specified.</p>
+<p>Use this property when you want a locale that always reflects the latest configuration settings.
+When the user changes settings, a locale instance obtained from this property alters its behavior to match.
+If you need to rely on a locale that does not change,
+use the locale given by the <a class="xref" href="SA.iOS.Foundation.ISN_NSLocale.html#SA_iOS_Foundation_ISN_NSLocale_CurrentLocale">CurrentLocale</a> property instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ISN_NSLocale AutoUpdatingCurrentLocale { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.Foundation.ISN_NSLocale.html">ISN_NSLocale</a></td>
+        <td><p>The current locale.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_Foundation_ISN_NSLocale_CountryCode_" data-uid="SA.iOS.Foundation.ISN_NSLocale.CountryCode*"></a>
+  <h4 id="SA_iOS_Foundation_ISN_NSLocale_CountryCode" data-uid="SA.iOS.Foundation.ISN_NSLocale.CountryCode">CountryCode</h4>
+  <div class="markdown level1 summary"><p>The country code for the locale.
+Examples of country codes include &quot;GB&quot;, &quot;FR&quot;, and &quot;HK&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CountryCode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_Foundation_ISN_NSLocale_CurrencyCode_" data-uid="SA.iOS.Foundation.ISN_NSLocale.CurrencyCode*"></a>
+  <h4 id="SA_iOS_Foundation_ISN_NSLocale_CurrencyCode" data-uid="SA.iOS.Foundation.ISN_NSLocale.CurrencyCode">CurrencyCode</h4>
+  <div class="markdown level1 summary"><p>The currency code for the locale.
+Example currency codes include &quot;USD&quot;, &quot;EUR&quot;, and &quot;JPY&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CurrencyCode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_Foundation_ISN_NSLocale_CurrencySymbol_" data-uid="SA.iOS.Foundation.ISN_NSLocale.CurrencySymbol*"></a>
+  <h4 id="SA_iOS_Foundation_ISN_NSLocale_CurrencySymbol" data-uid="SA.iOS.Foundation.ISN_NSLocale.CurrencySymbol">CurrencySymbol</h4>
+  <div class="markdown level1 summary"><p>The currency symbol for the locale.
+Example currency symbols include &quot;$&quot;, &quot;€&quot;, and &quot;¥&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CurrencySymbol { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_Foundation_ISN_NSLocale_CurrentLocale_" data-uid="SA.iOS.Foundation.ISN_NSLocale.CurrentLocale*"></a>
+  <h4 id="SA_iOS_Foundation_ISN_NSLocale_CurrentLocale" data-uid="SA.iOS.Foundation.ISN_NSLocale.CurrentLocale">CurrentLocale</h4>
+  <div class="markdown level1 summary"><p>A locale representing the user&apos;s region settings at the time the property is read.</p>
+<p>The locale is formed from the settings for the current user’s chosen system locale
+overlaid with any custom settings the user has specified.</p>
+<p>Use this property when you need to rely on a consistent locale.
+A locale instance obtained this way does not change even when the user changes region settings.
+If you want a locale instance that always reflects the current configuration,
+use the one provided by the <a class="xref" href="SA.iOS.Foundation.ISN_NSLocale.html#SA_iOS_Foundation_ISN_NSLocale_AutoUpdatingCurrentLocale">AutoUpdatingCurrentLocale</a> property instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ISN_NSLocale CurrentLocale { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.Foundation.ISN_NSLocale.html">ISN_NSLocale</a></td>
+        <td><p>The current locale.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_Foundation_ISN_NSLocale_Identifier_" data-uid="SA.iOS.Foundation.ISN_NSLocale.Identifier*"></a>
+  <h4 id="SA_iOS_Foundation_ISN_NSLocale_Identifier" data-uid="SA.iOS.Foundation.ISN_NSLocale.Identifier">Identifier</h4>
+  <div class="markdown level1 summary"><p>The identifier for the locale.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Identifier { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_Foundation_ISN_NSLocale_LanguageCode_" data-uid="SA.iOS.Foundation.ISN_NSLocale.LanguageCode*"></a>
+  <h4 id="SA_iOS_Foundation_ISN_NSLocale_LanguageCode" data-uid="SA.iOS.Foundation.ISN_NSLocale.LanguageCode">LanguageCode</h4>
+  <div class="markdown level1 summary"><p>The language code for the locale.
+Examples of language codes include &quot;en&quot;, &quot;es&quot;, and &quot;zh&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LanguageCode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_Foundation_ISN_NSLocale_PreferredLanguage_" data-uid="SA.iOS.Foundation.ISN_NSLocale.PreferredLanguage*"></a>
+  <h4 id="SA_iOS_Foundation_ISN_NSLocale_PreferredLanguage" data-uid="SA.iOS.Foundation.ISN_NSLocale.PreferredLanguage">PreferredLanguage</h4>
+  <div class="markdown level1 summary"><p>Users choose a primary language when configuring a device, as described in
+<a href="https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPInternational/SpecifyingPreferences/SpecifyingPreferences.html#//apple_ref/doc/uid/10000171i-CH12">https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPInternational/SpecifyingPreferences/SpecifyingPreferences.html#//apple_ref/doc/uid/10000171i-CH12</a>
+Reviewing Language and Region Settings.
+They may also specify one or more secondary languages in order of preference for use
+when localization is unavailable in a higher priority language.
+Use this property to obtain the current user&apos;s  language.
+For more information about language localization in your app, see
+<a href="https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPInternational/LanguageandLocaleIDs/LanguageandLocaleIDs.html#//apple_ref/doc/uid/10000171i-CH15">https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPInternational/LanguageandLocaleIDs/LanguageandLocaleIDs.html#//apple_ref/doc/uid/10000171i-CH15</a>
+Language and Locale IDs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string PreferredLanguage { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

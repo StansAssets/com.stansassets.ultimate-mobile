@@ -1,0 +1,284 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ISN_iCLLocationManagerDelegate
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ISN_iCLLocationManagerDelegate
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.iOS.CoreLocation.ISN_iCLLocationManagerDelegate">
+  
+  
+  <h1 id="SA_iOS_CoreLocation_ISN_iCLLocationManagerDelegate" data-uid="SA.iOS.CoreLocation.ISN_iCLLocationManagerDelegate" class="text-break">Interface ISN_iCLLocationManagerDelegate
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.CoreLocation.html">SA.iOS.CoreLocation</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_iOS_CoreLocation_ISN_iCLLocationManagerDelegate_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISN_iCLLocationManagerDelegate</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_iCLLocationManagerDelegate_DidChangeAuthorizationStatus_" data-uid="SA.iOS.CoreLocation.ISN_iCLLocationManagerDelegate.DidChangeAuthorizationStatus*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_iCLLocationManagerDelegate_DidChangeAuthorizationStatus_SA_iOS_CoreLocation_ISN_CLAuthorizationStatus_" data-uid="SA.iOS.CoreLocation.ISN_iCLLocationManagerDelegate.DidChangeAuthorizationStatus(SA.iOS.CoreLocation.ISN_CLAuthorizationStatus)">DidChangeAuthorizationStatus(ISN_CLAuthorizationStatus)</h4>
+  <div class="markdown level1 summary"><p>Tells the delegate that the authorization status for the application changed.</p>
+<p>This method is called whenever the application’s ability to use location services changes.
+Changes can occur because the user allowed or denied the use of location services for your application
+or for the system as a whole.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DidChangeAuthorizationStatus(ISN_CLAuthorizationStatus authorizationStatus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.CoreLocation.ISN_CLAuthorizationStatus.html">ISN_CLAuthorizationStatus</a></td>
+        <td><span class="parametername">authorizationStatus</span></td>
+        <td><p>The new authorization status for the application.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_iCLLocationManagerDelegate_DidFailWithError_" data-uid="SA.iOS.CoreLocation.ISN_iCLLocationManagerDelegate.DidFailWithError*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_iCLLocationManagerDelegate_DidFailWithError_SA_Error_" data-uid="SA.iOS.CoreLocation.ISN_iCLLocationManagerDelegate.DidFailWithError(SA_Error)">DidFailWithError(SA_Error)</h4>
+  <div class="markdown level1 summary"><p>Tells the delegate that the location manager was unable to retrieve a location value.
+If you do not implement this method, Core Location throws an exception when attempting to use location services.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DidFailWithError(SA_Error error)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_Error</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>The error object containing the reason the location or heading could not be retrieved.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_iCLLocationManagerDelegate_DidFinishDeferredUpdatesWithError_" data-uid="SA.iOS.CoreLocation.ISN_iCLLocationManagerDelegate.DidFinishDeferredUpdatesWithError*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_iCLLocationManagerDelegate_DidFinishDeferredUpdatesWithError_SA_Error_" data-uid="SA.iOS.CoreLocation.ISN_iCLLocationManagerDelegate.DidFinishDeferredUpdatesWithError(SA_Error)">DidFinishDeferredUpdatesWithError(SA_Error)</h4>
+  <div class="markdown level1 summary"><p>Tells the delegate that updates will no longer be deferred.</p>
+<p>The location manager object calls this method to let you know that it has stopped deferring the delivery of location events.
+The manager may call this method for any number of reasons.
+For example, it calls it when you stop location updates altogether,
+when you ask the location manager to disallow deferred updates,
+or when a condition for deferring updates (such as exceeding a timeout or distance parameter) is met.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DidFinishDeferredUpdatesWithError(SA_Error error)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_Error</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>The error object containing the reason deferred location updates could not be delivered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_iCLLocationManagerDelegate_DidPauseLocationUpdates_" data-uid="SA.iOS.CoreLocation.ISN_iCLLocationManagerDelegate.DidPauseLocationUpdates*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_iCLLocationManagerDelegate_DidPauseLocationUpdates" data-uid="SA.iOS.CoreLocation.ISN_iCLLocationManagerDelegate.DidPauseLocationUpdates">DidPauseLocationUpdates()</h4>
+  <div class="markdown level1 summary"><p>Tells the delegate that location updates were paused.</p>
+<p>When the location manager detects that the device’s location is not changing,
+it can pause the delivery of updates in order to shut down the appropriate hardware and save power.
+When it does this, it calls this method to let your app know that this has happened.</p>
+<p>After a pause occurs, it is your responsibility to restart location services again at an appropriate time.
+You might use your implementation of this method to start region monitoring at the user&apos;s current location
+or enable the visits location service to determine when the user starts moving again.
+Another alternative is to restart location services immediately with a reduced accuracy (which can save power)
+and then return to a greater accuracy only after the user starts moving again.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DidPauseLocationUpdates()</code></pre>
+  </div>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_iCLLocationManagerDelegate_DidResumeLocationUpdates_" data-uid="SA.iOS.CoreLocation.ISN_iCLLocationManagerDelegate.DidResumeLocationUpdates*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_iCLLocationManagerDelegate_DidResumeLocationUpdates" data-uid="SA.iOS.CoreLocation.ISN_iCLLocationManagerDelegate.DidResumeLocationUpdates">DidResumeLocationUpdates()</h4>
+  <div class="markdown level1 summary"><p>Tells the delegate that the delivery of location updates has resumed.</p>
+<p>When you restart location services after an automatic pause,
+Core Location calls this method to notify your app that services have resumed.
+You are responsible for restarting location services in your app.
+Core Location does not resume updates automatically after it pauses them.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DidResumeLocationUpdates()</code></pre>
+  </div>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_iCLLocationManagerDelegate_DidUpdateLocations_" data-uid="SA.iOS.CoreLocation.ISN_iCLLocationManagerDelegate.DidUpdateLocations*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_iCLLocationManagerDelegate_DidUpdateLocations_SA_iOS_CoreLocation_ISN_CLLocationArray_" data-uid="SA.iOS.CoreLocation.ISN_iCLLocationManagerDelegate.DidUpdateLocations(SA.iOS.CoreLocation.ISN_CLLocationArray)">DidUpdateLocations(ISN_CLLocationArray)</h4>
+  <div class="markdown level1 summary"><p>Tells the delegate that new location data is available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DidUpdateLocations(ISN_CLLocationArray locations)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.CoreLocation.ISN_CLLocationArray.html">ISN_CLLocationArray</a></td>
+        <td><span class="parametername">locations</span></td>
+        <td><p>An array of <a class="xref" href="SA.iOS.CoreLocation.ISN_CLLocation.html">ISN_CLLocation</a> objects containing the location data.
+This array always contains at least one object representing the current location.
+If updates were deferred or if multiple locations arrived before they could be delivered,
+the array may contain additional entries. The objects in the array are organized in the order in which they occurred.
+Therefore, the most recent location update is at the end of the array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

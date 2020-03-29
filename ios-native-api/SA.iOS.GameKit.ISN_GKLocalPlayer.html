@@ -1,0 +1,527 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ISN_GKLocalPlayer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ISN_GKLocalPlayer
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer">
+  
+  
+  <h1 id="SA_iOS_GameKit_ISN_GKLocalPlayer" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer" class="text-break">Class ISN_GKLocalPlayer
+  </h1>
+  <div class="markdown level0 summary"><p>An object representing the authenticated Game Center player on a device.</p>
+<p>At any given time, only one player may be authenticated on the device; 
+this player must log out before another player can log in. 
+Your game must authenticate the local player before using any Game Center features.
+Authenticating the player ensures that the player has created an account and is connected to Game Center. </p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="SA.iOS.GameKit.ISN_GKPlayer.html">ISN_GKPlayer</a></div>
+    <div class="level2"><span class="xref">ISN_GKLocalPlayer</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="SA.iOS.GameKit.ISN_GKPlayer.html#SA_iOS_GameKit_ISN_GKPlayer_PlayerID">ISN_GKPlayer.PlayerID</a>
+    </div>
+    <div>
+      <a class="xref" href="SA.iOS.GameKit.ISN_GKPlayer.html#SA_iOS_GameKit_ISN_GKPlayer_Alias">ISN_GKPlayer.Alias</a>
+    </div>
+    <div>
+      <a class="xref" href="SA.iOS.GameKit.ISN_GKPlayer.html#SA_iOS_GameKit_ISN_GKPlayer_DisplayName">ISN_GKPlayer.DisplayName</a>
+    </div>
+    <div>
+      <a class="xref" href="SA.iOS.GameKit.ISN_GKPlayer.html#SA_iOS_GameKit_ISN_GKPlayer_LoadPhoto_SA_iOS_GameKit_GKPhotoSize_Action_SA_iOS_GameKit_ISN_GKImageLoadResult__">ISN_GKPlayer.LoadPhoto(GKPhotoSize, Action&lt;ISN_GKImageLoadResult&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.GameKit.html">SA.iOS.GameKit</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_iOS_GameKit_ISN_GKLocalPlayer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ISN_GKLocalPlayer : ISN_GKPlayer</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_Authenticated_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.Authenticated*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_Authenticated" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.Authenticated">Authenticated</h4>
+  <div class="markdown level1 summary"><p>A Boolean value that indicates whether a local player is currently signed in to Game Center.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Authenticated { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_LocalPlayer_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.LocalPlayer*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_LocalPlayer" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.LocalPlayer">LocalPlayer</h4>
+  <div class="markdown level1 summary"><p>Retrieves the shared instance of the local player.
+You never directly create a local player object. Instead, you retrieve the Singleton object by calling this class method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ISN_GKLocalPlayer LocalPlayer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.GameKit.ISN_GKLocalPlayer.html">ISN_GKLocalPlayer</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_Underage_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.Underage*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_Underage" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.Underage">Underage</h4>
+  <div class="markdown level1 summary"><p>A Boolean value that declares whether the local player is underage.
+Some Game Center features are disabled if the local player is underage. 
+Your game can also test this property if it wants to disable some of its own features based on the player’s age.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Underage { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_Authenticate_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.Authenticate*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_Authenticate_Action_SA_Result__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.Authenticate(Action{SA_Result})">Authenticate(Action&lt;SA_Result&gt;)</h4>
+  <div class="markdown level1 summary"><p>Authenticate GK Local Player</p>
+<p>Your game should authenticate the player as early as possible after launching, 
+ideally as soon as you can present a user interface to the player. 
+For example, your game may be launched because the player accepted an invitation to join a match 
+or to take a turn in a turn-based match, 
+so you want your game to authenticate the player 
+and process the match invitation as quickly as possible. 
+After you set a handler, authentication begins automatically 
+and is repeated when your game moves to the background and then back to the foreground.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Authenticate(Action&lt;SA_Result&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_DeleteSavedGame_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.DeleteSavedGame*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_DeleteSavedGame_SA_iOS_GameKit_ISN_GKSavedGame_Action_SA_Result__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.DeleteSavedGame(SA.iOS.GameKit.ISN_GKSavedGame,Action{SA_Result})">DeleteSavedGame(ISN_GKSavedGame, Action&lt;SA_Result&gt;)</h4>
+  <div class="markdown level1 summary"><p>Deletes a specific saved game.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeleteSavedGame(ISN_GKSavedGame game, Action&lt;SA_Result&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.GameKit.ISN_GKSavedGame.html">ISN_GKSavedGame</a></td>
+        <td><span class="parametername">game</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_FetchSavedGames_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.FetchSavedGames*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_FetchSavedGames_Action_SA_iOS_GameKit_ISN_GKSavedGameFetchResult__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.FetchSavedGames(Action{SA.iOS.GameKit.ISN_GKSavedGameFetchResult})">FetchSavedGames(Action&lt;ISN_GKSavedGameFetchResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Retrieves all available saved games.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FetchSavedGames(Action&lt;ISN_GKSavedGameFetchResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.GameKit.ISN_GKSavedGameFetchResult.html">ISN_GKSavedGameFetchResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_GenerateIdentityVerificationSignatureWithCompletionHandler_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.GenerateIdentityVerificationSignatureWithCompletionHandler*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_GenerateIdentityVerificationSignatureWithCompletionHandler_Action_SA_iOS_GameKit_ISN_GKIdentityVerificationSignatureResult__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.GenerateIdentityVerificationSignatureWithCompletionHandler(Action{SA.iOS.GameKit.ISN_GKIdentityVerificationSignatureResult})">GenerateIdentityVerificationSignatureWithCompletionHandler(Action&lt;ISN_GKIdentityVerificationSignatureResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Generates a signature that allows a third party server to authenticate the local player.</p>
+<p>When this method is called, it creates a new background task to handle the request. 
+The method then returns control to your game. 
+Later, when the task is complete, Game Kit calls your completion callback. 
+The completion handler is always called on the main thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GenerateIdentityVerificationSignatureWithCompletionHandler(Action&lt;ISN_GKIdentityVerificationSignatureResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.GameKit.ISN_GKIdentityVerificationSignatureResult.html">ISN_GKIdentityVerificationSignatureResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Background task completion callback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_LoadGameData_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.LoadGameData*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_LoadGameData_SA_iOS_GameKit_ISN_GKSavedGame_Action_SA_iOS_GameKit_ISN_GKSavedGameLoadResult__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.LoadGameData(SA.iOS.GameKit.ISN_GKSavedGame,Action{SA.iOS.GameKit.ISN_GKSavedGameLoadResult})">LoadGameData(ISN_GKSavedGame, Action&lt;ISN_GKSavedGameLoadResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads specific saved game data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadGameData(ISN_GKSavedGame game, Action&lt;ISN_GKSavedGameLoadResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.GameKit.ISN_GKSavedGame.html">ISN_GKSavedGame</a></td>
+        <td><span class="parametername">game</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.GameKit.ISN_GKSavedGameLoadResult.html">ISN_GKSavedGameLoadResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_ResolveConflictingSavedGames_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.ResolveConflictingSavedGames*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_ResolveConflictingSavedGames_List_System_String__System_Byte___Action_SA_iOS_GameKit_ISN_GKSavedGameFetchResult__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.ResolveConflictingSavedGames(List{System.String},System.Byte[],Action{SA.iOS.GameKit.ISN_GKSavedGameFetchResult})">ResolveConflictingSavedGames(List&lt;String&gt;, Byte[], Action&lt;ISN_GKSavedGameFetchResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Resolves conflicted saved games.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ResolveConflictingSavedGames(List&lt;string&gt; conflictedGames, byte[] data, Action&lt;ISN_GKSavedGameFetchResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">conflictedGames</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.GameKit.ISN_GKSavedGameFetchResult.html">ISN_GKSavedGameFetchResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_SavedGame_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.SavedGame*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_SavedGame_System_String_System_Byte___Action_SA_iOS_GameKit_ISN_GKSavedGameSaveResult__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.SavedGame(System.String,System.Byte[],Action{SA.iOS.GameKit.ISN_GKSavedGameSaveResult})">SavedGame(String, Byte[], Action&lt;ISN_GKSavedGameSaveResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Saves game data under the specified name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SavedGame(string name, byte[] data, Action&lt;ISN_GKSavedGameSaveResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.GameKit.ISN_GKSavedGameSaveResult.html">ISN_GKSavedGameSaveResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_setAuthenticateHandler_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.setAuthenticateHandler*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_setAuthenticateHandler_Action_SA_Result__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.setAuthenticateHandler(Action{SA_Result})">setAuthenticateHandler(Action&lt;SA_Result&gt;)</h4>
+  <div class="markdown level1 summary"><p>A handler called to process an authentication-related event.</p>
+<p>Your game should authenticate the player as early as possible after launching, 
+ideally as soon as you can present a user interface to the player. 
+For example, your game may be launched because the player accepted an invitation to join a match 
+or to take a turn in a turn-based match, 
+so you want your game to authenticate the player 
+and process the match invitation as quickly as possible. 
+After you set a handler, authentication begins automatically 
+and is repeated when your game moves to the background and then back to the foreground.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void setAuthenticateHandler(Action&lt;SA_Result&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Authentication Result</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

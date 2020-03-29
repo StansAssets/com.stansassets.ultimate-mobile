@@ -1,0 +1,675 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AN_Room
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AN_Room
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room">
+  
+  
+  <h1 id="SA_Android_GMS_Games_Multiplayer_AN_Room" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room" class="text-break">Class AN_Room
+  </h1>
+  <div class="markdown level0 summary"><p>Data interface for room functionality.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AN_Room</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.Android.GMS.Games.Multiplayer.html">SA.Android.GMS.Games.Multiplayer</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_Android_GMS_Games_Multiplayer_AN_Room_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AN_Room : AN_JavaObject</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_ROOM_STATUS_ACTIVE" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.ROOM_STATUS_ACTIVE">ROOM_STATUS_ACTIVE</h4>
+  <div class="markdown level1 summary"><p>Constant returned by <see cref="!:GetStatus"></see>
+indicating that the room is active and connections are established.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ROOM_STATUS_ACTIVE</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_ROOM_STATUS_AUTO_MATCHING" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.ROOM_STATUS_AUTO_MATCHING">ROOM_STATUS_AUTO_MATCHING</h4>
+  <div class="markdown level1 summary"><p>Constant returned by <see cref="!:GetStatus"></see>
+indicating that one or more slots are waiting to be filled by auto-matching.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ROOM_STATUS_AUTO_MATCHING</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_ROOM_STATUS_CONNECTING" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.ROOM_STATUS_CONNECTING">ROOM_STATUS_CONNECTING</h4>
+  <div class="markdown level1 summary"><p>Constant returned by <see cref="!:GetStatus"></see>
+indicating that this room is waiting for clients to connect to each other.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ROOM_STATUS_CONNECTING</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_ROOM_STATUS_INVITING" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.ROOM_STATUS_INVITING">ROOM_STATUS_INVITING</h4>
+  <div class="markdown level1 summary"><p>Constant returned by <see cref="!:GetStatus"></see>
+indicating that the room has one or more players that have been invited and have not responded yet.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ROOM_STATUS_INVITING</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_ROOM_VARIANT_DEFAULT" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.ROOM_VARIANT_DEFAULT">ROOM_VARIANT_DEFAULT</h4>
+  <div class="markdown level1 summary"><p>Constant used to indicate that the variant for a room is unspecified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ROOM_VARIANT_DEFAULT</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_Room_AutoMatchCriteria_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.AutoMatchCriteria*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_AutoMatchCriteria" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.AutoMatchCriteria">AutoMatchCriteria</h4>
+  <div class="markdown level1 summary"><p>Retrieves the automatch criteria used to create or join this room, if any.
+May be null if the room has no automatch properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AN_Bundle AutoMatchCriteria { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AN_Bundle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_Room_AutoMatchWaitEstimateSeconds_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.AutoMatchWaitEstimateSeconds*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_AutoMatchWaitEstimateSeconds" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.AutoMatchWaitEstimateSeconds">AutoMatchWaitEstimateSeconds</h4>
+  <div class="markdown level1 summary"><p>Retrieves the estimated wait time for automatching to finish for players
+who are not automatched immediately,
+as measured from the time that the room entered the automatching pool.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AutoMatchWaitEstimateSeconds { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_Room_CreationTimestamp_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.CreationTimestamp*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_CreationTimestamp" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.CreationTimestamp">CreationTimestamp</h4>
+  <div class="markdown level1 summary"><p>The server timestamp at which the room was created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long CreationTimestamp { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_Room_CreatorId_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.CreatorId*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_CreatorId" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.CreatorId">CreatorId</h4>
+  <div class="markdown level1 summary"><p>he ID of the participant who created this Room.
+Note that not all participants will see the same value for the creator.
+In the case of an automatch, this value may differ for each participant.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CreatorId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_Room_Description_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.Description*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_Description" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.Description">Description</h4>
+  <div class="markdown level1 summary"><p>Description of this room.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Description { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_Room_JavaClassName_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.JavaClassName*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_JavaClassName" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.JavaClassName">JavaClassName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string JavaClassName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_Room_ParticipantIds_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.ParticipantIds*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_ParticipantIds" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.ParticipantIds">ParticipantIds</h4>
+  <div class="markdown level1 summary"><p>The IDs of the participants in this room.
+These are returned in the participant order of the room.
+Note that these are not stable across rooms.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; ParticipantIds { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_Room_RoomId_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.RoomId*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_RoomId" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.RoomId">RoomId</h4>
+  <div class="markdown level1 summary"><p>The ID of this Room.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RoomId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_Room_Status_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.Status*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_Status" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.Status">Status</h4>
+  <div class="markdown level1 summary"><p>The current status of the room.
+One of <a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Room.html#SA_Android_GMS_Games_Multiplayer_AN_Room_ROOM_STATUS_INVITING">ROOM_STATUS_INVITING</a>, <a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Room.html#SA_Android_GMS_Games_Multiplayer_AN_Room_ROOM_STATUS_ACTIVE">ROOM_STATUS_ACTIVE</a>,
+<a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Room.html#SA_Android_GMS_Games_Multiplayer_AN_Room_ROOM_STATUS_AUTO_MATCHING">ROOM_STATUS_AUTO_MATCHING</a>, <a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Room.html#SA_Android_GMS_Games_Multiplayer_AN_Room_ROOM_STATUS_CONNECTING">ROOM_STATUS_CONNECTING</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Status { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_Room_Variant_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.Variant*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_Variant" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.Variant">Variant</h4>
+  <div class="markdown level1 summary"><p>Variant specified for this room, if any.
+A variant is an optional developer-controlled parameter describing the type of game to play.
+If specified, this value will be a positive integer.
+If this room had no variant specified, returns <a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Room.html#SA_Android_GMS_Games_Multiplayer_AN_Room_ROOM_VARIANT_DEFAULT">ROOM_VARIANT_DEFAULT</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Variant { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_Room_GetParticipant_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.GetParticipant*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_GetParticipant_System_String_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.GetParticipant(System.String)">GetParticipant(String)</h4>
+  <div class="markdown level1 summary"><p>Get a participant in a room by its ID.
+Note that the participant ID must correspond to a participant in this match,
+or this method will throw an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AN_Participant GetParticipant(string participantId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">participantId</span></td>
+        <td><p>Match-local ID of the participant to retrieve status for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Participant.html">AN_Participant</a></td>
+        <td><p>The participant corresponding to the given ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_Room_GetParticipantId_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.GetParticipantId*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_GetParticipantId_System_String_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.GetParticipantId(System.String)">GetParticipantId(String)</h4>
+  <div class="markdown level1 summary"><p>Get the participant ID for a given player.
+This will only return a non-null ID if the player is actually a participant
+in the room and that player&apos;s identity is visible to the current player.
+Note that this will always return non-null for the current player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetParticipantId(string playerId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">playerId</span></td>
+        <td><p>Player ID to find participant ID for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The participant ID corresponding to given player, or null if none found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_Room_GetParticipantStatus_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.GetParticipantStatus*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_Room_GetParticipantStatus_System_String_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_Room.GetParticipantStatus(System.String)">GetParticipantStatus(String)</h4>
+  <div class="markdown level1 summary"><p>Get the status of a participant in a room.
+Note that the participant ID must correspond to a participant in this room,
+or this method will throw an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetParticipantStatus(string participantId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">participantId</span></td>
+        <td><p>Room-local ID of the participant to retrieve status for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The current status of the participant in this room.
+One of <a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Participant.html#SA_Android_GMS_Games_Multiplayer_AN_Participant_STATUS_INVITED">STATUS_INVITED</a>, <a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Participant.html#SA_Android_GMS_Games_Multiplayer_AN_Participant_STATUS_JOINED">STATUS_JOINED</a>,
+<a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Participant.html#SA_Android_GMS_Games_Multiplayer_AN_Participant_STATUS_DECLINED">STATUS_DECLINED</a>, or <a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Participant.html#SA_Android_GMS_Games_Multiplayer_AN_Participant_STATUS_LEFT">STATUS_LEFT</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

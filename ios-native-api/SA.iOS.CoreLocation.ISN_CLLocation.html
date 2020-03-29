@@ -1,0 +1,490 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ISN_CLLocation
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ISN_CLLocation
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.iOS.CoreLocation.ISN_CLLocation">
+  
+  
+  <h1 id="SA_iOS_CoreLocation_ISN_CLLocation" data-uid="SA.iOS.CoreLocation.ISN_CLLocation" class="text-break">Class ISN_CLLocation
+  </h1>
+  <div class="markdown level0 summary"><p>The latitude, longitude, and course information reported by the system.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ISN_CLLocation</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.CoreLocation.html">SA.iOS.CoreLocation</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_iOS_CoreLocation_ISN_CLLocation_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ISN_CLLocation</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_CLLocation__ctor_" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.#ctor*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_CLLocation__ctor_SA_iOS_CoreLocation_ISN_CLLocationCoordinate2D_System_Double_System_Double_System_Double_DateTime_" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.#ctor(SA.iOS.CoreLocation.ISN_CLLocationCoordinate2D,System.Double,System.Double,System.Double,DateTime)">ISN_CLLocation(ISN_CLLocationCoordinate2D, Double, Double, Double, DateTime)</h4>
+  <div class="markdown level1 summary"><p>Creates a location object with the specified coordinate and altitude information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISN_CLLocation(ISN_CLLocationCoordinate2D coordinate, double altitude, double hAccuracy, double vAccuracy, DateTime timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.CoreLocation.ISN_CLLocationCoordinate2D.html">ISN_CLLocationCoordinate2D</a></td>
+        <td><span class="parametername">coordinate</span></td>
+        <td><p>A coordinate structure containing the latitude and longitude values.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">altitude</span></td>
+        <td><p>The altitude value for the location.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">hAccuracy</span></td>
+        <td><p>The radius of uncertainty for the geographical coordinate, measured in meters.
+Specify a negative number to indicate that the geographical coordinate is invalid.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">vAccuracy</span></td>
+        <td><p>The accuracy of the altitude value, measured in meters.
+Specify a negative number to indicate that the altitude is invalid.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>he time to associate with the location object.
+Typically, you specify the current time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_CLLocation_Altitude_" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.Altitude*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_CLLocation_Altitude" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.Altitude">Altitude</h4>
+  <div class="markdown level1 summary"><p>The altitude, measured in meters.
+Positive values indicate altitudes above sea level.
+Negative values indicate altitudes below sea level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Altitude { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_CLLocation_Coordinate_" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.Coordinate*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_CLLocation_Coordinate" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.Coordinate">Coordinate</h4>
+  <div class="markdown level1 summary"><p>The geographical coordinate information.
+When running in the simulator, Core Location uses the values provided to it by the simulator.
+You must run your application on an iOS-based device to get the actual location of that device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISN_CLLocationCoordinate2D Coordinate { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.CoreLocation.ISN_CLLocationCoordinate2D.html">ISN_CLLocationCoordinate2D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_CLLocation_Course_" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.Course*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_CLLocation_Course" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.Course">Course</h4>
+  <div class="markdown level1 summary"><p>The direction in which the device is traveling, measured in degrees and relative to due north.
+Course values are measured in degrees starting at due north and continue clockwise around the compass.
+Thus, north is 0 degrees, east is 90 degrees, south is 180 degrees, and so on.
+Course values may not be available on all devices. A negative value indicates that the course information is invalid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Course { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_CLLocation_Floor_" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.Floor*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_CLLocation_Floor" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.Floor">Floor</h4>
+  <div class="markdown level1 summary"><p>The logical floor of the building in which the user is located.
+If floor information is not available for the current location, the value of this property is -1.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Floor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_CLLocation_HorizontalAccuracy_" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.HorizontalAccuracy*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_CLLocation_HorizontalAccuracy" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.HorizontalAccuracy">HorizontalAccuracy</h4>
+  <div class="markdown level1 summary"><p>The radius of uncertainty for the location, measured in meters.</p>
+<p>The location’s latitude and longitude identify the center of the circle,
+and this value indicates the radius of that circle.
+A negative value indicates that the latitude and longitude are invalid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double HorizontalAccuracy { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_CLLocation_Speed_" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.Speed*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_CLLocation_Speed" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.Speed">Speed</h4>
+  <div class="markdown level1 summary"><p>The instantaneous speed of the device, measured in meters per second.</p>
+<p>This value reflects the instantaneous speed of the device as it moves in the direction of its current heading.
+A negative value indicates an invalid speed.
+Because the actual speed can change many times between the delivery of location events,
+use this property for informational purposes only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Speed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_CLLocation_Timestamp_" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.Timestamp*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_CLLocation_Timestamp" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.Timestamp">Timestamp</h4>
+  <div class="markdown level1 summary"><p>The time at which this location was determined.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime Timestamp { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_CLLocation_VerticalAccuracy_" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.VerticalAccuracy*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_CLLocation_VerticalAccuracy" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.VerticalAccuracy">VerticalAccuracy</h4>
+  <div class="markdown level1 summary"><p>The accuracy of the altitude value, measured in meters.</p>
+<p>When this property contains 0 or a positive number,
+the value in the <a class="xref" href="SA.iOS.CoreLocation.ISN_CLLocation.html#SA_iOS_CoreLocation_ISN_CLLocation_Altitude">Altitude</a> property is plus or minus the specified number of meters.
+When this property contains a negative number, the value in the <a class="xref" href="SA.iOS.CoreLocation.ISN_CLLocation.html#SA_iOS_CoreLocation_ISN_CLLocation_Altitude">Altitude</a> property is invalid.</p>
+<p>Determining the vertical accuracy requires a device with GPS capabilities.
+Thus, on some devices, this property always contains a negative value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double VerticalAccuracy { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_iOS_CoreLocation_ISN_CLLocation_DistanceFromLocation_" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.DistanceFromLocation*"></a>
+  <h4 id="SA_iOS_CoreLocation_ISN_CLLocation_DistanceFromLocation_SA_iOS_CoreLocation_ISN_CLLocation_" data-uid="SA.iOS.CoreLocation.ISN_CLLocation.DistanceFromLocation(SA.iOS.CoreLocation.ISN_CLLocation)">DistanceFromLocation(ISN_CLLocation)</h4>
+  <div class="markdown level1 summary"><p>Returns the distance (measured in meters) from the current object&apos;s location to the specified location.</p>
+<p>This method measures the distance between the location in the current object
+and the value in the location parameter.
+The distance is calculated by tracing a line between the two points
+that follows the curvature of the Earth, and measuring the length of the resulting arc.
+The arc is a smooth curve that does not take into account altitude changes
+between the two locations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DistanceFromLocation(ISN_CLLocation location)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.CoreLocation.ISN_CLLocation.html">ISN_CLLocation</a></td>
+        <td><span class="parametername">location</span></td>
+        <td><p>The destination location.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The distance (in meters) between the two locations.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

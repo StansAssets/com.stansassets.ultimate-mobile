@@ -1,0 +1,298 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ISN_MPRemoteCommandCenter
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ISN_MPRemoteCommandCenter
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.iOS.MediaPlayer.ISN_MPRemoteCommandCenter">
+  
+  
+  <h1 id="SA_iOS_MediaPlayer_ISN_MPRemoteCommandCenter" data-uid="SA.iOS.MediaPlayer.ISN_MPRemoteCommandCenter" class="text-break">Class ISN_MPRemoteCommandCenter
+  </h1>
+  <div class="markdown level0 summary"><p>Static class that responds to remote control events sent by external accessories and system controls.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ISN_MPRemoteCommandCenter</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.MediaPlayer.html">SA.iOS.MediaPlayer</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_iOS_MediaPlayer_ISN_MPRemoteCommandCenter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ISN_MPRemoteCommandCenter</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SA_iOS_MediaPlayer_ISN_MPRemoteCommandCenter_OnNextTrackCommand_" data-uid="SA.iOS.MediaPlayer.ISN_MPRemoteCommandCenter.OnNextTrackCommand*"></a>
+  <h4 id="SA_iOS_MediaPlayer_ISN_MPRemoteCommandCenter_OnNextTrackCommand" data-uid="SA.iOS.MediaPlayer.ISN_MPRemoteCommandCenter.OnNextTrackCommand">OnNextTrackCommand</h4>
+  <div class="markdown level1 summary"><p>The command object for selecting the next track.</p>
+<p>Use the object in this property to register your app’s handler for selecting the next track. 
+In your handler, select the media item that follows the current media item. 
+You can disable the command if your app does not support it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SA_iEvent OnNextTrackCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_MediaPlayer_ISN_MPRemoteCommandCenter_OnPauseCommand_" data-uid="SA.iOS.MediaPlayer.ISN_MPRemoteCommandCenter.OnPauseCommand*"></a>
+  <h4 id="SA_iOS_MediaPlayer_ISN_MPRemoteCommandCenter_OnPauseCommand" data-uid="SA.iOS.MediaPlayer.ISN_MPRemoteCommandCenter.OnPauseCommand">OnPauseCommand</h4>
+  <div class="markdown level1 summary"><p>The command object for pausing playback of the current item.</p>
+<p>Use the object in this property to register your app’s handler for pausing the currently playing track. 
+In your handler, pause playback of the current item but maintain the current play position. 
+You can disable the command if your app does not support it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SA_iEvent OnPauseCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_MediaPlayer_ISN_MPRemoteCommandCenter_OnPlayCommand_" data-uid="SA.iOS.MediaPlayer.ISN_MPRemoteCommandCenter.OnPlayCommand*"></a>
+  <h4 id="SA_iOS_MediaPlayer_ISN_MPRemoteCommandCenter_OnPlayCommand" data-uid="SA.iOS.MediaPlayer.ISN_MPRemoteCommandCenter.OnPlayCommand">OnPlayCommand</h4>
+  <div class="markdown level1 summary"><p>The command object for starting playback of the current item.</p>
+<p>Use the object in this property to register your app’s handler for pausing the currently playing track. 
+In your handler, play the current item from the point at which the track was paused, 
+or from the beginning if the item was not paused. 
+You can disable the command if your app does not support it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SA_iEvent OnPlayCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_MediaPlayer_ISN_MPRemoteCommandCenter_OnPreviousTrackCommand_" data-uid="SA.iOS.MediaPlayer.ISN_MPRemoteCommandCenter.OnPreviousTrackCommand*"></a>
+  <h4 id="SA_iOS_MediaPlayer_ISN_MPRemoteCommandCenter_OnPreviousTrackCommand" data-uid="SA.iOS.MediaPlayer.ISN_MPRemoteCommandCenter.OnPreviousTrackCommand">OnPreviousTrackCommand</h4>
+  <div class="markdown level1 summary"><p>The command object for selecting the previous track.</p>
+<p>Use the object in this property to register your app’s handler for selecting the previous track. 
+In your handler, select the media item that precedes the current media item. 
+You can disable the command if your app does not support it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SA_iEvent OnPreviousTrackCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span></td>
+        <td><p>The on previous track command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_MediaPlayer_ISN_MPRemoteCommandCenter_OnStopCommand_" data-uid="SA.iOS.MediaPlayer.ISN_MPRemoteCommandCenter.OnStopCommand*"></a>
+  <h4 id="SA_iOS_MediaPlayer_ISN_MPRemoteCommandCenter_OnStopCommand" data-uid="SA.iOS.MediaPlayer.ISN_MPRemoteCommandCenter.OnStopCommand">OnStopCommand</h4>
+  <div class="markdown level1 summary"><p>The command object for stopping playback of the current item.</p>
+<p>Use the object in this property to register your app’s handler for stopping playback of the current track. 
+In your handler, stop playback the current item. 
+You can disable the command if your app does not support it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SA_iEvent OnStopCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

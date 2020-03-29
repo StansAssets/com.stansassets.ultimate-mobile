@@ -1,0 +1,623 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AN_NotificationCompat.Builder
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AN_NotificationCompat.Builder
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.Android.App.AN_NotificationCompat.Builder">
+  
+  
+  <h1 id="SA_Android_App_AN_NotificationCompat_Builder" data-uid="SA.Android.App.AN_NotificationCompat.Builder" class="text-break">Class AN_NotificationCompat.Builder
+  </h1>
+  <div class="markdown level0 summary"><p>Builder class for <a class="xref" href="SA.Android.App.AN_Notification.html">AN_Notification</a> objects. 
+Allows easier control over all the flags, as well as help constructing the typical notification layouts.
+On platform versions that don&apos;t offer expanded notifications, methods that depend on expanded notifications have no effect.
+For example, action buttons won&apos;t appear on platforms prior to Android 4.1. 
+Action buttons depend on expanded notifications, which are only available in Android 4.1 and later.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AN_NotificationCompat.Builder</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.Android.App.html">SA.Android.App</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_Android_App_AN_NotificationCompat_Builder_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Builder</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_ChanelId_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.ChanelId*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_ChanelId" data-uid="SA.Android.App.AN_NotificationCompat.Builder.ChanelId">ChanelId</h4>
+  <div class="markdown level1 summary"><p>Notification channel id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ChanelId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_Defaults_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.Defaults*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_Defaults" data-uid="SA.Android.App.AN_NotificationCompat.Builder.Defaults">Defaults</h4>
+  <div class="markdown level1 summary"><p>Notification Defaults. Like <a class="xref" href="SA.Android.App.AN_Notification.html#SA_Android_App_AN_Notification_DEFAULT_ALL">DEFAULT_ALL</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Defaults { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_SoundName_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SoundName*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_SoundName" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SoundName">SoundName</h4>
+  <div class="markdown level1 summary"><p>Notification sounds name
+Note that if objcet was receiveed from nativ part, in case youu have prodvided 
+a valid sound before. This filed will have native url to the sound.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SoundName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_Text_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.Text*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_Text" data-uid="SA.Android.App.AN_NotificationCompat.Builder.Text">Text</h4>
+  <div class="markdown level1 summary"><p>Notification body text.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Text { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_Title_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.Title*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_Title" data-uid="SA.Android.App.AN_NotificationCompat.Builder.Title">Title</h4>
+  <div class="markdown level1 summary"><p>Notification body title.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Title { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_Build_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.Build*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_Build" data-uid="SA.Android.App.AN_NotificationCompat.Builder.Build">Build()</h4>
+  <div class="markdown level1 summary"><p>Combine all of the options that have been set and return a new <a class="xref" href="SA.Android.App.AN_Notification.html">AN_Notification</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AN_Notification Build()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.App.AN_Notification.html">AN_Notification</a></td>
+        <td><p>The build.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_SetBadgeIconType_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetBadgeIconType*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_SetBadgeIconType_System_Int32_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetBadgeIconType(System.Int32)">SetBadgeIconType(Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets which icon to display as a badge for this notification.
+Must be one of <a class="xref" href="SA.Android.App.AN_NotificationCompat.html#SA_Android_App_AN_NotificationCompat_BADGE_ICON_NONE">BADGE_ICON_NONE</a>,
+<a class="xref" href="SA.Android.App.AN_NotificationCompat.html#SA_Android_App_AN_NotificationCompat_BADGE_ICON_SMALL">BADGE_ICON_SMALL</a>, <a class="xref" href="SA.Android.App.AN_NotificationCompat.html#SA_Android_App_AN_NotificationCompat_BADGE_ICON_LARGE">BADGE_ICON_LARGE</a>.
+Note: This value might be ignored, for launchers that don&apos;t support badge icons.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBadgeIconType(int icon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">icon</span></td>
+        <td><p>icon type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_SetChanelId_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetChanelId*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_SetChanelId_System_String_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetChanelId(System.String)">SetChanelId(String)</h4>
+  <div class="markdown level1 summary"><p>Specifies the channel the notification should be delivered on.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetChanelId(string chanelId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">chanelId</span></td>
+        <td><p>Id of the notifications chanel</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_SetContentText_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetContentText*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_SetContentText_System_String_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetContentText(System.String)">SetContentText(String)</h4>
+  <div class="markdown level1 summary"><p>Set the second line of text in the platform notification template.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetContentText(string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>Content Text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_SetContentTitle_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetContentTitle*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_SetContentTitle_System_String_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetContentTitle(System.String)">SetContentTitle(String)</h4>
+  <div class="markdown level1 summary"><p>Set the first line of text in the platform notification template.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetContentTitle(string title)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>Title.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_SetDefaults_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetDefaults*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_SetDefaults_System_Int32_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetDefaults(System.Int32)">SetDefaults(Int32)</h4>
+  <div class="markdown level1 summary"><p>Set the default notification options that will be used.
+The value should be one or more of the following fields combined with bitwise-or: 
+<a class="xref" href="SA.Android.App.AN_Notification.html#SA_Android_App_AN_Notification_DEFAULT_SOUND">DEFAULT_SOUND</a>, <a class="xref" href="SA.Android.App.AN_Notification.html#SA_Android_App_AN_Notification_DEFAULT_VIBRATE">DEFAULT_VIBRATE</a>, <a class="xref" href="SA.Android.App.AN_Notification.html#SA_Android_App_AN_Notification_DEFAULT_LIGHTS">DEFAULT_LIGHTS</a> </p>
+<p>For all default values, use <a class="xref" href="SA.Android.App.AN_Notification.html#SA_Android_App_AN_Notification_DEFAULT_ALL">DEFAULT_ALL</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDefaults(int defaults)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">defaults</span></td>
+        <td><p>default value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_SetLargeIcon_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetLargeIcon*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_SetLargeIcon_Texture2D_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetLargeIcon(Texture2D)">SetLargeIcon(Texture2D)</h4>
+  <div class="markdown level1 summary"><p>Add a large icon to the notification content view. 
+In the platform template, this image will be shown on the left of the notification view 
+in place of the small icon (which will be placed in a small badge atop the large icon).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLargeIcon(Texture2D icon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Texture2D</span></td>
+        <td><span class="parametername">icon</span></td>
+        <td><p>Icon as Texture2D</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_SetNumber_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetNumber*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_SetNumber_System_Int32_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetNumber(System.Int32)">SetNumber(Int32)</h4>
+  <div class="markdown level1 summary"><p>Set the large number at the right-hand side of the notification.
+This is equivalent to setContentInfo,
+although it might show the number in a different font size for readability.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetNumber(int number)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">number</span></td>
+        <td><p>notification badges number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_SetSmallIcon_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetSmallIcon*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_SetSmallIcon_System_String_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetSmallIcon(System.String)">SetSmallIcon(String)</h4>
+  <div class="markdown level1 summary"><p>Set the small icon resource, which will be used to represent the notification in the status bar. 
+The platform template for the expanded view will draw this icon in the left, 
+unless a large icon has also been specified, 
+in which case the small icon will be moved to the right-hand side.</p>
+<p>Do not specify file extension.
+Example: myIcon</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSmallIcon(string iconName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">iconName</span></td>
+        <td><p>A android resource name in the application&apos;s package of the drawable to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_SetSound_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetSound*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_SetSound_System_String_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetSound(System.String)">SetSound(String)</h4>
+  <div class="markdown level1 summary"><p>Set the sound to play. It will play on the default stream.
+On some platforms, a notification that is noisy is more likely to be presented as a heads-up notification.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSound(string soundName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">soundName</span></td>
+        <td><p>sound name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationCompat_Builder_SetStyle_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetStyle*"></a>
+  <h4 id="SA_Android_App_AN_NotificationCompat_Builder_SetStyle_SA_Android_App_AN_NotificationCompat_Style_" data-uid="SA.Android.App.AN_NotificationCompat.Builder.SetStyle(SA.Android.App.AN_NotificationCompat.Style)">SetStyle(AN_NotificationCompat.Style)</h4>
+  <div class="markdown level1 summary"><p>Add a rich notification style to be applied at build time. 
+If the platform does not provide rich notification styles, this method has no effect.The user will always see the normal notification style.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetStyle(AN_NotificationCompat.Style style)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.App.AN_NotificationCompat.Style.html">AN_NotificationCompat.Style</a></td>
+        <td><span class="parametername">style</span></td>
+        <td><p>Object responsible for modifying the notification style.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

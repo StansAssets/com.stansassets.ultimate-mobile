@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AN_GoogleSignInAccount
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AN_GoogleSignInAccount
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount">
+  
+  
+  <h1 id="SA_Android_GMS_Auth_AN_GoogleSignInAccount" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount" class="text-break">Class AN_GoogleSignInAccount
+  </h1>
+  <div class="markdown level0 summary"><p>Class that holds the basic account information of the signed in Google user.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AN_GoogleSignInAccount</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.Android.GMS.Auth.html">SA.Android.GMS.Auth</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_Android_GMS_Auth_AN_GoogleSignInAccount_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class AN_GoogleSignInAccount : AN_LinkedObject</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_Android_GMS_Auth_AN_GoogleSignInAccount_GetDisplayName_" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount.GetDisplayName*"></a>
+  <h4 id="SA_Android_GMS_Auth_AN_GoogleSignInAccount_GetDisplayName" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount.GetDisplayName">GetDisplayName()</h4>
+  <div class="markdown level1 summary"><p>Returns the display name of the signed in user if you built your configuration starting from 
+<a class="xref" href="SA.Android.GMS.Auth.AN_GoogleSignInOptions.html#SA_Android_GMS_Auth_AN_GoogleSignInOptions_DEFAULT_SIGN_IN">DEFAULT_SIGN_IN</a> or with <a class="xref" href="SA.Android.GMS.Auth.AN_GoogleSignInOptions.Builder.html#SA_Android_GMS_Auth_AN_GoogleSignInOptions_Builder_RequestProfile">RequestProfile()</a> configured; 
+null otherwise. </p>
+<p>Not guaranteed to be present for all users, even when configured.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetDisplayName()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The display name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Auth_AN_GoogleSignInAccount_GetEmail_" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount.GetEmail*"></a>
+  <h4 id="SA_Android_GMS_Auth_AN_GoogleSignInAccount_GetEmail" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount.GetEmail">GetEmail()</h4>
+  <div class="markdown level1 summary"><p>Returns the email address of the signed in user if <a class="xref" href="SA.Android.GMS.Auth.AN_GoogleSignInOptions.Builder.html#SA_Android_GMS_Auth_AN_GoogleSignInOptions_Builder_RequestEmail">RequestEmail()</a>() was configured; 
+null otherwise.
+Applications should not key users by email address since a Google account&apos;s email address can change. 
+Use <a class="xref" href="SA.Android.GMS.Auth.AN_GoogleSignInAccount.html#SA_Android_GMS_Auth_AN_GoogleSignInAccount_GetId">GetId()</a> as a key instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetEmail()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The email.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Auth_AN_GoogleSignInAccount_GetGivenName_" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount.GetGivenName*"></a>
+  <h4 id="SA_Android_GMS_Auth_AN_GoogleSignInAccount_GetGivenName" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount.GetGivenName">GetGivenName()</h4>
+  <div class="markdown level1 summary"><p>Returns the given name of the signed in user if you built your configuration starting from 
+<a class="xref" href="SA.Android.GMS.Auth.AN_GoogleSignInOptions.html#SA_Android_GMS_Auth_AN_GoogleSignInOptions_DEFAULT_SIGN_IN">DEFAULT_SIGN_IN</a> or with <a class="xref" href="SA.Android.GMS.Auth.AN_GoogleSignInOptions.Builder.html#SA_Android_GMS_Auth_AN_GoogleSignInOptions_Builder_RequestProfile">RequestProfile()</a> configured; 
+null otherwise. </p>
+<p>Not guaranteed to be present for all users, even when configured.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetGivenName()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The display name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Auth_AN_GoogleSignInAccount_GetId_" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount.GetId*"></a>
+  <h4 id="SA_Android_GMS_Auth_AN_GoogleSignInAccount_GetId" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount.GetId">GetId()</h4>
+  <div class="markdown level1 summary"><p>Returns the unique ID for the Google account if you built your configuration starting from DEFAULT_SIGN_IN or with RequestId() configured; 
+null otherwise.</p>
+<p>This is the preferred unique key to use for a user record.</p>
+<p>Important: Do not use this returned Google ID to communicate the currently signed in user to your backend server. 
+Instead, send an ID token (requestIdToken(String)), which can be securely validated on the server; 
+or send a server auth code (requestServerAuthCode(String)) which can be in turn exchanged for id token.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetId()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Auth_AN_GoogleSignInAccount_GetIdToken_" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount.GetIdToken*"></a>
+  <h4 id="SA_Android_GMS_Auth_AN_GoogleSignInAccount_GetIdToken" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount.GetIdToken">GetIdToken()</h4>
+  <div class="markdown level1 summary"><p>Returns an ID token that you can send to your server 
+and sometimes refresh token 
+if  <a class="xref" href="SA.Android.GMS.Auth.AN_GoogleSignInOptions.Builder.html#SA_Android_GMS_Auth_AN_GoogleSignInOptions_Builder_RequestIdToken_System_String_">RequestIdToken(String)</a> was configured; null otherwise.
+ID token is a JSON Web Token signed by Google that can be used to identify a user to a backend.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetIdToken()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Auth_AN_GoogleSignInAccount_GetPhotoUrl_" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount.GetPhotoUrl*"></a>
+  <h4 id="SA_Android_GMS_Auth_AN_GoogleSignInAccount_GetPhotoUrl" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount.GetPhotoUrl">GetPhotoUrl()</h4>
+  <div class="markdown level1 summary"><p>Returns the photo url of the signed in user if you built your configuration starting from 
+<a class="xref" href="SA.Android.GMS.Auth.AN_GoogleSignInOptions.html#SA_Android_GMS_Auth_AN_GoogleSignInOptions_DEFAULT_SIGN_IN">DEFAULT_SIGN_IN</a> or with <a class="xref" href="SA.Android.GMS.Auth.AN_GoogleSignInOptions.Builder.html#SA_Android_GMS_Auth_AN_GoogleSignInOptions_Builder_RequestProfile">RequestProfile()</a> configured; 
+null otherwise. </p>
+<p>Not guaranteed to be present for all users, even when configured.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetPhotoUrl()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Auth_AN_GoogleSignInAccount_GetServerAuthCode_" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount.GetServerAuthCode*"></a>
+  <h4 id="SA_Android_GMS_Auth_AN_GoogleSignInAccount_GetServerAuthCode" data-uid="SA.Android.GMS.Auth.AN_GoogleSignInAccount.GetServerAuthCode">GetServerAuthCode()</h4>
+  <div class="markdown level1 summary"><p>Returns a one-time server auth code to send to your web server which can be exchanged for access token 
+and sometimes refresh token 
+if  <a class="xref" href="SA.Android.GMS.Auth.AN_GoogleSignInOptions.Builder.html#SA_Android_GMS_Auth_AN_GoogleSignInOptions_Builder_RequestServerAuthCode_System_String_System_Boolean_">RequestServerAuthCode(String, Boolean)</a> is configured. 
+null otherwise.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetServerAuthCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

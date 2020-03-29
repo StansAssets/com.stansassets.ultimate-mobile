@@ -1,0 +1,440 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AN_NotificationChannel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AN_NotificationChannel
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.Android.App.AN_NotificationChannel">
+  
+  
+  <h1 id="SA_Android_App_AN_NotificationChannel" data-uid="SA.Android.App.AN_NotificationChannel" class="text-break">Class AN_NotificationChannel
+  </h1>
+  <div class="markdown level0 summary"><p>A representation of settings that apply to a collection of similarly themed notifications.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AN_NotificationChannel</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.Android.App.html">SA.Android.App</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_Android_App_AN_NotificationChannel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AN_NotificationChannel</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="SA_Android_App_AN_NotificationChannel__ctor_" data-uid="SA.Android.App.AN_NotificationChannel.#ctor*"></a>
+  <h4 id="SA_Android_App_AN_NotificationChannel__ctor_System_String_System_String_SA_Android_App_AN_NotificationManager_Importance_" data-uid="SA.Android.App.AN_NotificationChannel.#ctor(System.String,System.String,SA.Android.App.AN_NotificationManager.Importance)">AN_NotificationChannel(String, String, AN_NotificationManager.Importance)</h4>
+  <div class="markdown level1 summary"><p>Creates a notification channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AN_NotificationChannel(string id, string name, AN_NotificationManager.Importance importance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id of the channel. Must be unique per package. 
+The value may be truncated if it is too long.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The user visible name of the channel. 
+You can rename this channel when the system locale changes 
+by listening for the Intent.ACTION_LOCALE_CHANGED broadcast. 
+The recommended maximum length is 40 characters; the value may be truncated if it is too long.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SA.Android.App.AN_NotificationManager.Importance.html">AN_NotificationManager.Importance</a></td>
+        <td><span class="parametername">importance</span></td>
+        <td><p>The importance of the channel. 
+This controls how interruptive notifications posted to this channel are.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="SA_Android_App_AN_NotificationChannel_ANDROID_NATIVE_DEFAULT_CHANNEL_ID" data-uid="SA.Android.App.AN_NotificationChannel.ANDROID_NATIVE_DEFAULT_CHANNEL_ID">ANDROID_NATIVE_DEFAULT_CHANNEL_ID</h4>
+  <div class="markdown level1 summary"><p>This channel id will be used by plugin in case you havne&apos;t spesifayed any channell id with your request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ANDROID_NATIVE_DEFAULT_CHANNEL_ID</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="SA_Android_App_AN_NotificationChannel_DEFAULT_CHANNEL_ID" data-uid="SA.Android.App.AN_NotificationChannel.DEFAULT_CHANNEL_ID">DEFAULT_CHANNEL_ID</h4>
+  <div class="markdown level1 summary"><p>The id of the default channel for an app. This id is reserved by the system. </p>
+<p>All notifications posted from apps targeting <a class="xref" href="SA.Android.OS.AN_Build.VERSION_CODES.html#SA_Android_OS_AN_Build_VERSION_CODES_N_MR1">N_MR1</a> or earlier 
+without a notification channel specified are posted to this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DEFAULT_CHANNEL_ID</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SA_Android_App_AN_NotificationChannel_CanShowBadge_" data-uid="SA.Android.App.AN_NotificationChannel.CanShowBadge*"></a>
+  <h4 id="SA_Android_App_AN_NotificationChannel_CanShowBadge" data-uid="SA.Android.App.AN_NotificationChannel.CanShowBadge">CanShowBadge</h4>
+  <div class="markdown level1 summary"><p>Returns whether notifications posted to this channel can appear as badges in a Launcher application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanShowBadge { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationChannel_Description_" data-uid="SA.Android.App.AN_NotificationChannel.Description*"></a>
+  <h4 id="SA_Android_App_AN_NotificationChannel_Description" data-uid="SA.Android.App.AN_NotificationChannel.Description">Description</h4>
+  <div class="markdown level1 summary"><p>Description of this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Description { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationChannel_Id_" data-uid="SA.Android.App.AN_NotificationChannel.Id*"></a>
+  <h4 id="SA_Android_App_AN_NotificationChannel_Id" data-uid="SA.Android.App.AN_NotificationChannel.Id">Id</h4>
+  <div class="markdown level1 summary"><p>The id of this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Id { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationChannel_Importance_" data-uid="SA.Android.App.AN_NotificationChannel.Importance*"></a>
+  <h4 id="SA_Android_App_AN_NotificationChannel_Importance" data-uid="SA.Android.App.AN_NotificationChannel.Importance">Importance</h4>
+  <div class="markdown level1 summary"><p>The user specified importance</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AN_NotificationManager.Importance Importance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.App.AN_NotificationManager.Importance.html">AN_NotificationManager.Importance</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationChannel_Name_" data-uid="SA.Android.App.AN_NotificationChannel.Name*"></a>
+  <h4 id="SA_Android_App_AN_NotificationChannel_Name" data-uid="SA.Android.App.AN_NotificationChannel.Name">Name</h4>
+  <div class="markdown level1 summary"><p>The user visible name of this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationChannel_Sound_" data-uid="SA.Android.App.AN_NotificationChannel.Sound*"></a>
+  <h4 id="SA_Android_App_AN_NotificationChannel_Sound" data-uid="SA.Android.App.AN_NotificationChannel.Sound">Sound</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Sound { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_Android_App_AN_NotificationChannel_SetShowBadge_" data-uid="SA.Android.App.AN_NotificationChannel.SetShowBadge*"></a>
+  <h4 id="SA_Android_App_AN_NotificationChannel_SetShowBadge_System_Boolean_" data-uid="SA.Android.App.AN_NotificationChannel.SetShowBadge(System.Boolean)">SetShowBadge(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets whether notifications posted to this channel can appear as application icon badges in a Launcher.
+Only modifiable before the channel is submitted to <a class="xref" href="SA.Android.App.AN_NotificationManager.html#SA_Android_App_AN_NotificationManager_CreateNotificationChannel_SA_Android_App_AN_NotificationChannel_">CreateNotificationChannel(AN_NotificationChannel)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetShowBadge(bool showBadge)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">showBadge</span></td>
+        <td><p>true if badges should be allowed to be shown.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

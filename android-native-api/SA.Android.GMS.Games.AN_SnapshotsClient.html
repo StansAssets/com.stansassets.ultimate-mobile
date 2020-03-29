@@ -1,0 +1,520 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AN_SnapshotsClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AN_SnapshotsClient
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient">
+  
+  
+  <h1 id="SA_Android_GMS_Games_AN_SnapshotsClient" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient" class="text-break">Class AN_SnapshotsClient
+  </h1>
+  <div class="markdown level0 summary"><p>A client to interact with Snapshots.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AN_SnapshotsClient</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.Android.GMS.Games.html">SA.Android.GMS.Games</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_Android_GMS_Games_AN_SnapshotsClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AN_SnapshotsClient : AN_LinkedObject</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="SA_Android_GMS_Games_AN_SnapshotsClient_DISPLAY_LIMIT_NONE" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.DISPLAY_LIMIT_NONE">DISPLAY_LIMIT_NONE</h4>
+  <div class="markdown level1 summary"><p>Constant passed to <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotsClient.html#SA_Android_GMS_Games_AN_SnapshotsClient_ShowSelectSnapshotIntent_System_String_System_Boolean_System_Boolean_System_Int32_Action_SA_Android_GMS_Games_AN_SnapshotUIResult__">ShowSelectSnapshotIntent(String, Boolean, Boolean, Int32, Action&lt;AN_SnapshotUIResult&gt;)</a>
+indicating that the UI should not cap the number of displayed snapshots.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DISPLAY_LIMIT_NONE = -1</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_SnapshotsClient_CommitAndClose_" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.CommitAndClose*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_SnapshotsClient_CommitAndClose_SA_Android_GMS_Games_AN_Snapshot_SA_Android_GMS_Games_AN_SnapshotMetadataChange_Action_SA_Android_GMS_Games_AN_SnapshotMetadataResult__" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.CommitAndClose(SA.Android.GMS.Games.AN_Snapshot,SA.Android.GMS.Games.AN_SnapshotMetadataChange,Action{SA.Android.GMS.Games.AN_SnapshotMetadataResult})">CommitAndClose(AN_Snapshot, AN_SnapshotMetadataChange, Action&lt;AN_SnapshotMetadataResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously commits any modifications in <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotMetadataChange.html">AN_SnapshotMetadataChange</a>
+made to the <a class="xref" href="SA.Android.GMS.Games.AN_Snapshot.html">AN_Snapshot</a> and loads a <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotMetadata.html">AN_SnapshotMetadata</a>.
+The callback returned by this method is complete once the changes are synced locally 
+and the background sync request for this data has been requested.</p>
+<p>This method fails a task with an exception 
+when called with a snapshot that was not opened or has already been committed/discarded.</p>
+<p>Note that the total size of the contents of snapshot 
+may not exceed the size provided <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotsClient.html#SA_Android_GMS_Games_AN_SnapshotsClient_GetMaxDataSize">GetMaxDataSize()</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CommitAndClose(AN_Snapshot snapshot, AN_SnapshotMetadataChange metadataChange, Action&lt;AN_SnapshotMetadataResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.AN_Snapshot.html">AN_Snapshot</a></td>
+        <td><span class="parametername">snapshot</span></td>
+        <td><p>The snapshot to commit the data for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.AN_SnapshotMetadataChange.html">AN_SnapshotMetadataChange</a></td>
+        <td><span class="parametername">metadataChange</span></td>
+        <td><p>The set of changes to apply to the metadata for the snapshot. 
+Use <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotMetadataChange.html#SA_Android_GMS_Games_AN_SnapshotMetadataChange_EMPTY_CHANGE">EMPTY_CHANGE</a> to preserve the existing metadata.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.Android.GMS.Games.AN_SnapshotMetadataResult.html">AN_SnapshotMetadataResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The operation callback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_SnapshotsClient_Delete_" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.Delete*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_SnapshotsClient_Delete_SA_Android_GMS_Games_AN_SnapshotMetadata_Action_SA_Android_GMS_Games_AN_SnapshotsDeleteResult__" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.Delete(SA.Android.GMS.Games.AN_SnapshotMetadata,Action{SA.Android.GMS.Games.AN_SnapshotsDeleteResult})">Delete(AN_SnapshotMetadata, Action&lt;AN_SnapshotsDeleteResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously deletes the specified by <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotMetadata.html">AN_SnapshotMetadata</a> snapshot and loads the deleted snapshot ID. 
+This will delete the data of the snapshot locally and on the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Delete(AN_SnapshotMetadata meta, Action&lt;AN_SnapshotsDeleteResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.AN_SnapshotMetadata.html">AN_SnapshotMetadata</a></td>
+        <td><span class="parametername">meta</span></td>
+        <td><p>The metadata of the snapshot to delete.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.Android.GMS.Games.AN_SnapshotsDeleteResult.html">AN_SnapshotsDeleteResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The operation callback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_SnapshotsClient_GetMaxDataSize_" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.GetMaxDataSize*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_SnapshotsClient_GetMaxDataSize" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.GetMaxDataSize">GetMaxDataSize()</h4>
+  <div class="markdown level1 summary"><p>Asynchronously loads the maximum data size per snapshot in bytes. 
+Guaranteed to be at least 3 MB. May increase in the future.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetMaxDataSize()</code></pre>
+  </div>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_SnapshotsClient_Load_" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.Load*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_SnapshotsClient_Load_Action_SA_Android_GMS_Games_AN_SnapshotsMetadataResult__" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.Load(Action{SA.Android.GMS.Games.AN_SnapshotsMetadataResult})">Load(Action&lt;AN_SnapshotsMetadataResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously loads list of <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotMetadata.html">AN_SnapshotMetadata</a> 
+that represents the snapshot data for the currently signed-in player.
+Required Scopes: SCOPE_GAMES_LITE and SCOPE_APPFOLDER.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load(Action&lt;AN_SnapshotsMetadataResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.Android.GMS.Games.AN_SnapshotsMetadataResult.html">AN_SnapshotsMetadataResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The task callback</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_SnapshotsClient_Load_" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.Load*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_SnapshotsClient_Load_System_Boolean_Action_SA_Android_GMS_Games_AN_SnapshotsMetadataResult__" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.Load(System.Boolean,Action{SA.Android.GMS.Games.AN_SnapshotsMetadataResult})">Load(Boolean, Action&lt;AN_SnapshotsMetadataResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously loads list of <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotMetadata.html">AN_SnapshotMetadata</a> 
+that represents the snapshot data for the currently signed-in player.
+Required Scopes: SCOPE_GAMES_LITE and SCOPE_APPFOLDER.
+<param name="forceReload">
+If <code>true</code>, this call will clear any locally cached data and attempt to fetch the latest data from the server. 
+This would commonly be used for something like a user-initiated refresh. 
+Normally, this should be set to <code>false</code> to gain advantages of data caching.
+
+<param name="callback">The task callback</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load(bool forceReload, Action&lt;AN_SnapshotsMetadataResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">forceReload</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.Android.GMS.Games.AN_SnapshotsMetadataResult.html">AN_SnapshotsMetadataResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_SnapshotsClient_Open_" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.Open*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_SnapshotsClient_Open_System_String_System_Boolean_SA_Android_GMS_Games_AN_SnapshotsClient_ResolutionPolicy_Action_AN_LinkedObjectResult_SA_Android_GMS_Games_AN_DataOrConflictResult___" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.Open(System.String,System.Boolean,SA.Android.GMS.Games.AN_SnapshotsClient.ResolutionPolicy,Action{AN_LinkedObjectResult{SA.Android.GMS.Games.AN_DataOrConflictResult}})">Open(String, Boolean, AN_SnapshotsClient.ResolutionPolicy, Action&lt;AN_LinkedObjectResult&lt;AN_DataOrConflictResult&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Starts a task which asynchronously opens a snapshot with the given fileName. 
+If createIfNotFound is set to true, the specified snapshot will be created if it does not already exist.</p>
+<p>Required Scopes: SCOPE_GAMES_LITE and SCOPE_APPFOLDER.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Open(string fileName, bool createIfNotFound, AN_SnapshotsClient.ResolutionPolicy conflictPolicy, Action&lt;AN_LinkedObjectResult&lt;AN_DataOrConflictResult&gt;&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The name of the snapshot file to open. 
+Must be between 1 and 100 non-URL-reserved characters (a-z, A-Z, 0-9, or the symbols &quot;-&quot;, &quot;.&quot;, &quot;_&quot;, or &quot;~&quot;).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">createIfNotFound</span></td>
+        <td><p>If true, the snapshot will be created if one cannot be found.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.AN_SnapshotsClient.ResolutionPolicy.html">AN_SnapshotsClient.ResolutionPolicy</a></td>
+        <td><span class="parametername">conflictPolicy</span></td>
+        <td><p>The conflict resolution policy to use for this snapshot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">AN_LinkedObjectResult</span>&lt;<a class="xref" href="SA.Android.GMS.Games.AN_DataOrConflictResult.html">AN_DataOrConflictResult</a>&gt;&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The task callback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_SnapshotsClient_ResolveConflict_" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.ResolveConflict*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_SnapshotsClient_ResolveConflict_System_String_SA_Android_GMS_Games_AN_Snapshot_Action_AN_LinkedObjectResult_SA_Android_GMS_Games_AN_DataOrConflictResult___" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.ResolveConflict(System.String,SA.Android.GMS.Games.AN_Snapshot,Action{AN_LinkedObjectResult{SA.Android.GMS.Games.AN_DataOrConflictResult}})">ResolveConflict(String, AN_Snapshot, Action&lt;AN_LinkedObjectResult&lt;AN_DataOrConflictResult&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Starts a task which asynchronously resolves a conflict using the data from the provided Snapshot.</p>
+<p>This will replace the data on the server with the specified Snapshot.
+Note that it is possible for this operation to result in a conflict itself, in which case resolution should be repeated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResolveConflict(string conflictId, AN_Snapshot snapshot, Action&lt;AN_LinkedObjectResult&lt;AN_DataOrConflictResult&gt;&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">conflictId</span></td>
+        <td><p>he ID of the conflict to resolve. Must come from <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotConflict.html">AN_SnapshotConflict</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.AN_Snapshot.html">AN_Snapshot</a></td>
+        <td><span class="parametername">snapshot</span></td>
+        <td><p>The snapshot to use to resolve the conflict.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">AN_LinkedObjectResult</span>&lt;<a class="xref" href="SA.Android.GMS.Games.AN_DataOrConflictResult.html">AN_DataOrConflictResult</a>&gt;&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The task callback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_SnapshotsClient_ShowSelectSnapshotIntent_" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.ShowSelectSnapshotIntent*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_SnapshotsClient_ShowSelectSnapshotIntent_System_String_Action_SA_Android_GMS_Games_AN_SnapshotUIResult__" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.ShowSelectSnapshotIntent(System.String,Action{SA.Android.GMS.Games.AN_SnapshotUIResult})">ShowSelectSnapshotIntent(String, Action&lt;AN_SnapshotUIResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Shows the UI that will let the user select a snapshot.</p>
+<p>If the user canceled without selecting a snapshot, 
+the result state will be <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotUIResult.UserInteractionState.html#SA_Android_GMS_Games_AN_SnapshotUIResult_UserInteractionState_NOTHING_SELECTED">NOTHING_SELECTED</a>. 
+If the user selected a snapshot from the list, 
+the result state will be <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotUIResult.UserInteractionState.html#SA_Android_GMS_Games_AN_SnapshotUIResult_UserInteractionState_EXTRA_SNAPSHOT_METADATA">EXTRA_SNAPSHOT_METADATA</a>. 
+If the user pressed the add button, 
+the result state will be <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotUIResult.UserInteractionState.html#SA_Android_GMS_Games_AN_SnapshotUIResult_UserInteractionState_EXTRA_SNAPSHOT_NEW">EXTRA_SNAPSHOT_NEW</a>. 
+See the </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowSelectSnapshotIntent(string title, Action&lt;AN_SnapshotUIResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>The title to display in the action bar of the returned Activity.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.Android.GMS.Games.AN_SnapshotUIResult.html">AN_SnapshotUIResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>User interaction callback</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_SnapshotsClient_ShowSelectSnapshotIntent_" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.ShowSelectSnapshotIntent*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_SnapshotsClient_ShowSelectSnapshotIntent_System_String_System_Boolean_System_Boolean_System_Int32_Action_SA_Android_GMS_Games_AN_SnapshotUIResult__" data-uid="SA.Android.GMS.Games.AN_SnapshotsClient.ShowSelectSnapshotIntent(System.String,System.Boolean,System.Boolean,System.Int32,Action{SA.Android.GMS.Games.AN_SnapshotUIResult})">ShowSelectSnapshotIntent(String, Boolean, Boolean, Int32, Action&lt;AN_SnapshotUIResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Shows the UI that will let the user select a snapshot.</p>
+<p>If the user canceled without selecting a snapshot, 
+the result state will be <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotUIResult.UserInteractionState.html#SA_Android_GMS_Games_AN_SnapshotUIResult_UserInteractionState_NOTHING_SELECTED">NOTHING_SELECTED</a>. 
+If the user selected a snapshot from the list, 
+the result state will be <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotUIResult.UserInteractionState.html#SA_Android_GMS_Games_AN_SnapshotUIResult_UserInteractionState_EXTRA_SNAPSHOT_METADATA">EXTRA_SNAPSHOT_METADATA</a>. 
+If the user pressed the add button, 
+the result state will be <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotUIResult.UserInteractionState.html#SA_Android_GMS_Games_AN_SnapshotUIResult_UserInteractionState_EXTRA_SNAPSHOT_NEW">EXTRA_SNAPSHOT_NEW</a>. 
+See the </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowSelectSnapshotIntent(string title, bool allowAddButton, bool allowDelete, int maxSnapshots, Action&lt;AN_SnapshotUIResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>The title to display in the action bar of the returned Activity.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">allowAddButton</span></td>
+        <td><p>Whether or not to display a &quot;create new snapshot&quot; option in the selection UI.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">allowDelete</span></td>
+        <td><p>Whether or not to provide a delete overflow menu option for each snapshot in the selection UI.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxSnapshots</span></td>
+        <td><p>The maximum number of snapshots to display in the UI. 
+Use <a class="xref" href="SA.Android.GMS.Games.AN_SnapshotsClient.html#SA_Android_GMS_Games_AN_SnapshotsClient_DISPLAY_LIMIT_NONE">DISPLAY_LIMIT_NONE</a> to display all snapshots.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.Android.GMS.Games.AN_SnapshotUIResult.html">AN_SnapshotUIResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>User interaction callback</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,517 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AN_NotificationManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AN_NotificationManager
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.Android.App.AN_NotificationManager">
+  
+  
+  <h1 id="SA_Android_App_AN_NotificationManager" data-uid="SA.Android.App.AN_NotificationManager" class="text-break">Class AN_NotificationManager
+  </h1>
+  <div class="markdown level0 summary"><p>Class to notify the user of events that happen. 
+This is how you tell the user that something has happened in the background.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AN_NotificationManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.Android.App.html">SA.Android.App</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_Android_App_AN_NotificationManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class AN_NotificationManager</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SA_Android_App_AN_NotificationManager_LastOpenedNotificationRequest_" data-uid="SA.Android.App.AN_NotificationManager.LastOpenedNotificationRequest*"></a>
+  <h4 id="SA_Android_App_AN_NotificationManager_LastOpenedNotificationRequest" data-uid="SA.Android.App.AN_NotificationManager.LastOpenedNotificationRequest">LastOpenedNotificationRequest</h4>
+  <div class="markdown level1 summary"><p>Contains the last Notification Request opened by a user, via the notification banner click
+Make sense to check this filed value on your app start. Before you subscribe to <a class="xref" href="SA.Android.App.AN_NotificationManager.html#SA_Android_App_AN_NotificationManager_OnNotificationClick">OnNotificationClick</a></p>
+<p>If value is not <code>null</code>, it mean that user has launched your app by clicking on notification banner.
+You can analyse the <a class="xref" href="SA.Android.App.AN_NotificationRequest.html">AN_NotificationRequest</a> that caused clicked notification to show up, 
+for better understanding the context user launched your app in.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AN_NotificationRequest LastOpenedNotificationRequest { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.App.AN_NotificationRequest.html">AN_NotificationRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationManager_OnNotificationClick_" data-uid="SA.Android.App.AN_NotificationManager.OnNotificationClick*"></a>
+  <h4 id="SA_Android_App_AN_NotificationManager_OnNotificationClick" data-uid="SA.Android.App.AN_NotificationManager.OnNotificationClick">OnNotificationClick</h4>
+  <div class="markdown level1 summary"><p>The event is fired when user clicked on local notification banner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SA_iEvent&lt;AN_NotificationRequest&gt; OnNotificationClick { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span>&lt;<a class="xref" href="SA.Android.App.AN_NotificationRequest.html">AN_NotificationRequest</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationManager_OnNotificationReceived_" data-uid="SA.Android.App.AN_NotificationManager.OnNotificationReceived*"></a>
+  <h4 id="SA_Android_App_AN_NotificationManager_OnNotificationReceived" data-uid="SA.Android.App.AN_NotificationManager.OnNotificationReceived">OnNotificationReceived</h4>
+  <div class="markdown level1 summary"><p>Event fired when local notification received </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SA_iEvent&lt;AN_NotificationRequest&gt; OnNotificationReceived { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_iEvent</span>&lt;<a class="xref" href="SA.Android.App.AN_NotificationRequest.html">AN_NotificationRequest</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_Android_App_AN_NotificationManager_Cancel_" data-uid="SA.Android.App.AN_NotificationManager.Cancel*"></a>
+  <h4 id="SA_Android_App_AN_NotificationManager_Cancel_System_Int32_" data-uid="SA.Android.App.AN_NotificationManager.Cancel(System.Int32)">Cancel(Int32)</h4>
+  <div class="markdown level1 summary"><p>Cancel a previously shown notification. 
+If it&apos;s transient, the view will be hidden. If it&apos;s persistent, it will be removed from the status bar.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Cancel(int Identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">Identifier</span></td>
+        <td><p>Notification request id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationManager_CancelAll_" data-uid="SA.Android.App.AN_NotificationManager.CancelAll*"></a>
+  <h4 id="SA_Android_App_AN_NotificationManager_CancelAll" data-uid="SA.Android.App.AN_NotificationManager.CancelAll">CancelAll()</h4>
+  <div class="markdown level1 summary"><p>Cancel all previously shown notifications.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CancelAll()</code></pre>
+  </div>
+  
+  
+  <a id="SA_Android_App_AN_NotificationManager_CreateNotificationChannel_" data-uid="SA.Android.App.AN_NotificationManager.CreateNotificationChannel*"></a>
+  <h4 id="SA_Android_App_AN_NotificationManager_CreateNotificationChannel_SA_Android_App_AN_NotificationChannel_" data-uid="SA.Android.App.AN_NotificationManager.CreateNotificationChannel(SA.Android.App.AN_NotificationChannel)">CreateNotificationChannel(AN_NotificationChannel)</h4>
+  <div class="markdown level1 summary"><p>Creates a notification channel that notifications can be posted to. 
+This can also be used to restore a deleted channel and to update an existing channel&apos;s name, description, group, and/or importance.</p>
+<p>The name and description should only be changed if the locale changes or in response to the user renaming this channel. 
+For example, if a user has a channel named &apos;John Doe&apos; that represents messages from a &apos;John Doe&apos;, 
+and &apos;John Doe&apos; changes his name to &apos;John Smith,&apos; the channel can be renamed to match.</p>
+<p>The importance of an existing channel will only be changed 
+if the new importance is lower than the current value and the user has not altered any settings on this channel.</p>
+<p>The group an existing channel will only be changed if the channel does not already belong to a group. 
+All other fields are ignored for channels that already exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateNotificationChannel(AN_NotificationChannel channel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.App.AN_NotificationChannel.html">AN_NotificationChannel</a></td>
+        <td><span class="parametername">channel</span></td>
+        <td><p>The channel to create. 
+Note that the created channel may differ from this value. 
+If the provided channel is malformed, a RemoteException will be thrown.
+This value must never be <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationManager_DeleteNotificationChannel_" data-uid="SA.Android.App.AN_NotificationManager.DeleteNotificationChannel*"></a>
+  <h4 id="SA_Android_App_AN_NotificationManager_DeleteNotificationChannel_System_String_" data-uid="SA.Android.App.AN_NotificationManager.DeleteNotificationChannel(System.String)">DeleteNotificationChannel(String)</h4>
+  <div class="markdown level1 summary"><p>Deletes the given notification channel.
+If you <a class="xref" href="SA.Android.App.AN_NotificationManager.html#SA_Android_App_AN_NotificationManager_CreateNotificationChannel_SA_Android_App_AN_NotificationChannel_">CreateNotificationChannel(AN_NotificationChannel)</a> with this same id, 
+the deleted channel will be un-deleted with all of the same settings it had before it was deleted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeleteNotificationChannel(string channelId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">channelId</span></td>
+        <td><p>Channel id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationManager_GetNotificationChannel_" data-uid="SA.Android.App.AN_NotificationManager.GetNotificationChannel*"></a>
+  <h4 id="SA_Android_App_AN_NotificationManager_GetNotificationChannel_System_String_" data-uid="SA.Android.App.AN_NotificationManager.GetNotificationChannel(System.String)">GetNotificationChannel(String)</h4>
+  <div class="markdown level1 summary"><p>Returns the notification channel settings for a given channel id. T
+he channel must belong to your package, or it will not be returned.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AN_NotificationChannel GetNotificationChannel(string channelId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">channelId</span></td>
+        <td><p>Channel id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.App.AN_NotificationChannel.html">AN_NotificationChannel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationManager_GetNotificationChannels_" data-uid="SA.Android.App.AN_NotificationManager.GetNotificationChannels*"></a>
+  <h4 id="SA_Android_App_AN_NotificationManager_GetNotificationChannels" data-uid="SA.Android.App.AN_NotificationManager.GetNotificationChannels">GetNotificationChannels()</h4>
+  <div class="markdown level1 summary"><p>Returns all notification channels belonging to the calling package.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;AN_NotificationChannel&gt; GetNotificationChannels()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="SA.Android.App.AN_NotificationChannel.html">AN_NotificationChannel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationManager_Schedule_" data-uid="SA.Android.App.AN_NotificationManager.Schedule*"></a>
+  <h4 id="SA_Android_App_AN_NotificationManager_Schedule_SA_Android_App_AN_NotificationRequest_" data-uid="SA.Android.App.AN_NotificationManager.Schedule(SA.Android.App.AN_NotificationRequest)">Schedule(AN_NotificationRequest)</h4>
+  <div class="markdown level1 summary"><p>Schedules a local notification for delivery.
+See <a class="xref" href="SA.Android.App.AN_NotificationManager.html#SA_Android_App_AN_NotificationManager_Cancel_System_Int32_">Cancel(Int32)</a> for the detailed behavior.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Schedule(AN_NotificationRequest request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.App.AN_NotificationRequest.html">AN_NotificationRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>The notification request to schedule.This parameter must not be <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationManager_Unschedule_" data-uid="SA.Android.App.AN_NotificationManager.Unschedule*"></a>
+  <h4 id="SA_Android_App_AN_NotificationManager_Unschedule_SA_Android_App_AN_NotificationRequest_" data-uid="SA.Android.App.AN_NotificationManager.Unschedule(SA.Android.App.AN_NotificationRequest)">Unschedule(AN_NotificationRequest)</h4>
+  <div class="markdown level1 summary"><p>Unschedule the specified notification request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Unschedule(AN_NotificationRequest request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.App.AN_NotificationRequest.html">AN_NotificationRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>request to Unschedule.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationManager_Unschedule_" data-uid="SA.Android.App.AN_NotificationManager.Unschedule*"></a>
+  <h4 id="SA_Android_App_AN_NotificationManager_Unschedule_System_Int32_" data-uid="SA.Android.App.AN_NotificationManager.Unschedule(System.Int32)">Unschedule(Int32)</h4>
+  <div class="markdown level1 summary"><p>Unschedule the specified notification request by id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Unschedule(int Identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">Identifier</span></td>
+        <td><p>notification request id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_App_AN_NotificationManager_UnscheduleAll_" data-uid="SA.Android.App.AN_NotificationManager.UnscheduleAll*"></a>
+  <h4 id="SA_Android_App_AN_NotificationManager_UnscheduleAll" data-uid="SA.Android.App.AN_NotificationManager.UnscheduleAll">UnscheduleAll()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UnscheduleAll()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

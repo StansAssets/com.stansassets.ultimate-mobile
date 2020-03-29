@@ -1,0 +1,518 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface AN_iRoomStatusUpdateCallback
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface AN_iRoomStatusUpdateCallback
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback">
+  
+  
+  <h1 id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback" class="text-break">Interface AN_iRoomStatusUpdateCallback
+  </h1>
+  <div class="markdown level0 summary"><p>The callback invoked when the status of a room,
+status of its participants or connection status of the participants has changed.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.Android.GMS.Games.Multiplayer.html">SA.Android.GMS.Games.Multiplayer</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface AN_iRoomStatusUpdateCallback</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnConnectedToRoom_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnConnectedToRoom*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnConnectedToRoom_SA_Android_GMS_Games_Multiplayer_AN_Room_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnConnectedToRoom(SA.Android.GMS.Games.Multiplayer.AN_Room)">OnConnectedToRoom(AN_Room)</h4>
+  <div class="markdown level1 summary"><p>Called when the client is connected to the connected set in a room.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnConnectedToRoom(AN_Room room)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Room.html">AN_Room</a></td>
+        <td><span class="parametername">room</span></td>
+        <td><p>The room data with the status of a room and its participants.
+The room can be null if it could not be loaded successfully.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnDisconnectedFromRoom_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnDisconnectedFromRoom*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnDisconnectedFromRoom_SA_Android_GMS_Games_Multiplayer_AN_Room_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnDisconnectedFromRoom(SA.Android.GMS.Games.Multiplayer.AN_Room)">OnDisconnectedFromRoom(AN_Room)</h4>
+  <div class="markdown level1 summary"><p>Called when the client is disconnected from the connected set in a room.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnDisconnectedFromRoom(AN_Room room)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Room.html">AN_Room</a></td>
+        <td><span class="parametername">room</span></td>
+        <td><p>The room data with the status of a room and its participants.
+The room can be null if it could not be loaded successfully.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnP2PConnected_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnP2PConnected*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnP2PConnected_System_String_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnP2PConnected(System.String)">OnP2PConnected(String)</h4>
+  <div class="markdown level1 summary"><p>Called when the client is successfully connected to a peer participant.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnP2PConnected(string participantId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">participantId</span></td>
+        <td><p>ID of the peer participant who was successfully connected.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnP2PDisconnected_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnP2PDisconnected*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnP2PDisconnected_System_String_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnP2PDisconnected(System.String)">OnP2PDisconnected(String)</h4>
+  <div class="markdown level1 summary"><p>Called when client gets disconnected from a peer participant.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnP2PDisconnected(string participantId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">participantId</span></td>
+        <td><p>ID of the peer participant who was disconnected.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnPeerDeclined_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnPeerDeclined*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnPeerDeclined_SA_Android_GMS_Games_Multiplayer_AN_Room_List_System_String__" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnPeerDeclined(SA.Android.GMS.Games.Multiplayer.AN_Room,List{System.String})">OnPeerDeclined(AN_Room, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Called when one or more peers decline the invitation to a room.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnPeerDeclined(AN_Room room, List&lt;string&gt; participantIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Room.html">AN_Room</a></td>
+        <td><span class="parametername">room</span></td>
+        <td><p>The room data with the status of a room and its participants.
+The room can be null if it could not be loaded successfully.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">participantIds</span></td>
+        <td><p>IDs of the peers invited to a room.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnPeerInvitedToRoom_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnPeerInvitedToRoom*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnPeerInvitedToRoom_SA_Android_GMS_Games_Multiplayer_AN_Room_List_System_String__" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnPeerInvitedToRoom(SA.Android.GMS.Games.Multiplayer.AN_Room,List{System.String})">OnPeerInvitedToRoom(AN_Room, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Called when one or more peers are invited to a room.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnPeerInvitedToRoom(AN_Room room, List&lt;string&gt; participantIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Room.html">AN_Room</a></td>
+        <td><span class="parametername">room</span></td>
+        <td><p>The room data with the status of a room and its participants.
+The room can be null if it could not be loaded successfully.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">participantIds</span></td>
+        <td><p>IDs of the peers invited to a room.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnPeerJoined_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnPeerJoined*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnPeerJoined_SA_Android_GMS_Games_Multiplayer_AN_Room_List_System_String__" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnPeerJoined(SA.Android.GMS.Games.Multiplayer.AN_Room,List{System.String})">OnPeerJoined(AN_Room, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Called when one or more peer participants join a room.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnPeerJoined(AN_Room room, List&lt;string&gt; participantIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Room.html">AN_Room</a></td>
+        <td><span class="parametername">room</span></td>
+        <td><p>The room data with the status of a room and its participants.
+The room can be null if it could not be loaded successfully.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">participantIds</span></td>
+        <td><p>IDs of peer participants who joined a room.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnPeerLeft_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnPeerLeft*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnPeerLeft_SA_Android_GMS_Games_Multiplayer_AN_Room_List_System_String__" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnPeerLeft(SA.Android.GMS.Games.Multiplayer.AN_Room,List{System.String})">OnPeerLeft(AN_Room, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Called when one or more peer participant leave a room.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnPeerLeft(AN_Room room, List&lt;string&gt; participantIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Room.html">AN_Room</a></td>
+        <td><span class="parametername">room</span></td>
+        <td><p>The room data with the status of a room and its participants.
+The room can be null if it could not be loaded successfully.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">participantIds</span></td>
+        <td><p>IDs of peer participants who left the room.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnPeersConnected_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnPeersConnected*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnPeersConnected_SA_Android_GMS_Games_Multiplayer_AN_Room_List_System_String__" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnPeersConnected(SA.Android.GMS.Games.Multiplayer.AN_Room,List{System.String})">OnPeersConnected(AN_Room, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Called when one or more peer participants are connected to a room.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnPeersConnected(AN_Room room, List&lt;string&gt; participantIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Room.html">AN_Room</a></td>
+        <td><span class="parametername">room</span></td>
+        <td><p>The room data with the status of a room and its participants.
+The room can be null if it could not be loaded successfully.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">participantIds</span></td>
+        <td><p>IDs of peer participants who were connected.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnPeersDisconnected_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnPeersDisconnected*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnPeersDisconnected_SA_Android_GMS_Games_Multiplayer_AN_Room_List_System_String__" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnPeersDisconnected(SA.Android.GMS.Games.Multiplayer.AN_Room,List{System.String})">OnPeersDisconnected(AN_Room, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Called when one or more peer participants are disconnected from a room.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnPeersDisconnected(AN_Room room, List&lt;string&gt; participantIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Room.html">AN_Room</a></td>
+        <td><span class="parametername">room</span></td>
+        <td><p>The room data with the status of a room and its participants.
+The room can be null if it could not be loaded successfully.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">participantIds</span></td>
+        <td><p>IDs of peer participants who were disconnected.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnRoomAutoMatching_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnRoomAutoMatching*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnRoomAutoMatching_SA_Android_GMS_Games_Multiplayer_AN_Room_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnRoomAutoMatching(SA.Android.GMS.Games.Multiplayer.AN_Room)">OnRoomAutoMatching(AN_Room)</h4>
+  <div class="markdown level1 summary"><p>Called when the server has started the process of auto-matching.
+Any invited participants must have joined and fully connected to each other before this will occur.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnRoomAutoMatching(AN_Room room)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Room.html">AN_Room</a></td>
+        <td><span class="parametername">room</span></td>
+        <td><p>he room data with the status of a room and its participants.
+The room can be null if it could not be loaded successfully.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnRoomConnecting_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnRoomConnecting*"></a>
+  <h4 id="SA_Android_GMS_Games_Multiplayer_AN_iRoomStatusUpdateCallback_OnRoomConnecting_SA_Android_GMS_Games_Multiplayer_AN_Room_" data-uid="SA.Android.GMS.Games.Multiplayer.AN_iRoomStatusUpdateCallback.OnRoomConnecting(SA.Android.GMS.Games.Multiplayer.AN_Room)">OnRoomConnecting(AN_Room)</h4>
+  <div class="markdown level1 summary"><p>Called when one or more participants have joined the room
+and have started the process of establishing peer connections.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnRoomConnecting(AN_Room room)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.GMS.Games.Multiplayer.AN_Room.html">AN_Room</a></td>
+        <td><span class="parametername">room</span></td>
+        <td><p>The room data with the status of a room and its participants. The room can be null if it could not be loaded successfully.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

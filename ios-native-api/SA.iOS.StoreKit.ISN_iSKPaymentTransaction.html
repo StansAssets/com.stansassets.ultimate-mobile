@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ISN_iSKPaymentTransaction
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ISN_iSKPaymentTransaction
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransaction">
+  
+  
+  <h1 id="SA_iOS_StoreKit_ISN_iSKPaymentTransaction" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransaction" class="text-break">Interface ISN_iSKPaymentTransaction
+  </h1>
+  <div class="markdown level0 summary"><p>A payment transaction is created whenever a payment is added to the payment queue.
+Transactions are delivered to your app when the App Store has finished processing the payment.
+Completed transactions provide a receipt and transaction identifier that your app can use to save a permanent record of the processed payment.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.StoreKit.html">SA.iOS.StoreKit</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_iOS_StoreKit_ISN_iSKPaymentTransaction_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISN_iSKPaymentTransaction : SA_iResult</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_iSKPaymentTransaction_Date_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.Date*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_iSKPaymentTransaction_Date" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.Date">Date</h4>
+  <div class="markdown level1 summary"><p>The date the transaction was added to the App Store’s payment queue.</p>
+<p>The contents of this property are undefined except when <a class="xref" href="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.html#SA_iOS_StoreKit_ISN_iSKPaymentTransaction_State">State</a> 
+is set to <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentTransactionState.html#SA_iOS_StoreKit_ISN_SKPaymentTransactionState_Purchased">Purchased</a> or <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentTransactionState.html#SA_iOS_StoreKit_ISN_SKPaymentTransactionState_Restored">Restored</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DateTime Date { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_iSKPaymentTransaction_OriginalTransaction_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.OriginalTransaction*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_iSKPaymentTransaction_OriginalTransaction" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.OriginalTransaction">OriginalTransaction</h4>
+  <div class="markdown level1 summary"><p>The transaction that was restored by the App Store.</p>
+<p>The contents of this property are undefined except when <a class="xref" href="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.html#SA_iOS_StoreKit_ISN_iSKPaymentTransaction_State">State</a> 
+is set to <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentTransactionState.html#SA_iOS_StoreKit_ISN_SKPaymentTransactionState_Restored">Restored</a>. 
+When a transaction is restored, the current transaction holds a new transaction identifier, receipt, and so on. 
+Your application will read this property to retrieve the restored transaction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ISN_iSKPaymentTransaction OriginalTransaction { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.html">ISN_iSKPaymentTransaction</a></td>
+        <td><p>The original transaction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_iSKPaymentTransaction_Product_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.Product*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_iSKPaymentTransaction_Product" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.Product">Product</h4>
+  <div class="markdown level1 summary"><p>Gets the associated product with this transaction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ISN_SKProduct Product { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.StoreKit.ISN_SKProduct.html">ISN_SKProduct</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_iSKPaymentTransaction_ProductIdentifier_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.ProductIdentifier*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_iSKPaymentTransaction_ProductIdentifier" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.ProductIdentifier">ProductIdentifier</h4>
+  <div class="markdown level1 summary"><p>A string used to identify a product that can be purchased from within your application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string ProductIdentifier { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_iSKPaymentTransaction_State_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.State*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_iSKPaymentTransaction_State" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.State">State</h4>
+  <div class="markdown level1 summary"><p>An object describing the error that occurred while processing the transaction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ISN_SKPaymentTransactionState State { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentTransactionState.html">ISN_SKPaymentTransactionState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_iSKPaymentTransaction_TransactionIdentifier_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.TransactionIdentifier*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_iSKPaymentTransaction_TransactionIdentifier" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.TransactionIdentifier">TransactionIdentifier</h4>
+  <div class="markdown level1 summary"><p>A string that uniquely identifies a successful payment transaction.</p>
+<p>The contents of this property are undefined except when <a class="xref" href="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.html#SA_iOS_StoreKit_ISN_iSKPaymentTransaction_State">State</a> 
+is set to <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentTransactionState.html#SA_iOS_StoreKit_ISN_SKPaymentTransactionState_Purchased">Purchased</a> or <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentTransactionState.html#SA_iOS_StoreKit_ISN_SKPaymentTransactionState_Restored">Restored</a>. 
+The transactionIdentifier is a string that uniquely identifies the processed payment. 
+Your application may wish to record this string as part of an audit trail for App Store purchases. 
+See <a href="https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/StoreKitGuide/Introduction.html#//apple_ref/doc/uid/TP40008267"> In-App Purchase Programming Guide </a> for more information. </p>
+<p>The value of this property corresponds to the Transaction Identifier property in the <a href="https://developer.apple.com/library/content/releasenotes/General/ValidateAppStoreReceipt/Chapters/ReceiptFields.html#//apple_ref/doc/uid/TP40010573-CH106-SW13">receipt </a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string TransactionIdentifier { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

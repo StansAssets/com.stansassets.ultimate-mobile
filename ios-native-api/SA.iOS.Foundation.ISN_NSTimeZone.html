@@ -1,0 +1,362 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ISN_NSTimeZone
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ISN_NSTimeZone
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.iOS.Foundation.ISN_NSTimeZone">
+  
+  
+  <h1 id="SA_iOS_Foundation_ISN_NSTimeZone" data-uid="SA.iOS.Foundation.ISN_NSTimeZone" class="text-break">Class ISN_NSTimeZone
+  </h1>
+  <div class="markdown level0 summary"><p>Information about standard time conventions associated with a specific geopolitical region.</p>
+<p>Time zones represent the standard time policies for a geopolitical region.
+Time zones have identifiers like “America/Los_Angeles” and can also be identified by abbreviations,
+such as PST for Pacific Standard Time.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ISN_NSTimeZone</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.Foundation.html">SA.iOS.Foundation</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_iOS_Foundation_ISN_NSTimeZone_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ISN_NSTimeZone</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SA_iOS_Foundation_ISN_NSTimeZone_DefaultTimeZone_" data-uid="SA.iOS.Foundation.ISN_NSTimeZone.DefaultTimeZone*"></a>
+  <h4 id="SA_iOS_Foundation_ISN_NSTimeZone_DefaultTimeZone" data-uid="SA.iOS.Foundation.ISN_NSTimeZone.DefaultTimeZone">DefaultTimeZone</h4>
+  <div class="markdown level1 summary"><p>The default time zone for the current app.</p>
+<p>If no <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_DefaultTimeZone">DefaultTimeZone</a> time zone has been set, the current system time zone is used.
+If the current system time zone cannot be determined, the GMT time zone is used instead.</p>
+<p>The <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_DefaultTimeZone">DefaultTimeZone</a> time zone is used by the app for date and time operations.
+You can set it to cause the app to run as if it were in a different time zone.
+Setting the <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_DefaultTimeZone">DefaultTimeZone</a> property clears any value that was previously set.</p>
+<p>If you access the <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_DefaultTimeZone">DefaultTimeZone</a> class property,
+assign its value to a variable, and set a new defaultTimeZone time zone,
+the object stored in the variable doesn&apos;t update to reflect the new defaultTimeZone time zone.
+Contrast this behavior with that of the localTimeZone class property,
+which returns a proxy object that always reflects the current system time zone.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ISN_NSTimeZone DefaultTimeZone { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html">ISN_NSTimeZone</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_Foundation_ISN_NSTimeZone_Description_" data-uid="SA.iOS.Foundation.ISN_NSTimeZone.Description*"></a>
+  <h4 id="SA_iOS_Foundation_ISN_NSTimeZone_Description" data-uid="SA.iOS.Foundation.ISN_NSTimeZone.Description">Description</h4>
+  <div class="markdown level1 summary"><p>A textual description of the time zone including the name, abbreviation,
+offset from GMT, and whether or not daylight saving time is currently in effect.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Description { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_Foundation_ISN_NSTimeZone_LocalTimeZone_" data-uid="SA.iOS.Foundation.ISN_NSTimeZone.LocalTimeZone*"></a>
+  <h4 id="SA_iOS_Foundation_ISN_NSTimeZone_LocalTimeZone" data-uid="SA.iOS.Foundation.ISN_NSTimeZone.LocalTimeZone">LocalTimeZone</h4>
+  <div class="markdown level1 summary"><p>Gets the local time zone.</p>
+<p>If the current system time zone cannot be determined, the GMT time zone is used instead.</p>
+<p>If you access the  <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_SystemTimeZone">SystemTimeZone</a> class property,
+its value is cached by the app and doesn&apos;t update if the user subsequently changes the system time zone.
+In order for the systemTimeZone property to reflect the new time zone,
+you must first call the <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_ResetSystemTimeZone">ResetSystemTimeZone()</a> method to clear the cached value.
+Then, the next time you access the <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_SystemTimeZone">SystemTimeZone</a> property,
+it returns the current system time zone, and caches that value.</p>
+<p>If you access the  <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_SystemTimeZone">SystemTimeZone</a>  class property, assign its value to a variable,
+and clear the cached value for the property by calling the <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_ResetSystemTimeZone">ResetSystemTimeZone()</a> method,
+the object stored in the variable doesn&apos;t update to reflect the new system time zone.
+Contrast this behavior with that of the <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_LocalTimeZone">LocalTimeZone</a> class property,
+which returns a proxy object that always reflects the current system time zone.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ISN_NSTimeZone LocalTimeZone { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html">ISN_NSTimeZone</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_Foundation_ISN_NSTimeZone_Name_" data-uid="SA.iOS.Foundation.ISN_NSTimeZone.Name*"></a>
+  <h4 id="SA_iOS_Foundation_ISN_NSTimeZone_Name" data-uid="SA.iOS.Foundation.ISN_NSTimeZone.Name">Name</h4>
+  <div class="markdown level1 summary"><p>The geopolitical region ID that identifies the receiver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_Foundation_ISN_NSTimeZone_SecondsFromGMT_" data-uid="SA.iOS.Foundation.ISN_NSTimeZone.SecondsFromGMT*"></a>
+  <h4 id="SA_iOS_Foundation_ISN_NSTimeZone_SecondsFromGMT" data-uid="SA.iOS.Foundation.ISN_NSTimeZone.SecondsFromGMT">SecondsFromGMT</h4>
+  <div class="markdown level1 summary"><p>The current difference in seconds between the receiver and Greenwich Mean Time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SecondsFromGMT { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_Foundation_ISN_NSTimeZone_SystemTimeZone_" data-uid="SA.iOS.Foundation.ISN_NSTimeZone.SystemTimeZone*"></a>
+  <h4 id="SA_iOS_Foundation_ISN_NSTimeZone_SystemTimeZone" data-uid="SA.iOS.Foundation.ISN_NSTimeZone.SystemTimeZone">SystemTimeZone</h4>
+  <div class="markdown level1 summary"><p>Gets the local time zone.</p>
+<p>If the current system time zone cannot be determined, the GMT time zone is used instead.</p>
+<p>If you access the  <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_SystemTimeZone">SystemTimeZone</a> class property,
+its value is cached by the app and doesn&apos;t update if the user subsequently changes the system time zone.
+In order for the systemTimeZone property to reflect the new time zone,
+you must first call the <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_ResetSystemTimeZone">ResetSystemTimeZone()</a> method to clear the cached value.
+Then, the next time you access the <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_SystemTimeZone">SystemTimeZone</a> property,
+it returns the current system time zone, and caches that value.</p>
+<p>If you access the  <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_SystemTimeZone">SystemTimeZone</a>  class property, assign its value to a variable,
+and clear the cached value for the property by calling the <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_ResetSystemTimeZone">ResetSystemTimeZone()</a> method,
+the object stored in the variable doesn&apos;t update to reflect the new system time zone.
+Contrast this behavior with that of the <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_LocalTimeZone">LocalTimeZone</a> class property,
+which returns a proxy object that always reflects the current system time zone.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ISN_NSTimeZone SystemTimeZone { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html">ISN_NSTimeZone</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_iOS_Foundation_ISN_NSTimeZone_ResetSystemTimeZone_" data-uid="SA.iOS.Foundation.ISN_NSTimeZone.ResetSystemTimeZone*"></a>
+  <h4 id="SA_iOS_Foundation_ISN_NSTimeZone_ResetSystemTimeZone" data-uid="SA.iOS.Foundation.ISN_NSTimeZone.ResetSystemTimeZone">ResetSystemTimeZone()</h4>
+  <div class="markdown level1 summary"><p>Clears any time zone value cached for the systemTimeZone property.</p>
+<p>If the app has cached the system time zone by accessing the <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_SystemTimeZone">SystemTimeZone</a> class property,
+this method clears that cached value.
+If you subsequently access the  <a class="xref" href="SA.iOS.Foundation.ISN_NSTimeZone.html#SA_iOS_Foundation_ISN_NSTimeZone_SystemTimeZone">SystemTimeZone</a> class property,
+a new time zone object is created and cached.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ResetSystemTimeZone()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

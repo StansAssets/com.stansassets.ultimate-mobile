@@ -1,0 +1,437 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AN_AchievementsClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AN_AchievementsClient
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.Android.GMS.Games.AN_AchievementsClient">
+  
+  
+  <h1 id="SA_Android_GMS_Games_AN_AchievementsClient" data-uid="SA.Android.GMS.Games.AN_AchievementsClient" class="text-break">Class AN_AchievementsClient
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AN_AchievementsClient</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.Android.GMS.Games.html">SA.Android.GMS.Games</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_Android_GMS_Games_AN_AchievementsClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AN_AchievementsClient : AN_LinkedObject</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_AchievementsClient_GetAchievementsIntent_" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.GetAchievementsIntent*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_AchievementsClient_GetAchievementsIntent_Action_SA_Android_GMS_Games_AN_IntentResult__" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.GetAchievementsIntent(Action{SA.Android.GMS.Games.AN_IntentResult})">GetAchievementsIntent(Action&lt;AN_IntentResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns a callback which asynchronously loads an <a class="xref" href="SA.Android.Content.AN_Intent.html">AN_Intent</a>
+to show the list of achievements for a game.
+Note that the <a class="xref" href="SA.Android.Content.AN_Intent.html">AN_Intent</a> returned from the callback must be invoked with startActivityForResult,
+so that the identity of the calling package can be established.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetAchievementsIntent(Action&lt;AN_IntentResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.Android.GMS.Games.AN_IntentResult.html">AN_IntentResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_AchievementsClient_Increment_" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.Increment*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_AchievementsClient_Increment_System_String_System_Int32_" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.Increment(System.String,System.Int32)">Increment(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Increments an achievement by the given number of steps.
+The achievement must be an incremental achievement.
+Once an achievement reaches at least the maximum number of steps, it will be unlocked automatically.
+Any further increments will be ignored.</p>
+<p>This is the fire-and-forget form of the API.
+Use this form if you don&apos;t need to know the status of the operation immediately.
+For most applications, this will be the preferred API to use,
+though note that the update may not be sent to the server until the next sync.
+Ask about incrementImmediate(String, int) if you need the operation to attempt to communicate to the server immediately
+or need to have the status code delivered to your application.</p>
+<p>Required Scopes: SCOPE_GAMES_LITE</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Increment(string achievementId, int numSteps)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">achievementId</span></td>
+        <td><p>The achievement ID to increment.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">numSteps</span></td>
+        <td><p>The number of steps to increment by. Must be greater than 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_AchievementsClient_IncrementImmediate_" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.IncrementImmediate*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_AchievementsClient_IncrementImmediate_System_String_System_Int32_Action_SA_Android_GMS_Games_AN_AchievementIncrementResult__" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.IncrementImmediate(System.String,System.Int32,Action{SA.Android.GMS.Games.AN_AchievementIncrementResult})">IncrementImmediate(String, Int32, Action&lt;AN_AchievementIncrementResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously increments an achievement by the given number of steps.
+The achievement must be an incremental achievement.
+Once an achievement reaches at least the maximum number of steps, it will be unlocked automatically.
+Any further increments will be ignored.</p>
+<p>This form of the API will attempt to update the user&apos;s achievement on the server immediately.
+The result successful response indicates whether the achievement is now unlocked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void IncrementImmediate(string achievementId, int numSteps, Action&lt;AN_AchievementIncrementResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">achievementId</span></td>
+        <td><p>The ID of the achievement to increment.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">numSteps</span></td>
+        <td><p>The number of steps to increment by. Must be greater than 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.Android.GMS.Games.AN_AchievementIncrementResult.html">AN_AchievementIncrementResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Result callback</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_AchievementsClient_Load_" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.Load*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_AchievementsClient_Load_System_Boolean_Action_SA_Android_GMS_Games_AN_AchievementsLoadResult__" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.Load(System.Boolean,Action{SA.Android.GMS.Games.AN_AchievementsLoadResult})">Load(Boolean, Action&lt;AN_AchievementsLoadResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously loads an <a class="xref" href="SA.Android.GMS.Games.AN_AchievementsLoadResult.html">AN_AchievementsLoadResult</a> that represents the achievement data for the currently signed-in player.</p>
+<p>Required Scopes: SCOPE_GAMES_LITE</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load(bool forceReload, Action&lt;AN_AchievementsLoadResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">forceReload</span></td>
+        <td><p>If <code>&gt;true</code>, this call will clear any locally cached data and attempt to fetch the latest data from the server.
+This would commonly be used for something like a user-initiated refresh.
+Normally, this should be set to <code>false</code> to gain advantages of data caching.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.Android.GMS.Games.AN_AchievementsLoadResult.html">AN_AchievementsLoadResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Load callback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_AchievementsClient_Reveal_" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.Reveal*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_AchievementsClient_Reveal_String_" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.Reveal(String)">Reveal(String)</h4>
+  <div class="markdown level1 summary"><p>Reveals a hidden achievement to the currently signed-in player.
+If the achievement has already been unlocked, this will have no effect.</p>
+<p>This is the fire-and-forget form of the API.
+Use this form if you don&apos;t need to know the status of the operation immediately.
+For most applications, this will be the preferred API to use,
+though note that the update may not be sent to the server until the next sync.
+Ask about RevealImmediate(String, int) if you need the operation to attempt to communicate to the server immediately
+or need to have the status code delivered to your application.</p>
+<p>Required Scopes: SCOPE_GAMES_LITE</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reveal(String achievementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">String</span></td>
+        <td><span class="parametername">achievementId</span></td>
+        <td><p>The achievement ID to reveal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_AchievementsClient_RevealImmediate_" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.RevealImmediate*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_AchievementsClient_RevealImmediate_System_String_Action_SA_Result__" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.RevealImmediate(System.String,Action{SA_Result})">RevealImmediate(String, Action&lt;SA_Result&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously reveals a hidden achievement to the currently signed in player.
+If the achievement is already visible, this will have no effect.</p>
+<p>This form of the API will attempt to update the user&apos;s achievement on the server immediately.
+If the Result callback is successful the server has been updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RevealImmediate(string achievementId, Action&lt;SA_Result&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">achievementId</span></td>
+        <td><p>The achievement ID to reveal.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Result callback</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_AchievementsClient_Unlock_" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.Unlock*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_AchievementsClient_Unlock_System_String_" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.Unlock(System.String)">Unlock(String)</h4>
+  <div class="markdown level1 summary"><p>Unlocks an achievement for the currently signed in player.
+If the achievement is hidden this will reveal it to the player.</p>
+<p>This is the fire-and-forget form of the API.
+Use this form if you don&apos;t need to know the status of the operation immediately.
+For most applications, this will be the preferred API to use,
+though note that the update may not be sent to the server until the next sync.
+Ask about RevealImmediate(String, int) if you need the operation to attempt to communicate to the server immediately
+or need to have the status code delivered to your application.</p>
+<p>Required Scopes: SCOPE_GAMES_LITE</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Unlock(string achievementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">achievementId</span></td>
+        <td><p>The achievement ID to unlock.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_GMS_Games_AN_AchievementsClient_UnlockImmediate_" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.UnlockImmediate*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_AchievementsClient_UnlockImmediate_System_String_Action_SA_Result__" data-uid="SA.Android.GMS.Games.AN_AchievementsClient.UnlockImmediate(System.String,Action{SA_Result})">UnlockImmediate(String, Action&lt;SA_Result&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously unlocks an achievement for the currently signed in player.
+If the achievement is hidden this will reveal it to the player.</p>
+<p>This form of the API will attempt to update the user&apos;s achievement on the server immediately.
+The callback will complete successfully when the server has been updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnlockImmediate(string achievementId, Action&lt;SA_Result&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">achievementId</span></td>
+        <td><p>The achievement ID to unlock.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Result callback</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

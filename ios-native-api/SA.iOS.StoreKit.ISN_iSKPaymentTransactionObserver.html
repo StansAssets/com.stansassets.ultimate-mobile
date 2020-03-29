@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ISN_iSKPaymentTransactionObserver
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ISN_iSKPaymentTransactionObserver
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver">
+  
+  
+  <h1 id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver" class="text-break">Interface ISN_iSKPaymentTransactionObserver
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.StoreKit.html">SA.iOS.StoreKit</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISN_iSKPaymentTransactionObserver</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_DidChangeStorefront_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.DidChangeStorefront*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_DidChangeStorefront" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.DidChangeStorefront">DidChangeStorefront()</h4>
+  <div class="markdown level1 summary"><p>Tells the observer that the storefront for the payment queue has changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DidChangeStorefront()</code></pre>
+  </div>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_OnRestoreTransactionsComplete_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.OnRestoreTransactionsComplete*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_OnRestoreTransactionsComplete_SA_Result_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.OnRestoreTransactionsComplete(SA_Result)">OnRestoreTransactionsComplete(SA_Result)</h4>
+  <div class="markdown level1 summary"><p>Tells the observer that the payment queue has finished sending restored transactions.</p>
+<p>This method is called after all restartable transactions have been processed by the payment queue. 
+Your application is not required to do anything in this method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnRestoreTransactionsComplete(SA_Result result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SA_Result</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_OnShouldAddStorePayment_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.OnShouldAddStorePayment*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_OnShouldAddStorePayment_SA_iOS_StoreKit_ISN_SKProduct_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.OnShouldAddStorePayment(SA.iOS.StoreKit.ISN_SKProduct)">OnShouldAddStorePayment(ISN_SKProduct)</h4>
+  <div class="markdown level1 summary"><p>Tells the observer that a user initiated an in-app purchase from the App Store.</p>
+<p>Return true to continue the transaction in your app.
+Return false to defer or cancel the transaction.
+If you return false, you can continue the transaction later using requetsed <a class="xref" href="SA.iOS.StoreKit.ISN_SKProduct.html">ISN_SKProduct</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool OnShouldAddStorePayment(ISN_SKProduct product)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.StoreKit.ISN_SKProduct.html">ISN_SKProduct</a></td>
+        <td><span class="parametername">product</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_OnTransactionRemoved_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.OnTransactionRemoved*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_OnTransactionRemoved_SA_iOS_StoreKit_ISN_iSKPaymentTransaction_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.OnTransactionRemoved(SA.iOS.StoreKit.ISN_iSKPaymentTransaction)">OnTransactionRemoved(ISN_iSKPaymentTransaction)</h4>
+  <div class="markdown level1 summary"><p>Tells an observer that one or more transactions have been removed from the queue.</p>
+<p>Your application does not typically need to anything on this event,<br>but it may be used to update user interface to reflect that a transaction has been completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnTransactionRemoved(ISN_iSKPaymentTransaction result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.html">ISN_iSKPaymentTransaction</a></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_OnTransactionUpdated_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.OnTransactionUpdated*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_OnTransactionUpdated_SA_iOS_StoreKit_ISN_iSKPaymentTransaction_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.OnTransactionUpdated(SA.iOS.StoreKit.ISN_iSKPaymentTransaction)">OnTransactionUpdated(ISN_iSKPaymentTransaction)</h4>
+  <div class="markdown level1 summary"><p>Tells an observer that one or more transactions have been updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnTransactionUpdated(ISN_iSKPaymentTransaction result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.html">ISN_iSKPaymentTransaction</a></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

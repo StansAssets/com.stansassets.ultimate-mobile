@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Enum AN_CommonStatusCodes
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Enum AN_CommonStatusCodes
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.Android.GMS.Common.AN_CommonStatusCodes">
+  
+  
+  <h1 id="SA_Android_GMS_Common_AN_CommonStatusCodes" data-uid="SA.Android.GMS.Common.AN_CommonStatusCodes" class="text-break">Enum AN_CommonStatusCodes
+  </h1>
+  <div class="markdown level0 summary"><p>Common status codes that are often shared across API surfaces.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.Android.GMS.Common.html">SA.Android.GMS.Common</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_Android_GMS_Common_AN_CommonStatusCodes_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public enum AN_CommonStatusCodes</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    <thead>
+    <tbody>
+      <tr>
+        <td id="SA_Android_GMS_Common_AN_CommonStatusCodes_API_NOT_CONNECTED">API_NOT_CONNECTED</td>
+        <td><p>The client attempted to call a method from an API that failed to connect. Possible reasons include:
+The API previously failed to connect with a resolvable error, but the user declined the resolution.
+The device does not support GmsCore.
+The specific API cannot connect on this device.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="SA_Android_GMS_Common_AN_CommonStatusCodes_CANCELED">CANCELED</td>
+        <td><p>The result was canceled either due to client disconnect or cancel.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="SA_Android_GMS_Common_AN_CommonStatusCodes_DEVELOPER_ERROR">DEVELOPER_ERROR</td>
+        <td><p>The application is misconfigured. This error is not recoverable and will be treated as fatal.
+The developer should look at the logs after this to determine more actionable information.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="SA_Android_GMS_Common_AN_CommonStatusCodes_ERROR">ERROR</td>
+        <td><p>The operation failed with no more detailed information.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="SA_Android_GMS_Common_AN_CommonStatusCodes_INTERNAL_ERROR">INTERNAL_ERROR</td>
+        <td><p>An internal error occurred. Retrying should resolve the problem.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="SA_Android_GMS_Common_AN_CommonStatusCodes_INTERRUPTED">INTERRUPTED</td>
+        <td><p>A blocking call was interrupted while waiting and did not run to completion.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="SA_Android_GMS_Common_AN_CommonStatusCodes_INVALID_ACCOUNT">INVALID_ACCOUNT</td>
+        <td><p>The client attempted to connect to the service with an invalid account name specified.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="SA_Android_GMS_Common_AN_CommonStatusCodes_NETWORK_ERROR">NETWORK_ERROR</td>
+        <td><p>A network error occurred. Retrying should resolve the problem.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="SA_Android_GMS_Common_AN_CommonStatusCodes_RESOLUTION_REQUIRED">RESOLUTION_REQUIRED</td>
+        <td><p>Completing the operation requires some form of resolution.
+A resolution will be available to be started with startResolutionForResult(Activity, int).
+If the result returned is RESULT_OK,
+then further attempts should either complete or continue on to the next issue that needs to be resolved.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="SA_Android_GMS_Common_AN_CommonStatusCodes_SIGN_IN_REQUIRED">SIGN_IN_REQUIRED</td>
+        <td><p>The client attempted to connect to the service but the user is not signed in.
+The client may choose to continue without using the API.
+Alternately, if hasResolution() returns true the client may call startResolutionForResult(Activity, int)
+to prompt the user to sign in. After the sign in activity returns with RESULT_OK further attempts should succeed.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="SA_Android_GMS_Common_AN_CommonStatusCodes_SUCCESS">SUCCESS</td>
+        <td><p>The operation was successful.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="SA_Android_GMS_Common_AN_CommonStatusCodes_SUCCESS_CACHE">SUCCESS_CACHE</td>
+        <td><p>The operation was successful, but was used the device&apos;s cache.
+If this is a write, the data will be written when the device is online; errors will be written to the logs.
+If this is a read, the data was read from a device cache and may be stale.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="SA_Android_GMS_Common_AN_CommonStatusCodes_TIMEOUT">TIMEOUT</td>
+        <td><p>Timed out while awaiting the result.</p>
+</td>
+      </tr>
+    </tbody>
+  </thead></thead></table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

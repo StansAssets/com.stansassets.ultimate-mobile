@@ -1,0 +1,600 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AN_BillingClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AN_BillingClient
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient">
+  
+  
+  <h1 id="SA_Android_Vending_BillingClient_AN_BillingClient" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient" class="text-break">Class AN_BillingClient
+  </h1>
+  <div class="markdown level0 summary"><p>Main interface for communication between the library and user application code.</p>
+<p>It provides convenience methods for in-app billing.
+You can create one instance of this class for your application and use it to process in-app billing operations.
+It provides synchronous (blocking) and asynchronous (non-blocking) methods for many common in-app billing operations.</p>
+<p>All methods are supposed to be called from the Ui thread
+and all the asynchronous callbacks will be returned on the Ui thread as well.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AN_BillingClient</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.Android.Vending.BillingClient.html">SA.Android.Vending.BillingClient</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_Android_Vending_BillingClient_AN_BillingClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AN_BillingClient : AN_LinkedObject</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_Android_Vending_BillingClient_AN_BillingClient_AcknowledgePurchase_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.AcknowledgePurchase*"></a>
+  <h4 id="SA_Android_Vending_BillingClient_AN_BillingClient_AcknowledgePurchase_SA_Android_Vending_BillingClient_AN_AcknowledgePurchaseParams_Action_SA_iResult__" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.AcknowledgePurchase(SA.Android.Vending.BillingClient.AN_AcknowledgePurchaseParams,Action{SA_iResult})">AcknowledgePurchase(AN_AcknowledgePurchaseParams, Action&lt;SA_iResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Acknowledge in-app purchases.
+Developers are required to acknowledge that they have granted entitlement for all in-app purchases for their application.</p>
+<p>Warning! All purchases require acknowledgement.
+Failure to acknowledge a purchase will result in that purchase being refunded.
+For one-time products ensure you are using <a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.html#SA_Android_Vending_BillingClient_AN_BillingClient_ConsumeAsync_SA_Android_Vending_BillingClient_AN_ConsumeParams_SA_Android_Vending_BillingClient_AN_iConsumeResponseListener_">ConsumeAsync(AN_ConsumeParams, AN_iConsumeResponseListener)</a> which acts as an implicit acknowledgement
+or you can explicitly acknowledge the purchase via this method.
+For subscriptions use <a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.html#SA_Android_Vending_BillingClient_AN_BillingClient_AcknowledgePurchase_SA_Android_Vending_BillingClient_AN_AcknowledgePurchaseParams_SA_Android_Vending_BillingClient_AN_iAcknowledgePurchaseResponseListener_">AcknowledgePurchase(AN_AcknowledgePurchaseParams, AN_iAcknowledgePurchaseResponseListener)</a>.
+Please refer to <a href="https://developer.android.com/google/play/billing/billing_library_overview#acknowledge">https://developer.android.com/google/play/billing/billing_library_overview#acknowledge</a> for more details.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AcknowledgePurchase(AN_AcknowledgePurchaseParams params, Action&lt;SA_iResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_AcknowledgePurchaseParams.html">AN_AcknowledgePurchaseParams</a></td>
+        <td><span class="parametername">params</span></td>
+        <td><p>Params specific to this acknowledge purchase request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">SA_iResult</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Result of the acknowledge operation returned asynchronously through the callback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_Vending_BillingClient_AN_BillingClient_AcknowledgePurchase_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.AcknowledgePurchase*"></a>
+  <h4 id="SA_Android_Vending_BillingClient_AN_BillingClient_AcknowledgePurchase_SA_Android_Vending_BillingClient_AN_AcknowledgePurchaseParams_SA_Android_Vending_BillingClient_AN_iAcknowledgePurchaseResponseListener_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.AcknowledgePurchase(SA.Android.Vending.BillingClient.AN_AcknowledgePurchaseParams,SA.Android.Vending.BillingClient.AN_iAcknowledgePurchaseResponseListener)">AcknowledgePurchase(AN_AcknowledgePurchaseParams, AN_iAcknowledgePurchaseResponseListener)</h4>
+  <div class="markdown level1 summary"><p>Acknowledge in-app purchases.
+Developers are required to acknowledge that they have granted entitlement for all in-app purchases for their application.</p>
+<p>Warning! All purchases require acknowledgement.
+Failure to acknowledge a purchase will result in that purchase being refunded.
+For one-time products ensure you are using <a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.html#SA_Android_Vending_BillingClient_AN_BillingClient_ConsumeAsync_SA_Android_Vending_BillingClient_AN_ConsumeParams_SA_Android_Vending_BillingClient_AN_iConsumeResponseListener_">ConsumeAsync(AN_ConsumeParams, AN_iConsumeResponseListener)</a> which acts as an implicit acknowledgement
+or you can explicitly acknowledge the purchase via this method.
+For subscriptions use <a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.html#SA_Android_Vending_BillingClient_AN_BillingClient_AcknowledgePurchase_SA_Android_Vending_BillingClient_AN_AcknowledgePurchaseParams_SA_Android_Vending_BillingClient_AN_iAcknowledgePurchaseResponseListener_">AcknowledgePurchase(AN_AcknowledgePurchaseParams, AN_iAcknowledgePurchaseResponseListener)</a>.
+Please refer to <a href="https://developer.android.com/google/play/billing/billing_library_overview#acknowledge">https://developer.android.com/google/play/billing/billing_library_overview#acknowledge</a> for more details.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AcknowledgePurchase(AN_AcknowledgePurchaseParams params, AN_iAcknowledgePurchaseResponseListener listener)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_AcknowledgePurchaseParams.html">AN_AcknowledgePurchaseParams</a></td>
+        <td><span class="parametername">params</span></td>
+        <td><p>Params specific to this acknowledge purchase request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_iAcknowledgePurchaseResponseListener.html">AN_iAcknowledgePurchaseResponseListener</a></td>
+        <td><span class="parametername">listener</span></td>
+        <td><p>Implement it to get the result of the acknowledge operation returned asynchronously through the callback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_Vending_BillingClient_AN_BillingClient_ConsumeAsync_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.ConsumeAsync*"></a>
+  <h4 id="SA_Android_Vending_BillingClient_AN_BillingClient_ConsumeAsync_SA_Android_Vending_BillingClient_AN_ConsumeParams_SA_Android_Vending_BillingClient_AN_iConsumeResponseListener_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.ConsumeAsync(SA.Android.Vending.BillingClient.AN_ConsumeParams,SA.Android.Vending.BillingClient.AN_iConsumeResponseListener)">ConsumeAsync(AN_ConsumeParams, AN_iConsumeResponseListener)</h4>
+  <div class="markdown level1 summary"><p>Consumes a given in-app product.
+Consuming can only be done on an item that&apos;s owned, and as a result of consumption, the user will no longer own it.</p>
+<p>Consumption is done asynchronously and the listener receives the callback specified upon completion.</p>
+<p>Warning! All purchases require acknowledgement.
+Failure to acknowledge a purchase will result in that purchase being refunded.
+For one-time products ensure you are using this method which acts as an implicit acknowledgement
+or you can explicitly acknowledge the purchase via <a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.html#SA_Android_Vending_BillingClient_AN_BillingClient_AcknowledgePurchase_SA_Android_Vending_BillingClient_AN_AcknowledgePurchaseParams_SA_Android_Vending_BillingClient_AN_iAcknowledgePurchaseResponseListener_">AcknowledgePurchase(AN_AcknowledgePurchaseParams, AN_iAcknowledgePurchaseResponseListener)</a>.
+For subscriptions use <a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.html#SA_Android_Vending_BillingClient_AN_BillingClient_AcknowledgePurchase_SA_Android_Vending_BillingClient_AN_AcknowledgePurchaseParams_SA_Android_Vending_BillingClient_AN_iAcknowledgePurchaseResponseListener_">AcknowledgePurchase(AN_AcknowledgePurchaseParams, AN_iAcknowledgePurchaseResponseListener)</a>.</p>
+<p>Please refer to <a href="https://developer.android.com/google/play/billing/billing_library_overview#acknowledge">https://developer.android.com/google/play/billing/billing_library_overview#acknowledge</a> for more details.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ConsumeAsync(AN_ConsumeParams consumeParams, AN_iConsumeResponseListener listener)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_ConsumeParams.html">AN_ConsumeParams</a></td>
+        <td><span class="parametername">consumeParams</span></td>
+        <td><p>Params specific to consume purchase.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_iConsumeResponseListener.html">AN_iConsumeResponseListener</a></td>
+        <td><span class="parametername">listener</span></td>
+        <td><p>Implement it to get the result of your consume operation returned asynchronously through the callback with
+token and BillingClient.BillingResponseCode parameters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_Vending_BillingClient_AN_BillingClient_EndConnection_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.EndConnection*"></a>
+  <h4 id="SA_Android_Vending_BillingClient_AN_BillingClient_EndConnection" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.EndConnection">EndConnection()</h4>
+  <div class="markdown level1 summary"><p>Close the connection and release all held resources such as service connections.
+Call this method once you are done with this BillingClient reference.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndConnection()</code></pre>
+  </div>
+  
+  
+  <a id="SA_Android_Vending_BillingClient_AN_BillingClient_IsFeatureSupported_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.IsFeatureSupported*"></a>
+  <h4 id="SA_Android_Vending_BillingClient_AN_BillingClient_IsFeatureSupported_SA_Android_Vending_BillingClient_AN_BillingClient_FeatureType_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.IsFeatureSupported(SA.Android.Vending.BillingClient.AN_BillingClient.FeatureType)">IsFeatureSupported(AN_BillingClient.FeatureType)</h4>
+  <div class="markdown level1 summary"><p>Check if specified feature or capability is supported by the Play Store.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AN_BillingClient.BillingResponseCode IsFeatureSupported(AN_BillingClient.FeatureType feature)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.FeatureType.html">AN_BillingClient.FeatureType</a></td>
+        <td><span class="parametername">feature</span></td>
+        <td><p>One of <a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.FeatureType.html">AN_BillingClient.FeatureType</a> constants.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.BillingResponseCode.html">AN_BillingClient.BillingResponseCode</a></td>
+        <td><p><a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.BillingResponseCode.html#SA_Android_Vending_BillingClient_AN_BillingClient_BillingResponseCode_Ok">Ok</a> if feature is supported and corresponding error code otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_Vending_BillingClient_AN_BillingClient_IsReady_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.IsReady*"></a>
+  <h4 id="SA_Android_Vending_BillingClient_AN_BillingClient_IsReady" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.IsReady">IsReady()</h4>
+  <div class="markdown level1 summary"><p>Checks if the client is currently connected to the service, so that requests to other methods will succeed.</p>
+<p>Note: It also means that INAPP items are supported for purchasing,
+queries and all other actions.
+If you need to check support for SUBSCRIPTIONS or something different,
+use <a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.html#SA_Android_Vending_BillingClient_AN_BillingClient_IsFeatureSupported_SA_Android_Vending_BillingClient_AN_BillingClient_FeatureType_">IsFeatureSupported(AN_BillingClient.FeatureType)</a> method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsReady()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns true if the client is currently connected to the service, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_Vending_BillingClient_AN_BillingClient_LaunchBillingFlow_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.LaunchBillingFlow*"></a>
+  <h4 id="SA_Android_Vending_BillingClient_AN_BillingClient_LaunchBillingFlow_SA_Android_Vending_BillingClient_AN_BillingFlowParams_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.LaunchBillingFlow(SA.Android.Vending.BillingClient.AN_BillingFlowParams)">LaunchBillingFlow(AN_BillingFlowParams)</h4>
+  <div class="markdown level1 summary"><p>Initiate the billing flow for an in-app purchase or subscription.
+The result will be delivered via the <a class="xref" href="SA.Android.Vending.BillingClient.AN_iPurchasesUpdatedListener.html">AN_iPurchasesUpdatedListener</a> interface.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LaunchBillingFlow(AN_BillingFlowParams params)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingFlowParams.html">AN_BillingFlowParams</a></td>
+        <td><span class="parametername">params</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_Vending_BillingClient_AN_BillingClient_LoadRewardedSku_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.LoadRewardedSku*"></a>
+  <h4 id="SA_Android_Vending_BillingClient_AN_BillingClient_LoadRewardedSku_SA_Android_Vending_BillingClient_AN_RewardLoadParams_SA_Android_Vending_BillingClient_AN_iRewardResponseListener_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.LoadRewardedSku(SA.Android.Vending.BillingClient.AN_RewardLoadParams,SA.Android.Vending.BillingClient.AN_iRewardResponseListener)">LoadRewardedSku(AN_RewardLoadParams, AN_iRewardResponseListener)</h4>
+  <div class="markdown level1 summary"><p>Loads a rewarded sku in the background and returns the result asynchronously.</p>
+<p>If the rewarded sku is available, the response will be BILLING_RESULT_OK.
+Otherwise the response will be ITEM_UNAVAILABLE.
+There is no guarantee that a rewarded sku will always be available.
+After a successful response, only then should the offer be given to a user
+to obtain a rewarded item and call launchBillingFlow.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadRewardedSku(AN_RewardLoadParams params, AN_iRewardResponseListener listener)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_RewardLoadParams.html">AN_RewardLoadParams</a></td>
+        <td><span class="parametername">params</span></td>
+        <td><p>params specific to this load request <a class="xref" href="SA.Android.Vending.BillingClient.AN_RewardLoadParams.html">AN_RewardLoadParams</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_iRewardResponseListener.html">AN_iRewardResponseListener</a></td>
+        <td><span class="parametername">listener</span></td>
+        <td><p>Implement it to get the result of the load operation returned asynchronously through the callback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_Vending_BillingClient_AN_BillingClient_NewBuilder_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.NewBuilder*"></a>
+  <h4 id="SA_Android_Vending_BillingClient_AN_BillingClient_NewBuilder" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.NewBuilder">NewBuilder()</h4>
+  <div class="markdown level1 summary"><p>Constructs a new <a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.Builder.html">AN_BillingClient.Builder</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AN_BillingClient.Builder NewBuilder()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.Builder.html">AN_BillingClient.Builder</a></td>
+        <td><p>Returns a new <a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.Builder.html">AN_BillingClient.Builder</a> instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_Vending_BillingClient_AN_BillingClient_QueryPurchaseHistoryAsync_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.QueryPurchaseHistoryAsync*"></a>
+  <h4 id="SA_Android_Vending_BillingClient_AN_BillingClient_QueryPurchaseHistoryAsync_SA_Android_Vending_BillingClient_AN_BillingClient_SkuType_SA_Android_Vending_BillingClient_AN_iPurchaseHistoryResponseListener_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.QueryPurchaseHistoryAsync(SA.Android.Vending.BillingClient.AN_BillingClient.SkuType,SA.Android.Vending.BillingClient.AN_iPurchaseHistoryResponseListener)">QueryPurchaseHistoryAsync(AN_BillingClient.SkuType, AN_iPurchaseHistoryResponseListener)</h4>
+  <div class="markdown level1 summary"><p>Returns the most recent purchase made by the user for each SKU, even if that purchase is expired, canceled, or consumed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryPurchaseHistoryAsync(AN_BillingClient.SkuType skuType, AN_iPurchaseHistoryResponseListener listener)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.SkuType.html">AN_BillingClient.SkuType</a></td>
+        <td><span class="parametername">skuType</span></td>
+        <td><p>The type of SKU, either &quot;inapp&quot; or &quot;subs&quot; as in <a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.SkuType.html">AN_BillingClient.SkuType</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_iPurchaseHistoryResponseListener.html">AN_iPurchaseHistoryResponseListener</a></td>
+        <td><span class="parametername">listener</span></td>
+        <td><p>Implement it to get the result of your query operation returned asynchronously through the callback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_Vending_BillingClient_AN_BillingClient_QueryPurchases_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.QueryPurchases*"></a>
+  <h4 id="SA_Android_Vending_BillingClient_AN_BillingClient_QueryPurchases_SA_Android_Vending_BillingClient_AN_BillingClient_SkuType_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.QueryPurchases(SA.Android.Vending.BillingClient.AN_BillingClient.SkuType)">QueryPurchases(AN_BillingClient.SkuType)</h4>
+  <div class="markdown level1 summary"><p>Get purchases details for all the items bought within your app.
+This method uses a cache of Google Play Store app without initiating a network request.</p>
+<p>Note: It&apos;s recommended for security purposes to go through purchases verification on your backend
+(if you have one) by calling one of the following APIs:
+<see>
+<cref><a href="https://developers.google.com/android-publisher/api-ref/purchases/products/get">https://developers.google.com/android-publisher/api-ref/purchases/products/get</a></cref>
+</see>
+<see>
+<cref><a href="https://developers.google.com/android-publisher/api-ref/purchases/subscriptions/get">https://developers.google.com/android-publisher/api-ref/purchases/subscriptions/get</a></cref>
+</see></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AN_Purchase.PurchasesResult QueryPurchases(AN_BillingClient.SkuType skuType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.SkuType.html">AN_BillingClient.SkuType</a></td>
+        <td><span class="parametername">skuType</span></td>
+        <td><p>The type of SKU, either &quot;inapp&quot; or &quot;subs&quot; as in <a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.SkuType.html">AN_BillingClient.SkuType</a> </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_Purchase.PurchasesResult.html">AN_Purchase.PurchasesResult</a></td>
+        <td><p>The <a class="xref" href="SA.Android.Vending.BillingClient.AN_Purchase.PurchasesResult.html">AN_Purchase.PurchasesResult</a> containing the list of purchases and the response code.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_Vending_BillingClient_AN_BillingClient_QuerySkuDetailsAsync_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.QuerySkuDetailsAsync*"></a>
+  <h4 id="SA_Android_Vending_BillingClient_AN_BillingClient_QuerySkuDetailsAsync_SA_Android_Vending_BillingClient_AN_SkuDetailsParams_SA_Android_Vending_BillingClient_AN_iSkuDetailsResponseListener_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.QuerySkuDetailsAsync(SA.Android.Vending.BillingClient.AN_SkuDetailsParams,SA.Android.Vending.BillingClient.AN_iSkuDetailsResponseListener)">QuerySkuDetailsAsync(AN_SkuDetailsParams, AN_iSkuDetailsResponseListener)</h4>
+  <div class="markdown level1 summary"><p>Perform a network query to get SKU details and return the result asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QuerySkuDetailsAsync(AN_SkuDetailsParams params, AN_iSkuDetailsResponseListener listener)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_SkuDetailsParams.html">AN_SkuDetailsParams</a></td>
+        <td><span class="parametername">params</span></td>
+        <td><p>Params specific to this query request <a class="xref" href="SA.Android.Vending.BillingClient.AN_SkuDetailsParams.html">AN_SkuDetailsParams</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_iSkuDetailsResponseListener.html">AN_iSkuDetailsResponseListener</a></td>
+        <td><span class="parametername">listener</span></td>
+        <td><p>Implement it to get the result of your query operation returned asynchronously through the callback
+with the <a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.BillingResponseCode.html">AN_BillingClient.BillingResponseCode</a> and the list of SkuDetails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_Vending_BillingClient_AN_BillingClient_StartConnection_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.StartConnection*"></a>
+  <h4 id="SA_Android_Vending_BillingClient_AN_BillingClient_StartConnection_SA_Android_Vending_BillingClient_AN_iBillingClientStateListener_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.StartConnection(SA.Android.Vending.BillingClient.AN_iBillingClientStateListener)">StartConnection(AN_iBillingClientStateListener)</h4>
+  <div class="markdown level1 summary"><p>Starts up BillingClient setup process asynchronously.
+You will be notified through the <a class="xref" href="SA.Android.Vending.BillingClient.AN_iBillingClientStateListener.html">AN_iBillingClientStateListener</a>
+listener when the setup process is complete.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartConnection(AN_iBillingClientStateListener listener)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_iBillingClientStateListener.html">AN_iBillingClientStateListener</a></td>
+        <td><span class="parametername">listener</span></td>
+        <td><p>The listener to notify when the setup process is complete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

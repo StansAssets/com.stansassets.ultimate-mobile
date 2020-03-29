@@ -1,0 +1,626 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ISN_SKPaymentQueue
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ISN_SKPaymentQueue
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue">
+  
+  
+  <h1 id="SA_iOS_StoreKit_ISN_SKPaymentQueue" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue" class="text-break">Class ISN_SKPaymentQueue
+  </h1>
+  <div class="markdown level0 summary"><p>A queue of payment transactions to be processed by the App Store.</p>
+<p>The payment queue communicates with the App Store 
+and presents a user interface so that the user can authorize payment. 
+The contents of the queue are persistent between launches of your app.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ISN_SKPaymentQueue</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.StoreKit.html">SA.iOS.StoreKit</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ISN_SKPaymentQueue</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_AppStoreReceipt_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.AppStoreReceipt*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_AppStoreReceipt" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.AppStoreReceipt">AppStoreReceipt</h4>
+  <div class="markdown level1 summary"><p>For an application purchased from the App Store, use this property a to get the receipt. 
+This property makes no guarantee about whether there is a file at the URL—only 
+that if a receipt is present, that is its location.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ISN_SKAppStoreReceipt AppStoreReceipt { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.StoreKit.ISN_SKAppStoreReceipt.html">ISN_SKAppStoreReceipt</a></td>
+        <td><p>The app store receipt.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_CanMakePayments_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.CanMakePayments*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_CanMakePayments" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.CanMakePayments">CanMakePayments</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the user is allowed to make payments.</p>
+<p>An iPhone can be restricted from accessing the Apple App Store. 
+For example, parents can restrict their children’s ability to purchase additional content. 
+Your application should confirm that the user is allowed to authorize payments 
+before adding a payment to the queue. 
+Your application may also want to alter its behavior or appearance 
+when the user is not allowed to authorize payments.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CanMakePayments { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if can make payments; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_IsReady_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.IsReady*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_IsReady" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.IsReady">IsReady</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentQueue.html">ISN_SKPaymentQueue</a> is ready.
+The ISN_SKPaymentQueue is ready once Init is completed successfully</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsReady { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if is ready; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_Products_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.Products*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_Products" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.Products">Products</h4>
+  <div class="markdown level1 summary"><p>A list of products, one product for each valid product identifier provided in the original init request.
+only valid to use when <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentQueue.html#SA_iOS_StoreKit_ISN_SKPaymentQueue_IsReady">IsReady</a> is <code>true</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;ISN_SKProduct&gt; Products { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="SA.iOS.StoreKit.ISN_SKProduct.html">ISN_SKProduct</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_Storefront_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.Storefront*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_Storefront" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.Storefront">Storefront</h4>
+  <div class="markdown level1 summary"><p>The current App Store storefront for the payment queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ISN_SKStorefront Storefront { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.StoreKit.ISN_SKStorefront.html">ISN_SKStorefront</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_AddPayment_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.AddPayment*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_AddPayment_System_String_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.AddPayment(System.String)">AddPayment(String)</h4>
+  <div class="markdown level1 summary"><p>Adds a payment request to the queue.</p>
+<p>An application should always have at least one observer of the payment queue before adding payment requests.
+The payment request must have a product identifier registered with the Apple App Store.</p>
+<p>When a payment request is added to the queue, 
+the payment queue processes that request with the Apple App Store 
+and arranges for payment from the user. When that transaction is complete or if a failure occurs, 
+the payment queue sends the <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentTransaction.html">ISN_SKPaymentTransaction</a> object that encapsulates the request 
+to all transaction observers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddPayment(string productId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">productId</span></td>
+        <td><p>Product identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_AddTransactionObserver_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.AddTransactionObserver*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_AddTransactionObserver_SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.AddTransactionObserver(SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver)">AddTransactionObserver(ISN_iSKPaymentTransactionObserver)</h4>
+  <div class="markdown level1 summary"><p>Adds an observer to the payment queue.</p>
+<p>Your application should add an observer to the payment queue during application initialization. 
+If there are no observers attached to the queue, the payment queue does not synchronize its list 
+of pending transactions with the Apple App Store, 
+because there is no observer to respond to updated transactions.</p>
+<p>If an application quits when transactions are still being processed, 
+those transactions are not lost. The next time the application launches, 
+the payment queue will resume processing the transactions. 
+Your application should always expect to be notified of completed transactions.</p>
+<p>If more than one transaction observer is attached to the payment queue, 
+no guarantees are made as to the order they will be called in. 
+It is safe for multiple observers to call <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentQueue.html#SA_iOS_StoreKit_ISN_SKPaymentQueue_FinishTransaction_SA_iOS_StoreKit_ISN_iSKPaymentTransaction_">FinishTransaction(ISN_iSKPaymentTransaction)</a>, but not recommended. 
+It is recommended that you use a single observer to process and finish the transaction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddTransactionObserver(ISN_iSKPaymentTransactionObserver observer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.html">ISN_iSKPaymentTransactionObserver</a></td>
+        <td><span class="parametername">observer</span></td>
+        <td><p>The observer to add to the queue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_FinishTransaction_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.FinishTransaction*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_FinishTransaction_SA_iOS_StoreKit_ISN_iSKPaymentTransaction_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.FinishTransaction(SA.iOS.StoreKit.ISN_iSKPaymentTransaction)">FinishTransaction(ISN_iSKPaymentTransaction)</h4>
+  <div class="markdown level1 summary"><p>Completes a pending transaction.</p>
+<p>Your application should call this method from a transaction observer 
+that received a notification from the payment queue. 
+Calling <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentQueue.html#SA_iOS_StoreKit_ISN_SKPaymentQueue_FinishTransaction_SA_iOS_StoreKit_ISN_iSKPaymentTransaction_">FinishTransaction(ISN_iSKPaymentTransaction)</a> on a transaction removes it from the queue. 
+Your application should call <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentQueue.html#SA_iOS_StoreKit_ISN_SKPaymentQueue_FinishTransaction_SA_iOS_StoreKit_ISN_iSKPaymentTransaction_">FinishTransaction(ISN_iSKPaymentTransaction)</a> only after 
+it has successfully processed the transaction and unlocked the functionality purchased by the user.</p>
+<p>Calling <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentQueue.html#SA_iOS_StoreKit_ISN_SKPaymentQueue_FinishTransaction_SA_iOS_StoreKit_ISN_iSKPaymentTransaction_">FinishTransaction(ISN_iSKPaymentTransaction)</a> on a transaction that is in the Purchasing state throws an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FinishTransaction(ISN_iSKPaymentTransaction transaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.StoreKit.ISN_iSKPaymentTransaction.html">ISN_iSKPaymentTransaction</a></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>transaction to finish</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_GetProductById_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.GetProductById*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_GetProductById_System_String_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.GetProductById(System.String)">GetProductById(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the product by identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ISN_SKProduct GetProductById(string productIdentifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">productIdentifier</span></td>
+        <td><p>Product identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.StoreKit.ISN_SKProduct.html">ISN_SKProduct</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_Init_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.Init*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_Init_Action_SA_iOS_StoreKit_ISN_SKInitResult__" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(Action{SA.iOS.StoreKit.ISN_SKInitResult})">Init(Action&lt;ISN_SKInitResult&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Init(Action&lt;ISN_SKInitResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.StoreKit.ISN_SKInitResult.html">ISN_SKInitResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_Init_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.Init*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_Init_List_SA_iOS_StoreKit_ISN_SKProduct__Action_SA_iOS_StoreKit_ISN_SKInitResult__" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(List{SA.iOS.StoreKit.ISN_SKProduct},Action{SA.iOS.StoreKit.ISN_SKInitResult})">Init(List&lt;ISN_SKProduct&gt;, Action&lt;ISN_SKInitResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes the Store Kit with the set of previously defined product
+Products can be defined under the editor plugin settings: Stan&apos;s Assets-&gt;IOS Native-&gt;Edit Settings
+Or you can add product&apos;s via code using <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentQueue.html#SA_iOS_StoreKit_ISN_SKPaymentQueue_RegisterProduct_SA_iOS_StoreKit_ISN_SKProduct_">RegisterProduct(ISN_SKProduct)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Init(List&lt;ISN_SKProduct&gt; products, Action&lt;ISN_SKInitResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="SA.iOS.StoreKit.ISN_SKProduct.html">ISN_SKProduct</a>&gt;</td>
+        <td><span class="parametername">products</span></td>
+        <td><p>List of the products to initialize the service with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.StoreKit.ISN_SKInitResult.html">ISN_SKInitResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback with the initialization result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_RegisterProduct_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.RegisterProduct*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_RegisterProduct_SA_iOS_StoreKit_ISN_SKProduct_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.RegisterProduct(SA.iOS.StoreKit.ISN_SKProduct)">RegisterProduct(ISN_SKProduct)</h4>
+  <div class="markdown level1 summary"><p>Registers the product.
+You can also define products using editor plugin settings: Stan&apos;s Assets-&gt;IOS Native-&gt;Edit Settings</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterProduct(ISN_SKProduct product)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.StoreKit.ISN_SKProduct.html">ISN_SKProduct</a></td>
+        <td><span class="parametername">product</span></td>
+        <td><p>Product.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_RegisterProductId_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.RegisterProductId*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_RegisterProductId_System_String_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.RegisterProductId(System.String)">RegisterProductId(String)</h4>
+  <div class="markdown level1 summary"><p>Simplified product registration by the product identifier.
+You can also define products using editor plugin settings: Stan&apos;s Assets-&gt;IOS Native-&gt;Edit Settings</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterProductId(string productId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">productId</span></td>
+        <td><p>Product identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_RemoveTransactionObserver_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.RemoveTransactionObserver*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_RemoveTransactionObserver_SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.RemoveTransactionObserver(SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver)">RemoveTransactionObserver(ISN_iSKPaymentTransactionObserver)</h4>
+  <div class="markdown level1 summary"><p>Removes an observer from the payment queue.</p>
+<p>If there are no observers attached to the queue, 
+the payment queue does not synchronize its list of pending transactions with the Apple App Store, 
+because there is no observer to respond to updated transactions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveTransactionObserver(ISN_iSKPaymentTransactionObserver observer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.html">ISN_iSKPaymentTransactionObserver</a></td>
+        <td><span class="parametername">observer</span></td>
+        <td><p>The observer to remove.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_RestoreCompletedTransactions_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.RestoreCompletedTransactions*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_RestoreCompletedTransactions" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.RestoreCompletedTransactions">RestoreCompletedTransactions()</h4>
+  <div class="markdown level1 summary"><p>Asks the payment queue to restore previously completed purchases.</p>
+<p>our application calls this method to restore transactions that were previously finished 
+so that you can process them again. 
+For example, your application would use this to allow a user to unlock previously purchased content 
+onto a new device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RestoreCompletedTransactions()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
