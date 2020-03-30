@@ -12,342 +12,6 @@
           "hash": "/p+znSZs/WLpo7AuMC8PaA=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_APIResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_APIResolver.html",
-          "hash": "7HCx3j9y7ErXCsVAT6zMBQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_AndroidBuildRequirements.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_AndroidBuildRequirements.html",
-          "hash": "G3ebIL6bmOC3UItbyj6xKA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_AppFeaturesUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_AppFeaturesUI.html",
-          "hash": "MHvVqVlmEArhTIluDfn+NA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_AssetPostprocessor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_AssetPostprocessor.html",
-          "hash": "aiXnEG7rvjernTJMn6ah/A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_BinaryDependency.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_BinaryDependency.html",
-          "hash": "UkzQezWUN+6u+EkRcO7hhw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_CameraAndGalleryFeaturesUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_CameraAndGalleryFeaturesUI.html",
-          "hash": "+f3XQpalf7hDw9FIeEScpg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_CameraAndGalleryResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_CameraAndGalleryResolver.html",
-          "hash": "OXBIJeITMb1XpnSuwthAkg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_ContactsFeaturesUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_ContactsFeaturesUI.html",
-          "hash": "+3bGyp9EYAFbBHwA88gU/Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_ContactsResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_ContactsResolver.html",
-          "hash": "WvhnswU+2yDDOYMwv05qmQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_CoreResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_CoreResolver.html",
-          "hash": "UnbuGEwI9kf/SOsunlE62w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_EditorMenu.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_EditorMenu.html",
-          "hash": "+S+hncmGAeCnIenS/pgC6w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_EditorSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_EditorSettings.html",
-          "hash": "kVJ5LxbvXR+oxsdh/cFD2A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_FirebaseDefinesResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_FirebaseDefinesResolver.html",
-          "hash": "mf3DznWzsGXtHuMYkpRl5w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_FirebaseFeaturesUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_FirebaseFeaturesUI.html",
-          "hash": "DDj9VcU28s7aM1Jql6CSOw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_FirebaseResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_FirebaseResolver.html",
-          "hash": "0J7hNqmPgVdo8EuvNSTQ3Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_GamesIds.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_GamesIds.html",
-          "hash": "FcqaKTQ2+pSnSI6fY20fZg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_GooglePlayFeaturesUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_GooglePlayFeaturesUI.html",
-          "hash": "AFGwoipM0VdZfTum2ewu8Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_GooglePlayResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_GooglePlayResolver.html",
-          "hash": "7T7PlTp0/DLPyb8lHCGDdA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_GoolgePlayRersources.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_GoolgePlayRersources.html",
-          "hash": "6sN/WJe4l/sC1bXcJJ5ZHw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_GoolgePlayRersourcesWindow.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_GoolgePlayRersourcesWindow.html",
-          "hash": "nSoCJ9qtTR2iJaI+KW8I+A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_InstallationProcessing.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_InstallationProcessing.html",
-          "hash": "YE/IB3/rUWscYFpXUHdgAg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_LocalNotificationsFeaturesUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_LocalNotificationsFeaturesUI.html",
-          "hash": "aMj27TItPuIULGIVPZO0hQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_LocalNotificationsResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_LocalNotificationsResolver.html",
-          "hash": "+Kn8Xth30ASu7IBjud0YGw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_ManifestTab.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_ManifestTab.html",
-          "hash": "UwM4jroRulLiKDnLky3zIQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_Preprocessor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_Preprocessor.html",
-          "hash": "ycfNNDkLTm892Ika1oRSTA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_RemoteBinaryDependencyMethods.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_RemoteBinaryDependencyMethods.html",
-          "hash": "sfcnMFYJS7DZvr8QnKIgLA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_ServiceSettingsUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_ServiceSettingsUI.html",
-          "hash": "UIxtKDrvF0nDWef6rYOULw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_ServicesTab.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_ServicesTab.html",
-          "hash": "jsrUeDqxBDQ/gjsKALF2zg=="
-        }
-      },
       "is_incremental": true,
       "version": ""
     },
@@ -369,91 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native-api/SA.Android.AN_Settings.html",
-          "hash": "CulbOhlU0MvgzjtOriRKLw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_SettingsTab.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_SettingsTab.html",
-          "hash": "3wA3F4wDoPDF5iJ1LLnoXg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_SettingsWindow.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_SettingsWindow.html",
-          "hash": "lzR9Xyi1krxPTT47JNkPyg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_Skin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_Skin.html",
-          "hash": "p+lGSu9i1ZAJJf5FPw6I8w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_SocialFeaturesUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_SocialFeaturesUI.html",
-          "hash": "XbTrC6qWiGHinp7AjK2Lxw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_SocialResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_SocialResolver.html",
-          "hash": "vnR9AaKukiQqA3IeX+ewqQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_VendingFeaturesUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_VendingFeaturesUI.html",
-          "hash": "c3TH25LHlPetlRJmhZ+fLA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.AN_VendingResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.AN_VendingResolver.html",
-          "hash": "ZUGhWr+LeTlAkpGTVxuNzQ=="
+          "hash": "8mikD/9+0vE0SEkqj/2APQ=="
         }
       },
       "is_incremental": true,
@@ -2633,630 +2213,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Application.AN_ActivityCompat_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Application.AN_ActivityCompat_Test.html",
-          "hash": "jTCa9ScdDwOPgYmSeGQTtw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Application.AN_AlertDialog_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Application.AN_AlertDialog_Test.html",
-          "hash": "WN3eEgTNtAk+LAnNmx3ArQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Application.AN_ImmersiveMode_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Application.AN_ImmersiveMode_Test.html",
-          "hash": "Q99hITWLHYNRsGF51/BCww=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Application.AN_NotificationChannel_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Application.AN_NotificationChannel_Test.html",
-          "hash": "qU1gLM4E88b988oTsn6etQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Application.AN_NotificationManager_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Application.AN_NotificationManager_Test.html",
-          "hash": "8V3P+F0r/TRBEEnmL2SmQg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Application.AN_PackageManager_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Application.AN_PackageManager_Test.html",
-          "hash": "A4NAY7ZEFvif5d1JOYtbvA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Application.AN_ProgressDialog_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Application.AN_ProgressDialog_Test.html",
-          "hash": "0+3ro7mgip73dP0CHX+Yfg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Application.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Application.html",
-          "hash": "o2fulcswLIoIIjfU3cbcjA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Contacts.AN_ContactsContract_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Contacts.AN_ContactsContract_Test.html",
-          "hash": "4EiABA9tWLIvOkuBgxl9QQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Contacts.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Contacts.html",
-          "hash": "/1Az8KQ3vnv3EkN5UiomLQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.AN_GoogleApiAvailability_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.AN_GoogleApiAvailability_Test.html",
-          "hash": "L8CihPokgvBc1wcWZ4JP+g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.AN_GoogleRevokeAccess_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.AN_GoogleRevokeAccess_Test.html",
-          "hash": "f0Ux3Dr8RzJrHxIKmpLMtQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.AN_GoogleSignIn_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.AN_GoogleSignIn_Test.html",
-          "hash": "imjoUQkWM7W5IL2WEhQiTw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.AN_GoogleSignOut_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.AN_GoogleSignOut_Test.html",
-          "hash": "6S5zc3d7/t5itMSeQtIPeg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.AN_PlayersClient_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.AN_PlayersClient_Test.html",
-          "hash": "nQDekSUpXGbX+WFsJxo77Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Achievements.AN_AchievementIncrement_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Achievements.AN_AchievementIncrement_Test.html",
-          "hash": "4W3euc6WJhXfeWFhv4AUQA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Achievements.AN_AchievementUnlock_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Achievements.AN_AchievementUnlock_Test.html",
-          "hash": "DrSL4ZmpN4LEbwi4lnrOow=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Achievements.AN_AchievementsLoad_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Achievements.AN_AchievementsLoad_Test.html",
-          "hash": "v5YTH2TkK8BqLIEn9/jrSQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Achievements.AN_AchievementsReveal_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Achievements.AN_AchievementsReveal_Test.html",
-          "hash": "EYNGOYXib8qTq1abGiO1DQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Achievements.AN_AchievementsUI_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Achievements.AN_AchievementsUI_Test.html",
-          "hash": "FlW3hBUMjuJG2cp033xRew=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Achievements.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Achievements.html",
-          "hash": "G6zW6dqZ52K2bexgOK+t6Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.AN_LeaderboarSingleBase_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.AN_LeaderboarSingleBase_Test.html",
-          "hash": "jfwqn4RYMooZQYioVvsP1Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.AN_LeaderboardsLoadCurrentPlayerLeaderboardScore_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.AN_LeaderboardsLoadCurrentPlayerLeaderboardScore_Test.html",
-          "hash": "OdTULYByvxU5El0Hb5g3sg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.AN_LeaderboardsLoadPlayerCenteredScores_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.AN_LeaderboardsLoadPlayerCenteredScores_Test.html",
-          "hash": "AqA+sGDC/vKYscenBfp4HA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.AN_LeaderboardsLoadTopScores_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.AN_LeaderboardsLoadTopScores_Test.html",
-          "hash": "rVL+4NMOG7ay2dZKCwL9mg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.AN_LeaderboardsLoad_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.AN_LeaderboardsLoad_Test.html",
-          "hash": "bq7T3GRGTcDS5XAFK3flrQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.AN_LeaderboardsSubmit_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.AN_LeaderboardsSubmit_Test.html",
-          "hash": "CVLNP0dmAWUcwetZtBcERw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.AN_LeaderboardsUI_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.AN_LeaderboardsUI_Test.html",
-          "hash": "xESe7a66XWs26pwDH9+25g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Leaderboards.html",
-          "hash": "VGyNDwihmyjqrkI6TpfExQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Snapshots.AN_SnapshotsDelete_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Snapshots.AN_SnapshotsDelete_Test.html",
-          "hash": "YSiwsuofPPB5HgNDw3Fqkw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Snapshots.AN_SnapshotsLoad_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Snapshots.AN_SnapshotsLoad_Test.html",
-          "hash": "VejK+iOzSDpupqCSVyJQ5w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Snapshots.AN_SnapshotsReadWrite_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Snapshots.AN_SnapshotsReadWrite_Test.html",
-          "hash": "H6BbFJVujiGtVENgKdKHwg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Snapshots.AN_SnapshotsUI_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Snapshots.AN_SnapshotsUI_Test.html",
-          "hash": "GEAkyW5XhtIIXkVculUxEg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Snapshots.AN_Snapshots_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Snapshots.AN_Snapshots_Test.html",
-          "hash": "taPEzdQiifi5YTYC9tuczg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.Snapshots.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.Snapshots.html",
-          "hash": "gZWtnbV1oChF4+OR+WLjiw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.GMS.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.GMS.html",
-          "hash": "1CzCqZr1sGc0kFWXvT/sMg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Gallery.AN_GetImageFromCamera_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Gallery.AN_GetImageFromCamera_Test.html",
-          "hash": "6JGB3h17OyHYDy5YYzeFyQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Gallery.AN_PickImageFromGallery_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Gallery.AN_PickImageFromGallery_Test.html",
-          "hash": "UH9mHePblBQKYRmclfV7DA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Gallery.AN_SaveImageToGallery_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Gallery.AN_SaveImageToGallery_Test.html",
-          "hash": "UMv+y6xaBo1amKMNKW/eUQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Gallery.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Gallery.html",
-          "hash": "l+Rz2UTQqSA9hqNwQtxU+g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.OS.AN_Build_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.OS.AN_Build_Test.html",
-          "hash": "MMojmievzn3BLnBn44oaqw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.OS.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.OS.html",
-          "hash": "n/e4Hro4i/OTqJIXdhcNqw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Social.AN_EmailComposer_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Social.AN_EmailComposer_Test.html",
-          "hash": "cXscUxOKsujPnRQUui58dw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Social.AN_FacebookSharing_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Social.AN_FacebookSharing_Test.html",
-          "hash": "EiG4whvx0ioxrKGUHk6Lhw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Social.AN_InstagramSharing_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Social.AN_InstagramSharing_Test.html",
-          "hash": "EdlPgEjnEufsHgwwkNML2Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Social.AN_ShareComposer_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Social.AN_ShareComposer_Test.html",
-          "hash": "+6PihJ4aJQK78YDW+m4HGA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Social.AN_TwitterSharing_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Social.AN_TwitterSharing_Test.html",
-          "hash": "AY650suiwZV8U98rKtxitQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Social.AN_WhatsappSharing_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Social.AN_WhatsappSharing_Test.html",
-          "hash": "tyNkFuwD7seQWIeJ0NLTFA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Tests.Social.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Tests.Social.html",
-          "hash": "m8Gysl18uaFBFAP8jZDsyQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Utilities.AN_Image.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Utilities.AN_Image.html",
-          "hash": "h2Lim4R+Us9nacfDlVGxxQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Utilities.AN_Java.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Utilities.AN_Java.html",
-          "hash": "dAr+NDGA+l1qoVcg7p2gGw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Utilities.AN_JavaBridge.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Utilities.AN_JavaBridge.html",
-          "hash": "wd9yma/Jexy+4058rEVXjg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "android-native-api/SA.Android.Utilities.AN_JavaObject.yml",
       "output": {
         ".html": {
@@ -3281,42 +2237,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Utilities.AN_LogLevel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Utilities.AN_LogLevel.html",
-          "hash": "ScHGr18TFTR6H1slU4Xt1g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Utilities.AN_Logger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Utilities.AN_Logger.html",
-          "hash": "K/2zpEPrIsmFp2e6b249fQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Utilities.AN_MonoJavaCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Utilities.AN_MonoJavaCallback.html",
-          "hash": "ly0nbuMoE05Fgc1j5Ra7RQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "android-native-api/SA.Android.Utilities.AN_SerializedObjectResult-1.yml",
       "output": {
         ".html": {
@@ -3329,47 +2249,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Utilities.AN_Services.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Utilities.AN_Services.html",
-          "hash": "pDGOKN+pagr0Zsabd/mUJQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Utilities.AN_Singleton-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Utilities.AN_Singleton-1.html",
-          "hash": "1DowK0i3qsGFV/GxZlJ8Xg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "android-native-api/SA.Android.Utilities.AN_TestManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "android-native-api/SA.Android.Utilities.AN_TestManager.html",
-          "hash": "UTi8RjfDF3WiVCx868fClg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "android-native-api/SA.Android.Utilities.yml",
       "output": {
         ".html": {
           "relative_path": "android-native-api/SA.Android.Utilities.html",
-          "hash": "+icdPauNS3eixElywMbVrA=="
+          "hash": "BacDqRo+QH0W3VXz/JyU6Q=="
         }
       },
       "is_incremental": true,
@@ -3945,7 +2829,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native-api/SA.Android.html",
-          "hash": "LYjqlLQk7e3hdepmARsJQw=="
+          "hash": "BeaxJbZCJw3hlwK9NDi82g=="
         }
       },
       "is_incremental": true,
@@ -3957,7 +2841,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native-api/toc.html",
-          "hash": "qfayzf0sMcu4030nFi59wQ=="
+          "hash": "fEF61xRyF0lDNeXtFsbxrg=="
         }
       },
       "is_incremental": false,
@@ -4593,30 +3477,6 @@
         ".html": {
           "relative_path": "ios-native-api/SA.iOS.CoreLocation.html",
           "hash": "Osb5kY8bRoraYt9gf7snfg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Editor.ISN_ExportedSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Editor.ISN_ExportedSettings.html",
-          "hash": "kguuGqiDLnOjNhANdGgMLA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Editor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Editor.html",
-          "hash": "oD+G+acAVeB7B/A8nSSTkQ=="
         }
       },
       "is_incremental": true,
@@ -5416,539 +4276,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_APIResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_APIResolver.html",
-          "hash": "vPPaJJmnufyXra+DyQ+tBw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_AVKitResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_AVKitResolver.html",
-          "hash": "AME68XuNPuT4zy3fViL4rA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_AVKitUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_AVKitUI.html",
-          "hash": "vn9+aXH9x+2VtOE4tleYhw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_AppDelegateResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_AppDelegateResolver.html",
-          "hash": "MrBx5V1c/G3n17Uss5MJ6Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_AppDelegateUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_AppDelegateUI.html",
-          "hash": "UMWBlPWcCGFSCOCI9BhWdQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_AssetsLibraryResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_AssetsLibraryResolver.html",
-          "hash": "rXBsvGIbctoBXeXdxHDCbQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_AssetsLibraryUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_AssetsLibraryUI.html",
-          "hash": "RPnXErZ03sPifMjrfyCIdA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_AuthenticationServicesResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_AuthenticationServicesResolver.html",
-          "hash": "B6d4SPK4fTrgZA0KHGTn5g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_AuthenticationServicesUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_AuthenticationServicesUI.html",
-          "hash": "jCI/Snw5U7I2X4w6E2IByQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_ContactsResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_ContactsResolver.html",
-          "hash": "pIbI1jsRXw5DYvHZFkgzEg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_ContactsUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_ContactsUI.html",
-          "hash": "zuzDCbcKXn4MREgV21Tq3w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_CoreLocationResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_CoreLocationResolver.html",
-          "hash": "tjeA5Qso2SJB5bEOkpWXtw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_CoreLocationUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_CoreLocationUI.html",
-          "hash": "lxNKK1C+C/QmmTJYaicnUA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_EditorMenu.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_EditorMenu.html",
-          "hash": "KQncVaWfqGfkwqJTjleEMA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_EditorSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_EditorSettings.html",
-          "hash": "uv+fzVEeIt66XH8+Fbs4ZQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_EventKitResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_EventKitResolver.html",
-          "hash": "PYiHi/Nu+HA+pIm7KVhcqQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_EventKitUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_EventKitUI.html",
-          "hash": "rIDs/x/mRZeI6mmuBguVFQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_FoundationResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_FoundationResolver.html",
-          "hash": "h3x/8/YbndIosEmXa5YM7Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_FoundationUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_FoundationUI.html",
-          "hash": "LIQkt2N6NlP9CGTSp2AwAw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_GameKitResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_GameKitResolver.html",
-          "hash": "KXt/jXwJBL9QXqmKrRH1Mw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_GameKitUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_GameKitUI.html",
-          "hash": "pZI/XK5KRvDaPRYih/6QrA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_LSApplicationQueriesSchemesResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_LSApplicationQueriesSchemesResolver.html",
-          "hash": "/U7HqMhz5KzTHKTmIem8SQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_MediaPlayerResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_MediaPlayerResolver.html",
-          "hash": "DGdV2VBDIL9iUT4JeTPuFA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_MediaPlayerUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_MediaPlayerUI.html",
-          "hash": "jAL0t0AMawFfu+U9M7BjRw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_PhotosResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_PhotosResolver.html",
-          "hash": "QVx9IBOUClfOUuTWxh+VmQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_PhotosUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_PhotosUI.html",
-          "hash": "M9VBaROkZH6Hxdj65UaZOw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_Preprocessor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_Preprocessor.html",
-          "hash": "teiL1+QTj9VgWiaW4QKSJg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_ReplayKitResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_ReplayKitResolver.html",
-          "hash": "fYXozwi/yxCxzxiG9+MlSA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_ReplayKitUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_ReplayKitUI.html",
-          "hash": "C+kRjbqMIT840hphtwKH5Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_ServiceSettingsUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_ServiceSettingsUI.html",
-          "hash": "Q82FPy6YKFL7e23elTa8iA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_ServicesTab.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_ServicesTab.html",
-          "hash": "eBg0IqXyIOyMv/DP9h8Yiw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "ios-native-api/SA.iOS.ISN_Settings.yml",
       "output": {
         ".html": {
           "relative_path": "ios-native-api/SA.iOS.ISN_Settings.html",
-          "hash": "3Uvb8EWDmwJduN7y1wh0Sg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_SettingsTab.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_SettingsTab.html",
-          "hash": "D0qJaTLzbeaj82aOsanLjQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_SettingsWindow.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_SettingsWindow.html",
-          "hash": "scJE0tDAAQM0XtP60METxA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_Skin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_Skin.html",
-          "hash": "TpvButkq0G7Zv8En3dc6lw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_SocialResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_SocialResolver.html",
-          "hash": "VoB2kIk/CNHjXWQ3ybziOw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_SocialUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_SocialUI.html",
-          "hash": "EQFpwTOqxBYm5O86UfmbYw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_StoreKitResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_StoreKitResolver.html",
-          "hash": "QONpRlTL7DzuMrYK+7OAuw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_StoreKitUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_StoreKitUI.html",
-          "hash": "nVQa4X5CXC0ceDPmTo2+7A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_UIKitResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_UIKitResolver.html",
-          "hash": "PbEOcJLAerF2Y3NnTRm2jQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_UIKitUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_UIKitUI.html",
-          "hash": "BzSzX+Sx9TNSMm8JXIh7mQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_UserNotificationsResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_UserNotificationsResolver.html",
-          "hash": "GI1ze0ZASXulpkELKrszZA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_UserNotificationsUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_UserNotificationsUI.html",
-          "hash": "PeWkMJxyRT3BsqqjqgigHg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_XCodeTab.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_XCodeTab.html",
-          "hash": "QPtLoDbeAxAC8RkbpRzKtw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.ISN_XcodeRequirements.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.ISN_XcodeRequirements.html",
-          "hash": "4g4g/NjdlZdZWtIhzFPL/Q=="
+          "hash": "bbvrEeCYzljnAfRdSwDs0Q=="
         }
       },
       "is_incremental": true,
@@ -6628,426 +4960,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Contacts.ISN_CNContactsPicker_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Contacts.ISN_CNContactsPicker_Test.html",
-          "hash": "43s/GL92+l5GKJbFZvpsRw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Contacts.ISN_CNFetchPhoneContacts_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Contacts.ISN_CNFetchPhoneContacts_Test.html",
-          "hash": "NNweswTMeaxq5vV7uqzXCw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Contacts.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Contacts.html",
-          "hash": "9s4dLT2zMl910/JG/FYLfA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Foundation.ISN_AudioSessionTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Foundation.ISN_AudioSessionTest.html",
-          "hash": "U21PIbH2KBwmA2ZY0n7GlQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Foundation.ISN_BuildInfoTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Foundation.ISN_BuildInfoTest.html",
-          "hash": "IfQYtc/lkJm3i069nYrTCA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Foundation.ISN_NSFileManagerTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Foundation.ISN_NSFileManagerTest.html",
-          "hash": "VM9xbzFUPDgkKPIyF1TzEw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Foundation.ISN_TimeZoneTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Foundation.ISN_TimeZoneTest.html",
-          "hash": "KYLviPD+RDCzv7k2LvnYmw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Foundation.ISN_iCloudKeyValueStorageTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Foundation.ISN_iCloudKeyValueStorageTest.html",
-          "hash": "CCHKFScM1sk+paWsQZwlDA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Foundation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Foundation.html",
-          "hash": "jcOioqGjkzN6cEArAgh74g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKAchievementsLoad_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKAchievementsLoad_Test.html",
-          "hash": "62qP1VinKu3eiv0Uw+6CZQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKAchievmentReport_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKAchievmentReport_Test.html",
-          "hash": "t20PIng2Ksp5W5AZYnwH6g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKAchievmentReset_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKAchievmentReset_Test.html",
-          "hash": "wiWVZ3hE6/NXs88zMRfzAw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKGameCenterUI_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKGameCenterUI_Test.html",
-          "hash": "FUeU2pLlig7l2FFv/XS7wQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKGenerateIdentityVerificationSignature_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKGenerateIdentityVerificationSignature_Test.html",
-          "hash": "jbqCRoP38t00MEQxaRQ0TA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKLoadLeaderboards_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKLoadLeaderboards_Test.html",
-          "hash": "EFagkyXOFC8/l7DvGzN4qQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKLocalPlayer_Authenticate_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKLocalPlayer_Authenticate_Test.html",
-          "hash": "S93fB1Qjxe2xylFKplHRqQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKReportingScores_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKReportingScores_Test.html",
-          "hash": "ry5KQJ8jdE4qMAUiL71sTA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKRetrievingScores_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKRetrievingScores_Test.html",
-          "hash": "4Km1OFWhnFD1cxlEvWvSHg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKSingleLeaderboard_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.GameKit.ISN_GKSingleLeaderboard_Test.html",
-          "hash": "bU6AQN0574d7Wr+MT/W2jQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.GameKit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.GameKit.html",
-          "hash": "LLH2vMOHwsSzgoCxg0eINA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Social.ISN_DefaultSharingDialog_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Social.ISN_DefaultSharingDialog_Test.html",
-          "hash": "c5BxckYP3HlP3pS/IWYtlQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Social.ISN_FacebookShare_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Social.ISN_FacebookShare_Test.html",
-          "hash": "ctI9QPDS0zmEw6YM7SX6gw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Social.ISN_InstagramShare_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Social.ISN_InstagramShare_Test.html",
-          "hash": "VuAav+tH9Rwa4lugd/X29w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Social.ISN_MailShare_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Social.ISN_MailShare_Test.html",
-          "hash": "5XH5gAmetMRk7PbYZyTuAA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Social.ISN_TextMessage_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Social.ISN_TextMessage_Test.html",
-          "hash": "SKeMkxUIWbyjGYYznoMqCg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Social.ISN_TwitterShare_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Social.ISN_TwitterShare_Test.html",
-          "hash": "qP0b+nQ9SLFc9yT6QZq/Jw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Social.ISN_WhatsAppShare_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Social.ISN_WhatsAppShare_Test.html",
-          "hash": "v4Zn4yBfARgYFbAcRU1Ygg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.Social.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.Social.html",
-          "hash": "WecHKoTQ/s/IpWGyBYu3YA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.UIKit.ISN_UIImagePickerController_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.UIKit.ISN_UIImagePickerController_Test.html",
-          "hash": "dvLQnvgxjzMiEEn1oOxmQQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.UIKit.SaveToCameraRollTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.UIKit.SaveToCameraRollTest.html",
-          "hash": "ChHWpuuMjyuRbbDLjjse8g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.UIKit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.UIKit.html",
-          "hash": "T25lHiQuHi1kDwSx0Vx2Dg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.UserNotifications.ISN_RemoteNotifications_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.UserNotifications.ISN_RemoteNotifications_Test.html",
-          "hash": "ycYhGRv4Zth8VMjPTGb7sw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.UserNotifications.ISN_UNAuthorization_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.UserNotifications.ISN_UNAuthorization_Test.html",
-          "hash": "drydKfDEg8WX1GS1nMwZKQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.UserNotifications.ISN_UNSchedule_Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.UserNotifications.ISN_UNSchedule_Test.html",
-          "hash": "2y9vD5VxFaVwMvLXKVPYAA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Tests.UserNotifications.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Tests.UserNotifications.html",
-          "hash": "eYVq1Zh9+Hgg1ZMQTGpTPg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "ios-native-api/SA.iOS.UIKit.ISN_Accessibility.yml",
       "output": {
         ".html": {
@@ -7233,18 +5145,6 @@
         ".html": {
           "relative_path": "ios-native-api/SA.iOS.UIKit.ISN_UIDateTimePickerMode.html",
           "hash": "pJghEj0N505gYxJEDInHZA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.UIKit.ISN_UIDateTimeReceiver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.UIKit.ISN_UIDateTimeReceiver.html",
-          "hash": "sO6uYrWRhkds7x0sFuFAuQ=="
         }
       },
       "is_incremental": true,
@@ -7508,7 +5408,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native-api/SA.iOS.UIKit.html",
-          "hash": "iOZSv6P3m+9xX3qAjcKlbg=="
+          "hash": "l+r9S/DbuQq9qRQ6j+Qr+Q=="
         }
       },
       "is_incremental": true,
@@ -7804,42 +5704,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Utilities.ISN_LogLevel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Utilities.ISN_LogLevel.html",
-          "hash": "C5MWAoCbgqcDAz6oU7RNpQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Utilities.ISN_Logger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Utilities.ISN_Logger.html",
-          "hash": "Kf+04MZGbLcTEkBTbntc0A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Utilities.ISN_MonoPCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Utilities.ISN_MonoPCallback.html",
-          "hash": "dxQQAIhm1Zc9jLlMWyg7cA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "ios-native-api/SA.iOS.Utilities.ISN_NativeObject.yml",
       "output": {
         ".html": {
@@ -7852,47 +5716,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Utilities.ISN_Services.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Utilities.ISN_Services.html",
-          "hash": "wV3/z6fS1U1Bey8rcZWm4g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Utilities.ISN_Singleton-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Utilities.ISN_Singleton-1.html",
-          "hash": "eaekxzhBcAuUi3KS3LEiog=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ios-native-api/SA.iOS.Utilities.ISN_TestManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ios-native-api/SA.iOS.Utilities.ISN_TestManager.html",
-          "hash": "HovXAbX1vy9PjxuR0KuHjg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "ios-native-api/SA.iOS.Utilities.yml",
       "output": {
         ".html": {
           "relative_path": "ios-native-api/SA.iOS.Utilities.html",
-          "hash": "r1Z7SsYCT3VHx9EvxntHWg=="
+          "hash": "wtko2tUDK/j99dAeQb/kOQ=="
         }
       },
       "is_incremental": true,
@@ -7904,7 +5732,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native-api/SA.iOS.html",
-          "hash": "vrHcdF7UL9HYKA2wOrQkIA=="
+          "hash": "olVw3WiDx7vwRv3LnVEkqw=="
         }
       },
       "is_incremental": true,
@@ -7916,7 +5744,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native-api/toc.html",
-          "hash": "uwi6NM/ciuNSLfvBGceFsg=="
+          "hash": "TtqrMA/S9quco+13+yUTZA=="
         }
       },
       "is_incremental": false,
@@ -7943,7 +5771,7 @@
           "hash": "oGRSBArPc1vyoXtoZ8f6uw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -7955,7 +5783,7 @@
           "hash": "n0L0lHN1ha61NAkB22Vu0A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -7967,7 +5795,7 @@
           "hash": "hQjqJLB5MkMOcHrA6P7q0Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -7979,7 +5807,7 @@
           "hash": "jVwjK62naGp7DcQJfkjTaQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -7991,7 +5819,7 @@
           "hash": "ZQKxPY4D1vEKY3AD1N8Y0w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8003,7 +5831,7 @@
           "hash": "9fjYHQwtXbKHb2qFWM7Tjg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8015,7 +5843,7 @@
           "hash": "9Qvx83GYhHk8fs9gSOB6zA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8027,7 +5855,7 @@
           "hash": "jP79+PuBtiUyaoJqU53HpA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8039,7 +5867,7 @@
           "hash": "OsWeGd+ThM2mro9j3ONGHw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8051,7 +5879,7 @@
           "hash": "w2BVBDG50fBAwWz8s56M9g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8063,7 +5891,7 @@
           "hash": "7BFDT5OK103N+JEcFiTuYA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8075,7 +5903,7 @@
           "hash": "NRZ3GRp/tR7p9X3Qe7PsaA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8087,7 +5915,7 @@
           "hash": "ySxhY8uo8Lal5gFlInJxFw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8099,7 +5927,7 @@
           "hash": "37e5oe/byHkUgkTEMJ2LNg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8111,7 +5939,7 @@
           "hash": "50lcSaQQzT9VSRojSAT4nQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8123,7 +5951,7 @@
           "hash": "nr0H/24OMEGww818F2Uhuw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8135,7 +5963,7 @@
           "hash": "+3JaK/Y1Pb3Og0hwm4KQnw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8147,7 +5975,7 @@
           "hash": "EDG9q1dfNcKIAs7J8acc5w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8159,7 +5987,7 @@
           "hash": "clQh/fIujYrNrKaXq19YCg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8171,7 +5999,7 @@
           "hash": "oWnPzaHQIV2WPL4iDMTebA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8183,7 +6011,7 @@
           "hash": "qQsfw1S67GhtTLzKvSkPeg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8195,7 +6023,7 @@
           "hash": "6bodo73j+urS3FZMElwrkA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8207,7 +6035,7 @@
           "hash": "418ELScKN8Bf4WzZ7DoVhQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8219,7 +6047,7 @@
           "hash": "YGyq+nTdDrLl7+qbqgO3RQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8231,7 +6059,7 @@
           "hash": "jjOVQHIbwwmErzjybPnmPA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8243,7 +6071,7 @@
           "hash": "jM1Q0xormWbvfmDC21+TXw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8255,7 +6083,7 @@
           "hash": "JSlyL4/CR277RjOGY0OPdA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8267,7 +6095,7 @@
           "hash": "60gM4qAeDGXB9tcx0Q14mg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8279,7 +6107,7 @@
           "hash": "vacT6cWvkwFDBES9MSFrxA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8291,7 +6119,7 @@
           "hash": "Z3kMDt7aYCriREmSkb2U2w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8303,7 +6131,7 @@
           "hash": "l2/KQQbQlFA6fdoRLuNk1Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8315,7 +6143,7 @@
           "hash": "pnPQlwxY4bXjiwPgEzCuaQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8327,7 +6155,7 @@
           "hash": "6P/BXS4etyCFeUGRxbMopg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8339,7 +6167,7 @@
           "hash": "D4cB9asUNBmK977C9snPfA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8351,7 +6179,7 @@
           "hash": "vEvcAtxq7pRgTIug2zm1HQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8363,7 +6191,7 @@
           "hash": "CnLn6RNcBjJmrbFS2Bdy2Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8375,7 +6203,7 @@
           "hash": "+5WrsVYLsFfKz3hdB8Iy9A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8387,7 +6215,7 @@
           "hash": "RCVg5RLlRl8TNlF+fbuWUQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8399,7 +6227,7 @@
           "hash": "FjJfE4dre5PcZUfAh8tm6w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8411,7 +6239,7 @@
           "hash": "UWTg9/2IivpeNkRf7spfGA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8423,7 +6251,31 @@
           "hash": "WaPp7mi3iC/T4FaDCi7Fsw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.Editor.UM_WelcomeWidgetHook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.Editor.UM_WelcomeWidgetHook.html",
+          "hash": "7m28gQWah7HDEZ05dIRrhA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.Editor.html",
+          "hash": "6dBNV1CB94kz2QyAa8Rpkg=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8435,7 +6287,7 @@
           "hash": "4NN2O7p74WJUG63k2gZgEg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8447,7 +6299,7 @@
           "hash": "Oi5u4Wk9aRj6A2wVdRREbQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8459,7 +6311,7 @@
           "hash": "f9JDXJ81c82vPh0scJmyrQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8471,7 +6323,7 @@
           "hash": "tgUOohdbOEFg4uLHLBFO/g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8483,7 +6335,7 @@
           "hash": "zPhLgHwHSVYrcuXPBEiUNQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8495,7 +6347,7 @@
           "hash": "53N2diWUaAoOD0WImZ2aSg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8507,7 +6359,7 @@
           "hash": "u//G/9Ra4o0V2NVKp2IKMQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8519,7 +6371,7 @@
           "hash": "okv9qCn7jI/meCfAu8Vc0w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8531,7 +6383,7 @@
           "hash": "ySK0GMMCV8AzfWc4iQ0RFg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8543,7 +6395,7 @@
           "hash": "Rkh4l7O4tjJtPDzEtif/7w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8555,7 +6407,7 @@
           "hash": "dn32u5d+KYDCCiKv7bvPQQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8567,7 +6419,7 @@
           "hash": "Fq9T2Q5Qulwnd96uErOXAg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8579,7 +6431,7 @@
           "hash": "XUc+I3wsZ7lLSU9jcI/ALw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8591,7 +6443,7 @@
           "hash": "BXY63RtKNKKUQKThW7LCEg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8603,7 +6455,7 @@
           "hash": "FS29C1bv49GjdbDPX2nI5Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8615,7 +6467,7 @@
           "hash": "eWibFbZX9QG1jOLzS/L2xA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8627,7 +6479,7 @@
           "hash": "BzR0gkBDlF2x6HjNRgGMoA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8639,7 +6491,7 @@
           "hash": "OuC0t3OV9xTwH8fso0R9lw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8651,7 +6503,7 @@
           "hash": "xZ6jJIwfYCTCMk/qNBkemg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8663,7 +6515,7 @@
           "hash": "H+hvD3/QrlteG4SbovfvcQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8675,7 +6527,7 @@
           "hash": "G/A4RrgkObf8vrf9E2Il+A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8687,7 +6539,7 @@
           "hash": "HuDBzLPut5Rmuvoxp9geBQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8699,7 +6551,7 @@
           "hash": "/hCjZOUBqKjamXHGcQImWQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8711,7 +6563,7 @@
           "hash": "TU3Q4Ucj8ygrRAMt18iWIg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8723,7 +6575,7 @@
           "hash": "oCgSdBfN/w/HoOCYqGSU/w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8735,7 +6587,7 @@
           "hash": "uXm/mbRAr65BwR8SLbM1Jw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8747,7 +6599,7 @@
           "hash": "YRZwDAT3lwgPNEgw/bZoPw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8759,7 +6611,7 @@
           "hash": "mxLY6KvPA9Y3TqeiqvKFWw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8771,7 +6623,7 @@
           "hash": "guBUCIIa3es0qg6Sk9g5yw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8783,7 +6635,7 @@
           "hash": "FPMNbNrI4nuPSiL1+RoSmQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8795,7 +6647,7 @@
           "hash": "Y9ftWCPgaBkpoI7gTS6G/g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8807,7 +6659,7 @@
           "hash": "b+nbIDmRGa2bq95wAbZBaA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8819,7 +6671,7 @@
           "hash": "iIumdOWu/W3CTDeTRk46JA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8831,7 +6683,7 @@
           "hash": "Rfp+2Mxw9Qr45oPbNs7kfg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8843,7 +6695,7 @@
           "hash": "nvmLmSDufh5QvonskLJ3jQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8855,7 +6707,7 @@
           "hash": "u/Qnz4WPIYA48LCpaQCclg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8867,7 +6719,7 @@
           "hash": "/8DDfEgbGbeZIhbFuFIofg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8879,7 +6731,7 @@
           "hash": "rG5knOOUHJBilKX+DZ1HPQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8891,7 +6743,7 @@
           "hash": "eLWkVDskNhTQ+gHorqEfbw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8903,7 +6755,7 @@
           "hash": "JDsqNaBZwk51vO7Y2Pne2w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8915,7 +6767,7 @@
           "hash": "L5+jdBEjA7bkGkMpKf/MBg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8927,7 +6779,7 @@
           "hash": "KbDOHHK8WdXC9/WAxwCJow=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8939,7 +6791,7 @@
           "hash": "hPNn94onfjzIUbIQoye9ig=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8951,7 +6803,7 @@
           "hash": "RfAVoiqOo2M4Gvxs/l63Wg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8963,7 +6815,7 @@
           "hash": "1gXjKgN1R8UYvhk5iOZbJA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8975,7 +6827,7 @@
           "hash": "cbv2I4SAveLRJFX7saVpIw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8987,7 +6839,7 @@
           "hash": "86vSOURhv+LHO7C+FPz84A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -8999,7 +6851,7 @@
           "hash": "8xL/ImK/gog3TihpzmrrXQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9011,7 +6863,7 @@
           "hash": "R98fYMM546uSuzosYdH72g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9023,7 +6875,7 @@
           "hash": "ut8tpUveBa8CC/qC97eFRA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9035,7 +6887,7 @@
           "hash": "skUGMqTv+8YCJ0VHmtHF1Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9047,7 +6899,7 @@
           "hash": "nZs1uIMek0Jk5K8Giljogg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9059,7 +6911,7 @@
           "hash": "vvspIpY4GeBjM63t6FsRrw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9071,7 +6923,7 @@
           "hash": "9kFbvLBKEsDO2BPti7+PoQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9083,7 +6935,7 @@
           "hash": "1br/b0wI1XJqK2/VxpIQOg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9095,7 +6947,7 @@
           "hash": "L3zVEq/SWubZj5jTmDqwVQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9107,7 +6959,7 @@
           "hash": "0+pznCh1rqpkwu0lv1lCFg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9119,7 +6971,7 @@
           "hash": "+U057ZN2Wexfg0TNvfu4DQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9131,7 +6983,7 @@
           "hash": "BKuiKvYNQB5SZMoAcGbY7w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9143,7 +6995,7 @@
           "hash": "NNej3afSxzq/4+9Q/oXk2w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9155,7 +7007,7 @@
           "hash": "LvQLuAOcl+dWxmdh6Q+cBw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9164,22 +7016,10 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile-api/SA.CrossPlatform.Samples.UM_WelcomeController.html",
-          "hash": "lECFqbZ0eswnvbaUj9hdGg=="
+          "hash": "msvlMdv4OfG4y060PNPXlw=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.Samples.UM_WelcomeWidgetHook.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.Samples.UM_WelcomeWidgetHook.html",
-          "hash": "fA9gFoupA8O8TYhXF6dVJA=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9188,10 +7028,10 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile-api/SA.CrossPlatform.Samples.html",
-          "hash": "zUG7QWE57yRIQYMOgP8BsA=="
+          "hash": "EKfdU5tsLkQau08/hZNt2g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9203,7 +7043,7 @@
           "hash": "ngNB1pSNDL7CDkkiynVEEg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9215,7 +7055,7 @@
           "hash": "MVFm5tU4LzBZo1+MLZUPqg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9227,7 +7067,7 @@
           "hash": "N1Y3k4WaUbXFu0DLdMGnmg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9239,7 +7079,7 @@
           "hash": "9F2idv5zZTaIFDsmuT56vQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9251,7 +7091,7 @@
           "hash": "snODG3ilE7ZlcWHGT1IPfw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9263,7 +7103,7 @@
           "hash": "laGB/1QuYIHk1N1D3G7aMg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9275,7 +7115,7 @@
           "hash": "W7HpVOxmpmjLH11vx74q9w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9287,139 +7127,7 @@
           "hash": "aPwIa8wDlzrkZjNQ2IyHog=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.CallbackLock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.CallbackLock.html",
-          "hash": "UuDuQhgZEx59AQbH4Uu8BQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.InApp.InAppPurchasesTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.InApp.InAppPurchasesTest.html",
-          "hash": "rjfvUBF9skyEAzUOENp+FQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.InApp.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.InApp.html",
-          "hash": "gEm31INWEUIBIvaPsS6c+w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.Social.UM_SocialMediaSharingTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.Social.UM_SocialMediaSharingTests.html",
-          "hash": "cxYoGmQC3LHfVRpLS84O6A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.Social.UM_SystemSharingDialogsTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.Social.UM_SystemSharingDialogsTest.html",
-          "hash": "KQEEsPrR/ZRYGN9pZsW6+A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.Social.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.Social.html",
-          "hash": "YgAT+njNlur+W6jbqaD0KQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.UI.NativeDialogsTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.UI.NativeDialogsTest.html",
-          "hash": "hGA6WhgDRd+uPSCXKPGhXg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.UI.NativePreloaderTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.UI.NativePreloaderTest.html",
-          "hash": "AhvYQ/GQzm8HZrOyDDIULA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.UI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.UI.html",
-          "hash": "d+TwMBGUToXzCHoBxuZO4Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.Tests.html",
-          "hash": "T7iHmlmctJZ902RsvZ9OOw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UI.UM_AndroidNativeDialogImpl.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UI.UM_AndroidNativeDialogImpl.html",
-          "hash": "wgzXGsR7xTBCcOFbRKbAfA=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9431,7 +7139,7 @@
           "hash": "yCk+YKwAgZRnS5YGZA72qA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9443,31 +7151,7 @@
           "hash": "pXgKFgdmMuGcHm0fAL3azQ=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UI.UM_EditorNativeDialogImpl.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UI.UM_EditorNativeDialogImpl.html",
-          "hash": "PZtcv7I65dUFAMOlSqihWg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UI.UM_IOSNativeDialogImpl.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UI.UM_IOSNativeDialogImpl.html",
-          "hash": "0KVs/L4FmP8jwzS8EW+yjA=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9479,7 +7163,7 @@
           "hash": "9c95T4WchFGuQcO9FQk+Dw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9491,7 +7175,7 @@
           "hash": "RXG4W/zPvSN/vODslHjFpQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9503,7 +7187,7 @@
           "hash": "dBwA1UerWTHUmJAHeuRqmQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9515,7 +7199,7 @@
           "hash": "JMKNGB2ft2pPX+C5PGfmSg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9527,7 +7211,7 @@
           "hash": "bLBZ4BvTHps0IOydUnAeFA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9539,7 +7223,7 @@
           "hash": "+fXvBJFOZjq/9yUXpolatw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9551,7 +7235,7 @@
           "hash": "jCMNsao/ioHaX1HH6k7kOA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9563,7 +7247,7 @@
           "hash": "mzhl+92W/exYdCmdWMtW4g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -9572,610 +7256,10 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UI.html",
-          "hash": "GSUNcGF3bENqMvtwDWCwLw=="
+          "hash": "sTRTKIiHsgmGYjPzVVuFqA=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_3rdPartyServicesTab.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_3rdPartyServicesTab.html",
-          "hash": "fidnb3NIX7lmb2SUmvbpYg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_Addon.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_Addon.html",
-          "hash": "ny9fdXfLx0IBcX9N4mp8Kg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_AdvertisementPlatfromUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_AdvertisementPlatfromUI.html",
-          "hash": "eRhjJfiQ7erkJ3DREtAiQA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_AdvertisementUI.UM_ChartBoostResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_AdvertisementUI.UM_ChartBoostResolver.html",
-          "hash": "3zExuixDhJnfDMsu2ZrEzg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_AdvertisementUI.UM_UnityAdsResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_AdvertisementUI.UM_UnityAdsResolver.html",
-          "hash": "E8sxYp92mWHl9l+GqKmPAg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_AdvertisementUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_AdvertisementUI.html",
-          "hash": "ScEnTXb+NVurb+Zzyb4/6A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_AnalyticsResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_AnalyticsResolver.html",
-          "hash": "aa1iAoau+ytbjRZ9YRV6wA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_AnalyticsUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_AnalyticsUI.html",
-          "hash": "gnnSSTsPzFQxLGOy7vNYUg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_AssetPostprocessor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_AssetPostprocessor.html",
-          "hash": "fChjz9U0HbVnN3Y3gVmbHQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_CameraUI.ISNSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_CameraUI.ISNSettings.html",
-          "hash": "aESjaiR76oNmA0fjx9fZfg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_CameraUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_CameraUI.html",
-          "hash": "H9+1UdCq5C1j/cjSZgYcvQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_ContactsUI.ANSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_ContactsUI.ANSettings.html",
-          "hash": "thdtxtpqBJcws4Hke768sg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_ContactsUI.ISNSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_ContactsUI.ISNSettings.html",
-          "hash": "jpXdb8/dH8vSpLSLH2gh4w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_ContactsUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_ContactsUI.html",
-          "hash": "jSqlRqGJKhOPMxkRkoJQAg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_EditorAPIEmulator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_EditorAPIEmulator.html",
-          "hash": "1j4e++Bsz9UxV6tr5vbHfg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_EditorMenu.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_EditorMenu.html",
-          "hash": "f9WEZYf+AnFqQsWEjLYXVA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_Facebook.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_Facebook.html",
-          "hash": "OHKrQprhxlujKM12b0k2ew=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_FacebookResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_FacebookResolver.html",
-          "hash": "2ZTaNk6i/qwt3/gARgZekw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_FirebaseAnalyticsUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_FirebaseAnalyticsUI.html",
-          "hash": "+CX8p0DXNbSbBl1MulY16A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_FirebaseUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_FirebaseUI.html",
-          "hash": "iYwVCKxqQtpzK8LOcsBL2Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_FoundationUI.ANSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_FoundationUI.ANSettings.html",
-          "hash": "Nad4FCP5SNDqPTVwFxqdBQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_FoundationUI.ISNSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_FoundationUI.ISNSettings.html",
-          "hash": "L56sELHjyh2eDP/4YkWANQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_FoundationUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_FoundationUI.html",
-          "hash": "MZ9vRdEVGICMDv6iUerYgg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_GalleryUI.ANSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_GalleryUI.ANSettings.html",
-          "hash": "uyYEspQOpb/q45Mmd63PlA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_GalleryUI.ISNSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_GalleryUI.ISNSettings.html",
-          "hash": "Tb7uGAbDawqvoAvMiX0tzw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_GalleryUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_GalleryUI.html",
-          "hash": "DDbtRiD1gmDH3FK60hmq6g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_GameServicesUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_GameServicesUI.html",
-          "hash": "hUkuGyQIi/WqjLETvpxAwQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_GifUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_GifUI.html",
-          "hash": "SCZYxY/BBLv9U9ReXefCQQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_InAppsUI.ANSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_InAppsUI.ANSettings.html",
-          "hash": "JyZycLrpdf6bADN24WbmnA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_InAppsUI.ISNSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_InAppsUI.ISNSettings.html",
-          "hash": "s8YO/ksruzYvzVUoTdJzqA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_InAppsUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_InAppsUI.html",
-          "hash": "kP8XpH0e0YXiInExmUiuIQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_LocalNotificationsUI.ANSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_LocalNotificationsUI.ANSettings.html",
-          "hash": "zE4zCdPDLPfH5MvHu0XWBA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_LocalNotificationsUI.ISNSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_LocalNotificationsUI.ISNSettings.html",
-          "hash": "Vc54yNtE81dwEON6l3ZAJA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_LocalNotificationsUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_LocalNotificationsUI.html",
-          "hash": "aB5Q8VBwvuSepg2f51tbFA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_Logger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_Logger.html",
-          "hash": "etQzwmrirYZ6Ra5DBQ4kPQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_MediaUI.ANSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_MediaUI.ANSettings.html",
-          "hash": "Zf1BbwIrgCluAD3YYeOwbQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_MediaUI.ISNSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_MediaUI.ISNSettings.html",
-          "hash": "u7DrMQyXtXWSyV28pOs1tg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_MediaUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_MediaUI.html",
-          "hash": "pwWO42V1zfuzYO8RTT1HKw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_NativeServiceLayoutBasedSetting.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_NativeServiceLayoutBasedSetting.html",
-          "hash": "P1ww72PBodE5QEM43hM2GA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_NativeServiceSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_NativeServiceSettings.html",
-          "hash": "46NxMTBeHlsjGow4ma3DOQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_PlatfromStateLayout.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_PlatfromStateLayout.html",
-          "hash": "VkIDAnX+gR9KTuKXh/BDcQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_PlaymakerUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_PlaymakerUI.html",
-          "hash": "Zlu1+zwT9HeDzk5gDvV1qg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_PluginSettingsUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_PluginSettingsUI.html",
-          "hash": "wODqM1UPC6tl3wGtRvim3Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_RemoteNotificationsUI.ANSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_RemoteNotificationsUI.ANSettings.html",
-          "hash": "x/9OZcKFV0hDu0Ic/w1qAg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_RemoteNotificationsUI.ISNSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_RemoteNotificationsUI.ISNSettings.html",
-          "hash": "0sGFD7A042AonZAlCivMeA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_RemoteNotificationsUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_RemoteNotificationsUI.html",
-          "hash": "MX6Ii2TeQwWkccPIOlSEgQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SamplesConfig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SamplesConfig.html",
-          "hash": "mw58eomNG8XvkEiyjfxAeg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SamplesManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SamplesManager.html",
-          "hash": "JmOeyPHBeFucYImeLFNuzg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_ServicePlatfromInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_ServicePlatfromInfo.html",
-          "hash": "BrPD0DbIWIUy0UquqkxSew=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_ServiceSettingsUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_ServiceSettingsUI.html",
-          "hash": "yPPljF5Nd16NfH2eDnOz7A=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10187,7 +7271,7 @@
           "hash": "K4gqTCstXGAwcgP589Yreg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10199,127 +7283,7 @@
           "hash": "lvu7Cr+LYsPcphtR+9bPqw=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SettingsUtil.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SettingsUtil.html",
-          "hash": "q7LJd31JwYF2MPDiU+AKcw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SettingsWindow.SelectedBlockInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SettingsWindow.SelectedBlockInfo.html",
-          "hash": "cDCSaVTh8VU+/VE2zXdYnA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SettingsWindow.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SettingsWindow.html",
-          "hash": "vwvPNUMd4G/Erl503lU91Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_Skin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_Skin.html",
-          "hash": "7hONgY+RftxgvqTj2S8NCA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SocialUI.ANSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SocialUI.ANSettings.html",
-          "hash": "BO1WuXyOGfLc5cZVWSY+iw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SocialUI.ISNSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SocialUI.ISNSettings.html",
-          "hash": "wsRlgDaR8DUU6XF5gmCIlw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SocialUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SocialUI.html",
-          "hash": "MkqDnp0/FrBLsXbVZ1tf5A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SummaryTab.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_SummaryTab.html",
-          "hash": "4J+WBPoOQh8ZNtikf6yPqQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_UIPlatform.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_UIPlatform.html",
-          "hash": "n+jjcieToK9mtVncykdC4g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_UnityAnalyticsUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile-api/SA.CrossPlatform.UM_UnityAnalyticsUI.html",
-          "hash": "UViPkZf/n+FB9EKcvt4DCQ=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10328,10 +7292,10 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile-api/SA.CrossPlatform.html",
-          "hash": "WQS003OcosLHo3tnExPP9g=="
+          "hash": "OctJrz3zoaNB73NsyLd8sw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10343,7 +7307,7 @@
           "hash": "UR6kk4GUF7QK1EAR4B39gA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10355,7 +7319,7 @@
           "hash": "0170BsZaYu5cBHMemPlK/g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10367,7 +7331,7 @@
           "hash": "kgnOgWmhizzBDWeBxbqkPQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10379,7 +7343,7 @@
           "hash": "kusqEBTQNgpBiBafRqDoBA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10391,7 +7355,7 @@
           "hash": "s5z59kC5JPJ5gJMq0NwiwQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10403,7 +7367,7 @@
           "hash": "PDJH5HX7jpg8c2g+5lAx4w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10415,7 +7379,7 @@
           "hash": "kaSszZ2Dv4pzxidpmrrovg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10427,7 +7391,7 @@
           "hash": "qDIn5fpBJfc1RxvZfFJnHw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10439,7 +7403,7 @@
           "hash": "kFOUVa/IZ8iPSAErB2kAmg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10451,7 +7415,7 @@
           "hash": "S6kum3kDK8yDAoiw7tjN7w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10463,7 +7427,7 @@
           "hash": "5BMfANiNpVUc5mfm3wCJwg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10475,7 +7439,7 @@
           "hash": "0QTpsSnxD+BAZ7Qyr2CzQg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10487,7 +7451,7 @@
           "hash": "eTxj0iTw2hHpar/EojE2PQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10499,7 +7463,7 @@
           "hash": "msJ0A0Z6j0j0YGYQ3gfwWA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10511,7 +7475,7 @@
           "hash": "xSDR5Lx4NENRFLrKutECMw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10523,7 +7487,7 @@
           "hash": "2knLl6j4NBERLXTVQhoaSg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10535,7 +7499,7 @@
           "hash": "O494j1NdYe55/468AY7Ohw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10547,7 +7511,7 @@
           "hash": "8vpy+9HmrWH4nDHeIMineQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10559,7 +7523,7 @@
           "hash": "Zj/edAKcB/r6N6nIHrt8uQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10571,7 +7535,7 @@
           "hash": "zQs64g2y6y74BWg8/c0EjA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10583,7 +7547,7 @@
           "hash": "3E4OOsCfwLvkcoOazxccLg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10595,7 +7559,7 @@
           "hash": "092dmTIfNFGfW7EBZFOLdg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10607,7 +7571,7 @@
           "hash": "LSy+XpdZi03jgBXk8HYo1A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10619,7 +7583,7 @@
           "hash": "aQnWKQah/qQ5OYqcFVyDwg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10631,7 +7595,7 @@
           "hash": "VAoGZ0U+u2pak4KivH2UYA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10643,7 +7607,7 @@
           "hash": "wEzZ5p43CFdTyGA//TR+BA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10655,7 +7619,7 @@
           "hash": "BN10i3yaX36RKmGrNORrUw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10667,7 +7631,7 @@
           "hash": "StJ0rFX2eFC1YWQ+5AadJw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10679,7 +7643,7 @@
           "hash": "obOfd8EWdWxY++4z5WbJ0A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10691,7 +7655,7 @@
           "hash": "jgQr3e+BktkqCFEg0PkmXw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10703,7 +7667,7 @@
           "hash": "/iv4jofDh1/CwRgiXxAz0g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10715,7 +7679,7 @@
           "hash": "gH/QPhRN4bXe4o4uMo8f2A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10727,7 +7691,7 @@
           "hash": "FEGMC66VwIFLclylXcd5xg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10739,7 +7703,7 @@
           "hash": "8fAvVS1EqK2JuMqNvR3BjA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10751,7 +7715,7 @@
           "hash": "9U+5H25hf8dMpohDYyfdlA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10763,7 +7727,7 @@
           "hash": "kkjA1e4wBRUzHRPK/CJklA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10775,7 +7739,7 @@
           "hash": "5lx+HrN/nQlTMQAYWoLYNw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10787,7 +7751,7 @@
           "hash": "Cwss9TItd3TM57TpsOT+ow=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10799,7 +7763,7 @@
           "hash": "hTpGbLEWxgHNyX8ij7pGxw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10811,7 +7775,7 @@
           "hash": "97dHvmYOAJ8eP9JbAvH+xw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10823,7 +7787,7 @@
           "hash": "dbHtjd6icZ+AEuclLWZq3w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -10832,7 +7796,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile-api/toc.html",
-          "hash": "GlyNQSVUFeH3i+2nIWnDGQ=="
+          "hash": "dzuY2Ysj3NKC0ds0PZ8y+g=="
         }
       },
       "is_incremental": false,
@@ -10852,13 +7816,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 6,
-          "skipped_file_count": 5
+          "skipped_file_count": 6
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 891,
-          "skipped_file_count": 650
+          "total_file_count": 638,
+          "skipped_file_count": 638
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
